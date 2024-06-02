@@ -4,6 +4,7 @@ cffi==1.16.0
 charset-normalizer==3.3.2
 cryptography==42.0.7
 Django==5.0.6
+django-bootstrap5==24.2
 gcloud==0.18.3
 googleapis-common-protos==1.63.0
 httplib2==0.22.0
