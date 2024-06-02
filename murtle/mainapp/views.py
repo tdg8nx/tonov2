@@ -1,6 +1,7 @@
 from django.shortcuts import render
 import pyrebase
 
+# Hide this eventually
 config = {
     "apiKey": "AIzaSyDkJunL0yszOv474RJNxe7GUVjUBFWS-fU",
     "authDomain": "murtle-49410.firebaseapp.com",
@@ -11,9 +12,10 @@ config = {
     "appId": "1:1046106266272:web:d7796c96a27ba34da6c7c5",
 }
 
-firebase=pyrebase.initialize_app(config)
-authe=firebase.auth()
-database=firebase.database()
+firebase = pyrebase.initialize_app(config)
+authe = firebase.auth()
+database = firebase.database()
+
 
 def home(request):
     user_name = database.child("Data").child("Name").get().val()
