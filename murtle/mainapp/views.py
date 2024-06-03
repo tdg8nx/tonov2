@@ -18,3 +18,6 @@ def home(request):
         "user_language": user_language,
         "user_country": user_country
     })
+
+def support(request):
+    return render(request, 'support.html')
