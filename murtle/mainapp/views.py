@@ -1,7 +1,7 @@
 from django.shortcuts import render
 import pyrebase
 
-# Hide this eventually
+# Hide this eventually - or right now
 config = {
     "apiKey": "AIzaSyDkJunL0yszOv474RJNxe7GUVjUBFWS-fU",
     "authDomain": "murtle-49410.firebaseapp.com",
