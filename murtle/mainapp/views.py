@@ -1,18 +1,8 @@
 from django.shortcuts import render
+from django.conf import settings
 import pyrebase
 
-# Hide this eventually
-config = {
-    "apiKey": "AIzaSyDkJunL0yszOv474RJNxe7GUVjUBFWS-fU",
-    "authDomain": "murtle-49410.firebaseapp.com",
-    "databaseURL": "https://murtle-49410-default-rtdb.firebaseio.com",
-    "projectId": "murtle-49410",
-    "storageBucket": "murtle-49410.appspot.com",
-    "messagingSenderId": "1046106266272",
-    "appId": "1:1046106266272:web:d7796c96a27ba34da6c7c5",
-}
-
-firebase = pyrebase.initialize_app(config)
+firebase = pyrebase.initialize_app(settings.FIREBASE_CONFIG)
 authe = firebase.auth()
 database = firebase.database()
 
