@@ -15,11 +15,13 @@ jobs:
 
     - name: List root directory for debugging
       run: |
+        echo "Listing root directory"
         pwd
         ls -lah
 
     - name: List files recursively for debugging
       run: |
+        echo "Listing all files recursively"
         ls -R
 
     - name: Set up Python
