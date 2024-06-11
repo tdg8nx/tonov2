@@ -1,0 +1,35 @@
+{% load django_bootstrap5 %}
+
+<form method="post" action="{% url 'login' %}" novalidate>
+    {% csrf_token %}
+
+    <!-- Display non-field specific errors -->
+    {% if form.non_field_errors %}
+    <div class="alert alert-danger" role="alert">
+        {{ form.non_field_errors }}
+    </div>
+    {% endif %}
+
+    <div class="mb-3">
+        <label for="username" class="form-label">Email or username</label>
+        <input type="text" class="form-control" id="username" name="username" required>
+        <!-- Display field-specific errors for 'username' -->
+        {% if form.username.errors %}
+        <div class="alert alert-danger" role="alert">
+            {{ form.username.errors }}
+        </div>
+        {% endif %}
+    </div>
+    <div class="mb-3">
+        <label for="password" class="form-label">Password</label>
+        <input type="password" class="form-control" id="password" name="password" required>
+        <!-- Display field-specific errors for 'password' -->
+        {% if form.password.errors %}
+        <div class="alert alert-danger" role="alert">
+            {{ form.password.errors }}
+        </di\>
+        {% endif %}
+    </div>
+
+    <button type="submit" class="btn btn-primary">Log In</button>
+</form>

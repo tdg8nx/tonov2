@@ -34,9 +34,18 @@ def login_view(request):
         if form.is_valid():
             user = form.get_user()
             login(request, user)
+            if request.headers.get('x-requested-with') == 'XMLHttpRequest':
+                return JsonResponse({'success': True})
             return redirect('profile')
+        else:
+            if request.headers.get('x-requested-with') == 'XMLHttpRequest':
+                form_html = render_to_string('users/login_form.html', {'form': form}, request=request)
+                return JsonResponse({'success': False, 'form_html': form_html})
     else:
         form = AuthenticationForm()
+        if request.headers.get('x-requested-with') == 'XMLHttpRequest':
+            form_html = render_to_string('users/login_form.html', {'form': form}, request=request)
+            return JsonResponse({'form_html': form_html})
     return render(request, 'users/login.html', {'form': form})
 
 
