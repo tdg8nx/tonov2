@@ -1,12 +1,33 @@
 {% extends 'base.html' %}
+{% load custom_filters %}
 
 {% block title %}Profile - Murtle{% endblock %}
 
 {% block content %}
-<h2>Profile</h2>
-<form method="post">
-    {% csrf_token %}
-    {{ form.as_p }}
-    <button type="submit">Update</button>
-</form>
+<div class="container mt-5">
+    <div class="form-container">
+        <div class="card">
+            <div class="card-header">
+                <h2>Profile</h2>
+            </div>
+            <div class="card-body">
+                <form method="post" class="form">
+                    {% csrf_token %}
+                    {% for field in form %}
+                        <div class="form-group">
+                            {{ field.label_tag }}
+                            {{ field|add_class:"form-control" }}
+                            {% if field.errors %}
+                                <div class="invalid-feedback">
+                                    {{ field.errors }}
+                                </div>
+                            {% endif %}
+                        </div>
+                    {% endfor %}
+                    <button type="submit" class="btn btn-primary">Update</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
 {% endblock %}
