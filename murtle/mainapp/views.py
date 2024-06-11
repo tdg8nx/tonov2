@@ -2,6 +2,7 @@ from django.shortcuts import render
 from django.conf import settings
 import pyrebase
 
+from users.forms import UserRegisterForm
 
 firebase = pyrebase.initialize_app(settings.FIREBASE_CONFIG)
 authe = firebase.auth()
@@ -16,5 +17,5 @@ def home(request):
     return render(request, 'home.html', {
         "user_name": user_name,
         "user_language": user_language,
-        "user_country": user_country
+        "user_country": user_country,
     })
