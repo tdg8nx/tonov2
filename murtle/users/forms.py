@@ -21,6 +21,52 @@ class UserLoginForm(AuthenticationForm):
 
 class UserProfileForm(forms.ModelForm):
     email = forms.EmailField(required=True)
+    date_of_birth = forms.DateField(
+        widget=forms.DateInput(attrs={'type': 'date', 'class': 'form-control'}),
+        input_formats=['%Y-%m-%d'],
+        required=True
+    )
+
+    HOME_COUNTRY_CHOICES = [
+        ('', 'Select Country'),  # Empty value for default placeholder
+        ('US', 'United States'),
+        ('CA', 'Canada'),
+        ('GB', 'United Kingdom'),
+        ('AU', 'Australia'),
+        ('ARG', 'Argentina'),
+        # Add more countries as needed
+    ]
+
+    DESIRED_LANGUAGE_CHOICES = [
+        ('', 'Select Language'),  # Empty value for default placeholder
+        ('EN', 'English'),
+        ('ES', 'Spanish')
+    ]
+
+    LANGUAGE_PROFICIENCY_CHOICES = [
+        ('', 'Select Proficiency'),  # Empty value for default placeholder
+        ('Beginner', 'Beginner'),
+        ('Intermediate', 'Intermediate'),
+        ('Advanced', 'Advanced')
+    ]
+
+    home_country = forms.ChoiceField(
+        choices=HOME_COUNTRY_CHOICES,
+        widget=forms.Select(attrs={'class': 'form-control'}),
+        required=True
+    )
+
+    desired_language = forms.ChoiceField(
+        choices=DESIRED_LANGUAGE_CHOICES,
+        widget=forms.Select(attrs={'class': 'form-control'}),
+        required=True
+    )
+
+    language_proficiency = forms.ChoiceField(
+        choices=LANGUAGE_PROFICIENCY_CHOICES,
+        widget=forms.Select(attrs={'class': 'form-control'}),
+        required=True
+    )
 
     class Meta:
         model = User

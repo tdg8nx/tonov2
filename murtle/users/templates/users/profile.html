@@ -5,18 +5,20 @@
 
 {% block content %}
 <div class="container mt-5">
+    <h2 class="mb-4">Customize Profile</h2>
     <div class="form-container">
-        <div class="card">
-            <div class="card-header">
-                <h2>Profile</h2>
-            </div>
-            <div class="card-body">
-                <form method="post" class="form">
-                    {% csrf_token %}
+        <form method="post" class="form">
+            {% csrf_token %}
+            <div class="profile-card mb-4">
+                <h5 class="profile-header">Profile Information</h5>
+                <div class="profile-body">
                     {% for field in form %}
-                        <div class="form-group">
+                        <div class="form-group mb-3">
                             {{ field.label_tag }}
                             {{ field|add_class:"form-control" }}
+                            {% if field.help_text %}
+                                <small class="form-text text-muted">{{ field.help_text }}</small>
+                            {% endif %}
                             {% if field.errors %}
                                 <div class="invalid-feedback">
                                     {{ field.errors }}
@@ -24,10 +26,10 @@
                             {% endif %}
                         </div>
                     {% endfor %}
-                    <button type="submit" class="btn btn-primary">Update</button>
-                </form>
+                </div>
             </div>
-        </div>
+            <button type="submit" class="btn btn-primary">Update</button>
+        </form>
     </div>
 </div>
 {% endblock %}
