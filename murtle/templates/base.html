@@ -1,11 +1,15 @@
 {% load django_bootstrap5 %}
+
+{% load static %}
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>{% block title %}Murtle{% endblock %}</title>
+    <title>{% block title %}Tono{% endblock %}</title>
     {% bootstrap_css %}
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <style>
 /* Custom Styles */
 :root {
@@ -14,6 +18,8 @@
     --accent-color: #27ae60;
     --background-color: #f4f4f4;
     --btn-color: #2980b9;
+    --font-hero: 'Montserrat', sans-serif;
+    --font-body: 'Poppins', sans-serif;
 }
 
 html, body {
@@ -21,16 +27,27 @@ html, body {
     background-color: var(--background-color);
     color: var(--primary-color);
     margin: 0;
-    padding-top: 20px;
+    padding: 0;
     display: flex;
     flex-direction: column;
 }
 
 .navbar {
     background-color: var(--primary-color);
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
 }
 
-.navbar-brand, .navbar-nav .nav-link {
+.navbar-brand {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    color: var(--secondary-color);
+}
+
+.navbar-nav .nav-link {
     color: var(--secondary-color);
 }
 
@@ -46,6 +63,9 @@ html, body {
 .btn-custom {
     background-color: var(--btn-color);
     color: var(--secondary-color);
+    border-radius: 30px;
+    padding: 10px 30px;
+    margin: 5px;
 }
 
 .btn-custom:hover {
@@ -56,15 +76,28 @@ html, body {
     background-color: var(--primary-color);
     color: var(--secondary-color);
     padding: 20px 0;
-    margin-top: auto;
 }
 
-.footer a {
+.footer-nav a {
+    color: var(--secondary-color);
+    margin: 0 10px;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.footer-nav a:hover {
     color: var(--accent-color);
 }
 
-.footer a:hover {
-    color: var(--btn-color);
+.social-links a {
+    color: var (--secondary-color);
+    margin: 0 10px;
+    font-size: 1.5rem;
+    transition: color 0.3s;
+}
+
+.social-links a:hover {
+    color: var(--accent-color);
 }
 
 .container {
@@ -97,107 +130,169 @@ i:hover {
     transform: scale(1.1);
 }
 
-.jumbotron {
+.hero-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: calc(100vh - 100px); /* Adjusted to account for navbar height */
+}
+
+.hero-section {
     border-radius: 15px;
+    padding: 0;
+    background-color: transparent;
+    color: var(--primary-color);
 }
 
-.card {
-    background-color: #fff;
-    border-radius: 4px;
-    box-shadow: 0 0 5px rgba(0,0,0,0.1);
-    margin-bottom: 20px;
+.hero-img {
+    max-width: 100%;
+    max-height: 70vh;
+    height: auto;
+    width: auto;
+    object-fit: cover;
 }
 
-.card-header {
+.hero-title {
+    font-family: var(--font-hero);
+    font-weight: 700;
+}
+
+.button-container {
+    margin-top: 20px;
+}
+
+.about-section, .cta-section {
+    padding: 60px 0;
     background-color: var(--background-color);
-    color: var(--primary-color);
-    border-top-left-radius: 4px;
-    border-top-right-radius: 4px;
-    padding: 15px;
-    font-size: 1.25rem;
-    font-weight: bold;
 }
 
-.card-body {
+.features-section {
+    padding: 60px 0;
+}
+
+h2, h3 {
+    font-family: var(--font-body);
+    font-weight: 600;
+    color: var(--primary-color);
+}
+
+p {
+    font-family: var(--font-body);
+    font-weight: 300;
+    color: var(--primary-color);
+}
+
+.feature-box {
     padding: 20px;
+    border-radius: 10px;
+    background: white;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
 }
 
-.form-group {
-    margin-bottom: 15px;
+.feature-box:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgba(0,0,0,0.2);
 }
 
-.form-group label {
-    font-weight: bold;
-    color: var(--primary-color);
+.logo-img {
+    max-width: 150px;
+    margin-top: 20px;
 }
 
-.form-control {
-    border-radius: 4px;
-    border: 1px solid #ccc;
-    padding: 10px;
+.feature-icon {
+    color: var(--accent-color);
+    transition: transform 0.3s;
 }
 
-.form-text {
-    color: #6c757d;
+.feature-icon:hover {
+    transform: scale(1.2);
 }
+
+.centered-brand {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.navbar-brand.mx-auto {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+@media (max-width: 992px) {
+    .navbar-brand.mx-auto {
+        position: static;
+        transform: none;
+    }
+}
+
     </style>
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
-        <div class="container-fluid">
-            <a class="navbar-brand" href="/">Murtle</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav me-auto">
-                    <li class="nav-item">
-                        <a class="nav-link {% if request.path == '/' %}active{% endif %}" href="/">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link {% if request.path == '/about/' %}active{% endif %}" href="/about/">About</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link {% if request.path == '/contact/' %}active{% endif %}" href="/contact/">Contact</a>
-                    </li>
-                </ul>
-                <ul class="navbar-nav ms-auto">
-                    {% if user.is_authenticated %}
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                            {{ user.first_name }} {{ user.last_name }}
-                        </a>
-                        <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdown">
-                            <li><a class="dropdown-item" href="{% url 'profile' %}">Profile</a></li>
-                            <li><hr class="dropdown-divider"></li>
-                            <li>
-                                <form method="post" action="{% url 'logout' %}">
-                                    {% csrf_token %}
-                                    <button type="submit" class="dropdown-item">Logout</button>
-                                </form>
-                            </li>
-                        </ul>
-                    </li>
-                    {% else %}
-                    <li class="nav-item">
-                        <a class="nav-link" href="#" data-bs-toggle="modal" data-bs-target="#loginModal">Login</a>
-                    </li>
-                    {% endif %}
-                </ul>
-            </div>
+   <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+    <div class="container-fluid">
+        <a class="navbar-brand mx-auto" href="/">TONO</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav me-auto">
+                <li class="nav-item">
+                    <a class="nav-link {% if request.path == '/' %}active{% endif %}" href="/">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link {% if request.path == '/support/' %}active{% endif %}" href="/support/">Support</a>
+                </li>
+            </ul>
+            <ul class="navbar-nav ms-auto">
+                {% if user.is_authenticated %}
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        {{ user.first_name }} {{ user.last_name }}
+                    </a>
+                    <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdown">
+                        <li><a class="dropdown-item" href="{% url 'profile' %}">Profile</a></li>
+                        <li><hr class="dropdown-divider"></li>
+                        <li>
+                            <form method="post" action="{% url 'logout' %}">
+                                {% csrf_token %}
+                                <button type="submit" class="dropdown-item">Logout</button>
+                            </form>
+                        </li>
+                    </ul>
+                </li>
+                {% else %}
+                <li class="nav-item">
+                    <a class="nav-link" href="#" data-bs-toggle="modal" data-bs-target="#loginModal">Login</a>
+                </li>
+                {% endif %}
+            </ul>
         </div>
-    </nav>
-
+    </div>
+</nav>
     <div class="container mt-5">
         {% block content %}{% endblock %}
     </div>
 
-    <footer class="footer mt-auto py-3">
-        <div class="container">
-            <span class="text-muted">© 2024 Murtle. All rights reserved.</span>
-            <span class="float-end"><a href="/privacy">Privacy Policy</a> | <a href="/terms">Terms of Service</a></span>
+<footer class="footer mt-auto">
+    <div class="container text-center">
+        <div class="footer-nav mb-3">
+            <a href="/privacy">Privacy Policy</a> | <a href="/terms">Terms of Service</a>
         </div>
-    </footer>
+        <div class="social-links mb-3">
+            <a href="https://facebook.com" target="_blank"><i class="fab fa-facebook-f"></i></a>
+            <a href="https://twitter.com" target="_blank"><i class="fab fa-twitter"></i></a>
+            <a href="https://instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
+        </div>
+        <div>
+            <span class="text-muted">© 2024 Tono. All rights reserved.</span>
+        </div>
+    </div>
+</footer>
+
 
     {% bootstrap_javascript %}
 
@@ -236,7 +331,21 @@ i:hover {
         </div>
     </div>
 
-    <script>
+   <script>
+    document.addEventListener('DOMContentLoaded', function () {
+        // Smooth scrolling for internal links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+    });
+</script>
+
+   <script>
         document.addEventListener('DOMContentLoaded', function () {
             function handleFormSubmit(event, modalId) {
                 event.preventDefault();

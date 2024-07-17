@@ -2,60 +2,71 @@
 
 {% load static %}
 
-{% block title %}Murtle - Promote Cultural Conversations{% endblock %}
+{% block title %}Tono - Promote Cultural Conversations{% endblock %}
 
 {% block content %}
 
-<div class="container mt-5">
-    <!-- Hero Section -->
-    <div class="jumbotron text-center" style="background-color: var(--primary-color); color: var(--secondary-color); padding: 80px 20px; border-radius: 15px;">
-        <h1 class="display-4" style="font-family: 'Poppins', sans-serif; font-weight: 700;">Welcome to Murtle</h1>
-        <p class="lead" style="font-family: 'Poppins', sans-serif; font-weight: 300;">Promote cultural conversations and learn languages with casual connections.</p>
-        <a class="btn btn-custom btn-lg" href="#features" role="button" style="border-radius: 30px; padding: 10px 30px;">Learn More</a>
+<div class="container mt-5" style="margin-top: 100px;">
+    <!-- Hero Image Section -->
+    <div class="text-center hero-container">
+        <img src="{% static 'images/tono.png' %}" alt="Tono Hero Image" class="img-fluid hero-img">
+        <div class="button-container">
+            <a class="btn btn-custom btn-lg" href="#features" role="button">Learn More</a>
+            <a class="btn btn-custom btn-lg" href="#signupModal" data-bs-toggle="modal" role="button">Sign up</a>
+        </div>
     </div>
 
     <!-- About Section -->
-    <section class="row my-5">
-        <div class="col-lg-6">
-            <h2 style="font-family: 'Poppins', sans-serif; font-weight: 600; color: var(--primary-color);">About Murtle</h2>
-            <p style="font-family: 'Poppins', sans-serif; font-weight: 300; color: var(--primary-color);">Murtle, a combination of 'monkey' and 'turtle', is dedicated to bringing people from different cultures together. Our platform facilitates casual conversations that promote language learning and cultural exchange. Whether you're looking to learn a new language or simply connect with someone from a different part of the world, Murtle is here to make those connections easy and enjoyable.</p>
-        </div>
-        <div class="col-lg-6 text-center">
-            <img src="{% static 'images/murtle_logo.png' %}" alt="Murtle Logo" class="img-fluid" style="max-width: 150px; margin-bottom: 20px;">
+    <section id="about" class="about-section mt-5">
+        <div class="row">
+            <div class="col-lg-6">
+                <h2>About Tono</h2>
+                <p>Tono, a combination of 'monkey' and 'turtle', is dedicated to bringing people from different cultures together. Our platform facilitates casual conversations that promote language learning and cultural exchange. Whether you're looking to learn a new language or simply connect with someone from a different part of the world, Tono is here to make those connections easy and enjoyable.</p>
+            </div>
+            <div class="col-lg-6 text-center">
+                <img src="{% static 'images/tono.png' %}" alt="Tono Logo" class="img-fluid logo-img">
+            </div>
         </div>
     </section>
 
     <!-- Features Section -->
-    <section id="features" class="row my-5">
-        <div class="col text-center">
-            <h2 style="font-family: 'Poppins', sans-serif; font-weight: 600; color: var(--primary-color);">Features</h2>
+    <section id="features" class="features-section mt-5">
+        <div class="text-center mb-5">
+            <h2>Features</h2>
         </div>
-    </section>
-    <section class="row text-center">
-        <div class="col-lg-4">
-            <i class="fas fa-language fa-3x" aria-hidden="true" style="color: var(--accent-color); transition: transform 0.3s;"></i>
-            <h3 style="font-family: 'Poppins', sans-serif; font-weight: 500; margin-top: 20px; color: var(--primary-color);">Language Learning</h3>
-            <p style="font-family: 'Poppins', sans-serif; font-weight: 300; color: var(--primary-color);">Engage in conversations with native speakers and learn new languages naturally.</p>
-        </div>
-        <div class="col-lg-4">
-            <i class="fas fa-globe fa-3x" aria-hidden="true" style="color: var(--accent-color); transition: transform 0.3s;"></i>
-            <h3 style="font-family: 'Poppins', sans-serif; font-weight: 500; margin-top: 20px; color: var(--primary-color);">Global Connections</h3>
-            <p style="font-family: 'Poppins', sans-serif; font-weight: 300; color: var(--primary-color);">Connect with people from different parts of the world and expand your cultural horizons.</p>
-        </div>
-        <div class="col-lg-4">
-            <i class="fas fa-comments fa-3x" aria-hidden="true" style="color: var(--accent-color); transition: transform 0.3s;"></i>
-            <h3 style="font-family: 'Poppins', sans-serif; font-weight: 500; margin-top: 20px; color: var(--primary-color);">Converse Casually</h3>
-            <p style="font-family: 'Poppins', sans-serif; font-weight: 300; color: var(--primary-color);">Enjoy casual and meaningful conversations that make learning fun and engaging.</p>
+        <div class="row text-center">
+            <div class="col-lg-4">
+                <div class="feature-box">
+                    <i class="fas fa-language fa-3x feature-icon"></i>
+                    <h3>Language Learning</h3>
+                    <p>Engage in conversations with native speakers and learn new languages naturally.</p>
+                </div>
+            </div>
+            <div class="col-lg-4">
+                <div class="feature-box">
+                    <i class="fas fa-globe fa-3x feature-icon"></i>
+                    <h3>Global Connections</h3>
+                    <p>Connect with people from different parts of the world and expand your cultural horizons.</p>
+                </div>
+            </div>
+            <div class="col-lg-4">
+                <div class="feature-box">
+                    <i class="fas fa-comments fa-3x feature-icon"></i>
+                    <h3>Converse Casually</h3>
+                    <p>Enjoy casual and meaningful conversations that make learning fun and engaging.</p>
+                </div>
+            </div>
         </div>
     </section>
 
     <!-- Call to Action Section -->
-    <section class="row my-5 text-center">
-        <div class="col">
-            <h2 style="font-family: 'Poppins', sans-serif; font-weight: 600; color: var(--primary-color);">Join Murtle Today!</h2>
-            <p style="font-family: 'Poppins', sans-serif; font-weight: 300; color: var(--primary-color);">Ready to start your journey with Murtle? Sign up now and connect with a global community.</p>
-            <a class="btn btn-custom btn-lg" href="#signupModal" data-bs-toggle="modal" role="button" style="border-radius: 30px; padding: 10px 30px;">Get Started</a>
+    <section id="cta" class="cta-section text-center mt-5">
+        <div>
+            <h2>Join Tono Today!</h2>
+            <p>Ready to start your journey with Tono? Sign up now and connect with a global community.</p>
+            <a class="btn btn-custom btn-lg" href="#signupModal" data-bs-toggle="modal" role="button">Get Started</a>
         </div>
     </section>
 </div>
+
 {% endblock %}
