@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="d5d926e6-d0be-45b2-94bd-fdf7cfca5b94" name="Changes" comment="idk why this needs to be committed but ok" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;tdg8nx&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="e2479137-fe24-4a9f-ad7b-d68b9b3531bb" />
+        <option name="url" value="https://github.com/curiousandglobal/murtle.git" />
+      </UrlAndAccount>
+    </option>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 2
+}</component>
+  <component name="ProjectId" id="2hLHQfY8994l9C7diaw0RMNs8nm" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "login__feature",
+    "last_opened_file_path": "/Users/MD/PycharmProjects/murtle/murtle/static/images",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/murtle/static/images" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/murtle/templates" />
+    </key>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-python-sdk-5a2391486177-2887949eec09-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-233.13763.11" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d5d926e6-d0be-45b2-94bd-fdf7cfca5b94" name="Changes" comment="" />
+      <created>1717366425605</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1717366425605</updated>
+      <workItem from="1717366427371" duration="26000" />
+      <workItem from="1717366458255" duration="10019000" />
+      <workItem from="1718029327248" duration="7992000" />
+      <workItem from="1718209757546" duration="6861000" />
+      <workItem from="1718386974937" duration="55000" />
+      <workItem from="1718473982193" duration="624000" />
+      <workItem from="1719590471851" duration="3238000" />
+      <workItem from="1720809880365" duration="2244000" />
+      <workItem from="1721238905805" duration="123000" />
+    </task>
+    <task id="LOCAL-00001" summary="Checking if pushes work for me">
+      <option name="closed" value="true" />
+      <created>1717440550389</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1717440550389</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Fixing henry's mistakes LOL">
+      <option name="closed" value="true" />
+      <created>1717443220767</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1717443220767</updated>
+    </task>
+    <task id="LOCAL-00003" summary="requirements update">
+      <option name="closed" value="true" />
+      <created>1717443604343</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1717443604343</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Fixed local database and added new app and then made user model">
+      <option name="closed" value="true" />
+      <created>1717447562179</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1717447562180</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Login functionality works completely">
+      <option name="closed" value="true" />
+      <created>1718132208933</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1718132208933</updated>
+    </task>
+    <task id="LOCAL-00006" summary="I lied earlier now login and registering functionality work completely oopsies!">
+      <option name="closed" value="true" />
+      <created>1718136577288</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1718136577288</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Straight styling">
+      <option name="closed" value="true" />
+      <created>1718138395176</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1718138395176</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Styling stuff, performance issues, landing page (sorta)">
+      <option name="closed" value="true" />
+      <created>1718222064368</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1718222064368</updated>
+    </task>
+    <task id="LOCAL-00009" summary="removed firebase stuff">
+      <option name="closed" value="true" />
+      <created>1721238196552</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1721238196552</updated>
+    </task>
+    <task id="LOCAL-00010" summary="idk why this needs to be committed but ok">
+      <option name="closed" value="true" />
+      <created>1721238640893</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1721238640893</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="origin/main" />
+                </option>
+              </RecentGroup>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="main" />
+                </option>
+              </RecentGroup>
+            </list>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="origin/main" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+              <option name="TEXT_FILTER_SETTINGS">
+                <TextFilterSettings>
+                  <option name="REGEX" value="true" />
+                </TextFilterSettings>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Checking if pushes work for me" />
+    <MESSAGE value="Fixing henry's mistakes LOL" />
+    <MESSAGE value="requirements update" />
+    <MESSAGE value="Fixed local database and added new app and then made user model" />
+    <MESSAGE value="Login functionality works completely" />
+    <MESSAGE value="I lied earlier now login and registering functionality work completely oopsies!" />
+    <MESSAGE value="Straight styling" />
+    <MESSAGE value="Styling stuff, performance issues, landing page (sorta)" />
+    <MESSAGE value="removed firebase stuff" />
+    <MESSAGE value="idk why this needs to be committed but ok" />
+    <option name="LAST_COMMIT_MESSAGE" value="idk why this needs to be committed but ok" />
+  </component>
+</project>
