@@ -18,19 +18,7 @@ import pyrebase
 # Load environment variables from .env file
 load_dotenv()
 
-# Firebase configuration
-FIREBASE_CONFIG = {
-    "apiKey": os.getenv("FIREBASE_API_KEY"),
-    "authDomain": os.getenv("FIREBASE_AUTH_DOMAIN"),
-    "databaseURL": os.getenv("FIREBASE_DATABASE_URL"),
-    "projectId": os.getenv("FIREBASE_PROJECT_ID"),
-    "storageBucket": os.getenv("FIREBASE_STORAGE_BUCKET"),
-    "messagingSenderId": os.getenv("FIREBASE_MESSAGING_SENDER_ID")
-}
 
-firebase = pyrebase.initialize_app(FIREBASE_CONFIG)
-auth = firebase.auth()
-db = firebase.database()
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
