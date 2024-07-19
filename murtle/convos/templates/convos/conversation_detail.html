@@ -1,0 +1,56 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div class="container mt-5">
+    <div class="row">
+        <div class="col-md-12">
+            <h2 class="hero-title">{{ conversation.title }}</h2>
+            <div class="feature-box">
+                <p>{{ conversation.description }}</p>
+                <p><strong>Date:</strong> {{ conversation.date }}</p>
+                <p><strong>Time:</strong> {{ conversation.time }}</p>
+                <p><strong>Location:</strong> {{ conversation.location }}</p>
+                {% if request.user.is_authenticated %}
+                    {% if is_registered %}
+                        <p>You are already registered for this conversation.</p>
+                        {% if request.user.is_staff %}
+                            <a href="{% url 'conversation_registrations' conversation.pk %}" class="btn btn-custom">View Users</a>
+                        {% endif %}
+                    {% else %}
+                        <div class="d-flex">
+                            <button type="button" class="btn btn-custom me-2" data-bs-toggle="modal" data-bs-target="#confirmModal">
+                                Register
+                            </button>
+                            {% if request.user.is_staff %}
+                                <a href="{% url 'conversation_registrations' conversation.pk %}" class="btn btn-custom">View Users</a>
+                            {% endif %}
+                        </div>
+                    {% endif %}
+                {% endif %}
+            </div>
+            <div class="text-center mt-4">
+                <a href="{% url 'conversation_list' %}" class="btn btn-secondary">Back to Conversations</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Confirmation Modal -->
+<div class="modal fade" id="confirmModal" tabindex="-1" aria-labelledby="confirmModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="confirmModalLabel">Confirm Registration</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                Are you sure you want to register for this conversation?
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+                <a href="{% url 'conversation_register' conversation.pk %}" class="btn btn-custom">Confirm</a>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}

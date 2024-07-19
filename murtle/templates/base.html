@@ -5,6 +5,8 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <!-- Bootstrap Datepicker CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.9.0/css/bootstrap-datepicker.min.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{% block title %}Tono{% endblock %}</title>
@@ -256,6 +258,8 @@ p {
                     <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdown">
                         <li><a class="dropdown-item" href="{% url 'profile' %}">Profile</a></li>
                         <li><hr class="dropdown-divider"></li>
+                        <li><a class="dropdown-item" href="{% url 'conversation_list' %}">Upcoming Conversations</a></li>
+                        <li><hr class="dropdown-divider"></li>
                         <li>
                             <form method="post" action="{% url 'logout' %}">
                                 {% csrf_token %}
@@ -388,5 +392,8 @@ p {
             }
         });
     </script>
+    <!-- Bootstrap Datepicker JS -->
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.9.0/js/bootstrap-datepicker.min.js"></script>
+
 </body>
 </html>

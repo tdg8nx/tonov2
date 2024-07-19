@@ -46,6 +46,7 @@ INSTALLED_APPS = [
     'mainapp',
     'django_bootstrap5',
     'users',
+    'convos',
 ]
 
 MIDDLEWARE = [

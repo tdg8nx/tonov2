@@ -1,0 +1,48 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div class="container mt-5">
+    <h2 class="hero-title text-center mb-4">Upcoming Conversations</h2>
+    <div class="card">
+        <ul class="list-group list-group-flush">
+            {% for conversation in conversations %}
+            <li class="list-group-item d-flex justify-content-between align-items-center">
+                <div>
+                    <a href="{% url 'conversation_detail' conversation.pk %}" class="text-decoration-none">{{ conversation.title }}</a> - <small class="text-muted">{{ conversation.date }} at {{ conversation.time }}</small>
+                </div>
+                {% if user.is_staff %}
+                <div>
+                    <a href="{% url 'conversation_edit' conversation.pk %}" class="btn btn-sm btn-outline-secondary">Edit</a>
+                    <button type="button" class="btn btn-sm btn-danger ml-2" data-bs-toggle="modal" data-bs-target="#deleteModal{{ conversation.pk }}">Delete</button>
+
+                    <!-- Delete Confirmation Modal -->
+                    <div class="modal fade" id="deleteModal{{ conversation.pk }}" tabindex="-1" aria-labelledby="deleteModalLabel{{ conversation.pk }}" aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="deleteModalLabel{{ conversation.pk }}">Confirm Deletion</h5>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    Are you sure you want to delete this conversation?
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+                                    <a href="{% url 'conversation_delete' conversation.pk %}" class="btn btn-danger">Delete</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                {% endif %}
+            </li>
+            {% endfor %}
+        </ul>
+    </div>
+    {% if user.is_staff %}
+    <div class="text-center mt-4">
+        <a href="{% url 'conversation_create' %}" class="btn btn-custom">Create New Conversation</a>
+    </div>
+    {% endif %}
+</div>
+{% endblock %}
