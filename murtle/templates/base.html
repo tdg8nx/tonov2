@@ -1,6 +1,7 @@
 {% load django_bootstrap5 %}
-
 {% load static %}
+{% load socialaccount %}
+{% load allauth account %}
 
 <!DOCTYPE html>
 <html lang="en">
@@ -13,224 +14,188 @@
     {% bootstrap_css %}
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <style>
-/* Custom Styles */
-:root {
-    --primary-color: #2c3e50;
-    --secondary-color: #ecf0f1;
-    --accent-color: #27ae60;
-    --background-color: #f4f4f4;
-    --btn-color: #2980b9;
-    --font-hero: 'Montserrat', sans-serif;
-    --font-body: 'Poppins', sans-serif;
-}
-
-html, body {
-    height: 100%;
-    background-color: var(--background-color);
-    color: var(--primary-color);
-    margin: 0;
-    padding: 0;
-    display: flex;
-    flex-direction: column;
-}
-
-.navbar {
-    background-color: var(--primary-color);
-    position: fixed;
-    width: 100%;
-    top: 0;
-    z-index: 1000;
-}
-
-.navbar-brand {
-    position: absolute;
-    left: 50%;
-    transform: translateX(-50%);
-    color: var(--secondary-color);
-}
-
-.navbar-nav .nav-link {
-    color: var(--secondary-color);
-}
-
-.navbar-brand:hover, .navbar-nav .nav-link:hover {
-    color: var(--accent-color);
-}
-
-.navbar-nav .nav-link.active {
-    color: var(--accent-color);
-    font-weight: bold;
-}
-
-.btn-custom {
-    background-color: var(--btn-color);
-    color: var(--secondary-color);
-    border-radius: 30px;
-    padding: 10px 30px;
-    margin: 5px;
-}
-
-.btn-custom:hover {
-    background-color: var(--accent-color);
-}
-
-.footer {
-    background-color: var(--primary-color);
-    color: var(--secondary-color);
-    padding: 20px 0;
-}
-
-.footer-nav a {
-    color: var(--secondary-color);
-    margin: 0 10px;
-    text-decoration: none;
-    transition: color 0.3s;
-}
-
-.footer-nav a:hover {
-    color: var(--accent-color);
-}
-
-.social-links a {
-    color: var (--secondary-color);
-    margin: 0 10px;
-    font-size: 1.5rem;
-    transition: color 0.3s;
-}
-
-.social-links a:hover {
-    color: var(--accent-color);
-}
-
-.container {
-    flex: 1;
-    max-width: 900px;
-    margin-bottom: 20px;
-}
-
-.form-container {
-    max-width: 100%;
-    padding: 20px;
-    background-color: #fff;
-    margin: 0;
-}
-
-.form .btn-primary {
-    background-color: var(--btn-color);
-    color: var(--secondary-color);
-    border: none;
-    padding: 10px 15px;
-    font-size: 16px;
-    transition: background-color 0.3s;
-}
-
-.btn-primary:hover {
-    background-color: var(--accent-color);
-}
-
-i:hover {
-    transform: scale(1.1);
-}
-
-.hero-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    height: calc(100vh - 100px); /* Adjusted to account for navbar height */
-}
-
-.hero-section {
-    border-radius: 15px;
-    padding: 0;
-    background-color: transparent;
-    color: var(--primary-color);
-}
-
-.hero-img {
-    max-width: 100%;
-    max-height: 70vh;
-    height: auto;
-    width: auto;
-    object-fit: cover;
-}
-
-.hero-title {
-    font-family: var(--font-hero);
-    font-weight: 700;
-}
-
-.button-container {
-    margin-top: 20px;
-}
-
-.about-section, .cta-section {
-    padding: 60px 0;
-    background-color: var(--background-color);
-}
-
-.features-section {
-    padding: 60px 0;
-}
-
-h2, h3 {
-    font-family: var(--font-body);
-    font-weight: 600;
-    color: var(--primary-color);
-}
-
-p {
-    font-family: var(--font-body);
-    font-weight: 300;
-    color: var(--primary-color);
-}
-
-.feature-box {
-    padding: 20px;
-    border-radius: 10px;
-    background: white;
-    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-    transition: transform 0.3s, box-shadow 0.3s;
-}
-
-.feature-box:hover {
-    transform: translateY(-10px);
-    box-shadow: 0 8px 16px rgba(0,0,0,0.2);
-}
-
-.logo-img {
-    max-width: 150px;
-    margin-top: 20px;
-}
-
-.feature-icon {
-    color: var(--accent-color);
-    transition: transform 0.3s;
-}
-
-.feature-icon:hover {
-    transform: scale(1.2);
-}
-
-.centered-brand {
-    position: absolute;
-    left: 50%;
-    transform: translateX(-50%);
-}
-
-.navbar-brand.mx-auto {
-    position: absolute;
-    left: 50%;
-    transform: translateX(-50%);
-}
-
-@media (max-width: 992px) {
-    .navbar-brand.mx-auto {
-        position: static;
-        transform: none;
-    }
-}
-
+        /* Custom Styles */
+        :root {
+            --primary-color: #2c3e50;
+            --secondary-color: #ecf0f1;
+            --accent-color: #27ae60;
+            --background-color: #f4f4f4;
+            --btn-color: #2980b9;
+            --font-hero: 'Montserrat', sans-serif;
+            --font-body: 'Poppins', sans-serif;
+        }
+        html, body {
+            height: 100%;
+            background-color: var(--background-color);
+            color: var(--primary-color);
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+        }
+        .navbar {
+            background-color: var(--primary-color);
+            position: fixed;
+            width: 100%;
+            top: 0;
+            z-index: 1000;
+        }
+        .navbar-brand {
+            position: absolute;
+            left: 50%;
+            transform: translateX(-50%);
+            color: var(--secondary-color);
+        }
+        .navbar-nav .nav-link {
+            color: var(--secondary-color);
+        }
+        .navbar-brand:hover, .navbar-nav .nav-link:hover {
+            color: var(--accent-color);
+        }
+        .navbar-nav .nav-link.active {
+            color: var(--accent-color);
+            font-weight: bold;
+        }
+        .btn-custom {
+            background-color: var(--btn-color);
+            color: var(--secondary-color);
+            border-radius: 30px;
+            padding: 10px 30px;
+            margin: 5px;
+        }
+        .btn-custom:hover {
+            background-color: var(--accent-color);
+        }
+        .footer {
+            background-color: var(--primary-color);
+            color: var(--secondary-color);
+            padding: 20px 0;
+        }
+        .footer-nav a {
+            color: var(--secondary-color);
+            margin: 0 10px;
+            text-decoration: none;
+            transition: color 0.3s;
+        }
+        .footer-nav a:hover {
+            color: var(--accent-color);
+        }
+        .social-links a {
+            color: var(--secondary-color);
+            margin: 0 10px;
+            font-size: 1.5rem;
+            transition: color 0.3s;
+        }
+        .social-links a:hover {
+            color: var(--accent-color);
+        }
+        .container {
+            flex: 1;
+            max-width: 900px;
+            margin-bottom: 20px;
+        }
+        .form-container {
+            max-width: 100%;
+            padding: 20px;
+            background-color: #fff;
+            margin: 0;
+        }
+        .form .btn-primary {
+            background-color: var(--btn-color);
+            color: var(--secondary-color);
+            border: none;
+            padding: 10px 15px;
+            font-size: 16px;
+            transition: background-color 0.3s;
+        }
+        .btn-primary:hover {
+            background-color: var(--accent-color);
+        }
+        i:hover {
+            transform: scale(1.1);
+        }
+        .hero-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: calc(100vh - 100px); /* Adjusted to account for navbar height */
+        }
+        .hero-section {
+            border-radius: 15px;
+            padding: 0;
+            background-color: transparent;
+            color: var(--primary-color);
+        }
+        .hero-img {
+            max-width: 100%;
+            max-height: 70vh;
+            height: auto;
+            width: auto;
+            object-fit: cover;
+        }
+        .hero-title {
+            font-family: var(--font-hero);
+            font-weight: 700;
+        }
+        .button-container {
+            margin-top: 20px;
+        }
+        .about-section, .cta-section {
+            padding: 60px 0;
+            background-color: var(--background-color);
+        }
+        .features-section {
+            padding: 60px 0;
+        }
+        h2, h3 {
+            font-family: var(--font-body);
+            font-weight: 600;
+            color: var(--primary-color);
+        }
+        p {
+            font-family: var(--font-body);
+            font-weight: 300;
+            color: var(--primary-color);
+        }
+        .feature-box {
+            padding: 20px;
+            border-radius: 10px;
+            background: white;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+        .feature-box:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+        }
+        .logo-img {
+            max-width: 150px;
+            margin-top: 20px;
+        }
+        .feature-icon {
+            color: var(--accent-color);
+            transition: transform 0.3s;
+        }
+        .feature-icon:hover {
+            transform: scale(1.2);
+        }
+        .centered-brand {
+            position: absolute;
+            left: 50%;
+            transform: translateX(-50%);
+        }
+        .navbar-brand.mx-auto {
+            position: absolute;
+            left: 50%;
+            transform: translateX(-50%);
+        }
+        @media (max-width: 992px) {
+            .navbar-brand.mx-auto {
+                position: static;
+                transform: none;
+            }
+        }
     </style>
 </head>
 <body>
@@ -310,11 +275,16 @@ p {
                 </div>
                 <div class="modal-body">
                     {% include 'users/login_form.html' %}
+                    <div class="text-center mt-3">
+                       <a href="{% provider_login_url 'google' %}" class="btn btn-google">
+                           <i class="fab fa-google"></i> Log in with Google
+                       </a>
+                    </div>
                 </div>
                 <div class="text-center">
-                    <a href="{% url 'password_reset' %}">Forgot password?</a>
+                    <a href="{% url 'account_reset_password' %}">Forgot password?</a>
                     <br>
-                    <a href="#" data-bs-toggle="modal" data-bs-target="#signupModal" data-bs-dismiss="modal">New to Murtle? Sign Up</a>
+                    <a href="#" data-bs-toggle="modal" data-bs-target="#signupModal" data-bs-dismiss="modal">New to Tono? Sign Up</a>
                 </div>
             </div>
         </div>
@@ -330,6 +300,11 @@ p {
                 </div>
                 <div class="modal-body">
                     {% include 'users/register_form.html' with form=register_form %}
+                    <div class="text-center mt-3">
+                        <a href="{% provider_login_url 'google' %}" class="btn btn-google">
+                            <i class="fab fa-google"></i> Log in with Google
+                        </a>
+                    </div>
                 </div>
             </div>
         </div>
