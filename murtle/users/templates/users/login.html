@@ -1,6 +1,8 @@
 {% extends 'base.html' %}
+
 {% load socialaccount %}
 {% load django_bootstrap5 %}
+{% load static %}
 
 {% block title %}Login - Murtle{% endblock %}
 
@@ -15,7 +17,6 @@
                 <div class="card-body">
                     <form method="post" action="{% url 'login' %}" novalidate>
                         {% csrf_token %}
-
                         <!-- Display non-field specific errors -->
                         {% if form.non_field_errors %}
                         <div class="alert alert-danger" role="alert">
@@ -27,7 +28,7 @@
                             {{ form.username.label_tag }}
                             {{ form.username }}
                             {% if form.username.errors %}
-                            <div class="alert alert-danger" role="alert">
+                            <div class="invalid-feedback d-block">
                                 {{ form.username.errors }}
                             </div>
                             {% endif %}
@@ -36,7 +37,7 @@
                             {{ form.password.label_tag }}
                             {{ form.password }}
                             {% if form.password.errors %}
-                            <div class="alert alert-danger" role="alert">
+                            <div class="invalid-feedback d-block">
                                 {{ form.password.errors }}
                             </div>
                             {% endif %}
