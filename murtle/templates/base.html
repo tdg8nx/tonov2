@@ -196,6 +196,41 @@
                 transform: none;
             }
         }
+        .btn-google {
+    background-color: #db4437;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+
+.btn-google:hover {
+    background-color: #c23321;
+}
+
+.modal-content {
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.modal-header {
+    border-bottom: none;
+}
+
+.modal-title {
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.modal-body {
+    padding: 20px 40px;
+}
     </style>
 </head>
 <body>
@@ -265,23 +300,22 @@
 
     {% bootstrap_javascript %}
 
-    <!-- Login Modal -->
-    <div class="modal fade" id="loginModal" tabindex="-1" aria-labelledby="loginModalLabel" aria-hidden="true">
-        <div class="modal-dialog">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h5 class="modal-title" id="loginModalLabel">Log In</h5>
-                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+<!-- Login Modal -->
+<div class="modal fade" id="loginModal" tabindex="-1" aria-labelledby="loginModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="loginModalLabel">Log In</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                {% include 'users/login_form.html' %}
+                <div class="text-center mt-3">
+                    <a href="{% provider_login_url 'google' %}" class="btn btn-google btn-block">
+                            <i class="fab fa-google me-2"></i> Log in with Google
+                    </a>
                 </div>
-                <div class="modal-body">
-                    {% include 'users/login_form.html' %}
-                    <div class="text-center mt-3">
-                       <a href="{% provider_login_url 'google' %}" class="btn btn-google">
-                           <i class="fab fa-google"></i> Log in with Google
-                       </a>
-                    </div>
-                </div>
-                <div class="text-center">
+                <div class="text-center mt-3">
                     <a href="{% url 'account_reset_password' %}">Forgot password?</a>
                     <br>
                     <a href="#" data-bs-toggle="modal" data-bs-target="#signupModal" data-bs-dismiss="modal">New to Tono? Sign Up</a>
@@ -289,6 +323,8 @@
             </div>
         </div>
     </div>
+</div>
+
 
     <!-- Signup Modal -->
     <div class="modal fade" id="signupModal" tabindex="-1" aria-labelledby="signupModalLabel" aria-hidden="true">
@@ -301,8 +337,8 @@
                 <div class="modal-body">
                     {% include 'users/register_form.html' with form=register_form %}
                     <div class="text-center mt-3">
-                        <a href="{% provider_login_url 'google' %}" class="btn btn-google">
-                            <i class="fab fa-google"></i> Log in with Google
+                        <a href="{% provider_login_url 'google' %}" class="btn btn-google btn-block">
+                            <i class="fab fa-google me-2"></i> Log in with Google
                         </a>
                     </div>
                 </div>
