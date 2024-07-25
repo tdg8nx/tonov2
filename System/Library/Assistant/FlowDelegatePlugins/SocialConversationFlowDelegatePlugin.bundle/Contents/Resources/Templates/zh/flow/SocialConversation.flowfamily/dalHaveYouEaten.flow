@@ -1,0 +1,22 @@
+
+ProjectdalHaveYouEatenL
+Description=User asked Siri if it had eaten (zh_CN originated experience)'
+CreationDate2023-07-31 14:14:30 PDT1
+	Copyright$(c) 2023 Apple. All rights reserved.
+	languageszh"<
+startb"SocialConversation#dalHaveYouEaten’greet_question"5
+yes_ackb*SocialConversation#dalHaveYouEaten_yes_ack"^
+dont_want_to_eatb3SocialConversation#dalHaveYouEaten_dont_want_to_eat’want_to_eat_question"O
+dont_want_to_eat_ackb7SocialConversation#dalHaveYouEaten_dont_want_to_eat_ack"?
+busyb'SocialConversation#dalHaveYouEaten_busy’busy_question"9
+	busy_tipsb,SocialConversation#dalHaveYouEaten_busy_tips"9
+	food_tipsb,SocialConversation#dalHaveYouEaten_food_tipsÒ2.0.7ê8
+greet_questionZ2yes_ack:yesZ2dont_want_to_eat:noê?
+want_to_eat_questionZ2dont_want_to_eat_ack:yesZ
+2busy:noê2
+busy_questionZ2	busy_tips:yesZ2	food_tips:no‚
+startŠ
+yesBdalYesbdalHaveYouEatenŠ
+noBdalNobdalHaveYouEatenŠ-
+have_you_eatenBdalHaveYouEatenb
+invocation

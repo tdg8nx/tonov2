@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<caml xmlns="http://www.apple.com/CoreAnimation/1.0">
+  <CALayer allowsEdgeAntialiasing="1" allowsGroupOpacity="1" bounds="0 0 750 1334" contentsFormat="RGBA8" masksToBounds="0" name="root" position="375 667">
+    <backgroundColor opacity="0" value="0 0 0"/>
+    <sublayers>
+      <CALayer id="whatevs" allowsEdgeAntialiasing="1" allowsGroupOpacity="1" bounds="0 0 750 1334" contentsFormat="RGBA8" hidden="0" masksToBounds="0" name="whatevs" position="375 667">
+	<sublayers>
+	  <CAEmitterLayer id="myEmitter" emitterPosition="375 667" emitterShape="cuboid" emitterSize="50 0" renderMode="backToFront" spin="0" velocity="0" allowsEdgeAntialiasing="1" allowsGroupBlending="1" allowsGroupOpacity="1" bounds="0 0 750 1334" contentsFormat="RGBA8" geometryFlipped="0" hidden="0" name="myEmitter" position="375 667">
+	    <emitterCells>
+	      <CAEmitterCell alphaRange="0" alphaSpeed="0" autoreverses="0" beginTime="0" birthRate="0.7" blueRange="0" blueSpeed="0" color="1 1 1" contentsFrameCount="0" contentsFrameMode="single" contentsFramesPerRow="0" contentsRect="0 0 1 1" contentsScale="1" duration="inf" emissionLatitude="0" emissionLongitude="0" emissionRange="0" enabled="1" fillMode="removed" greenRange="0" greenSpeed="0" lifetime="0.9" lifetimeRange="0" mass="1" massRange="0" name="1" orientationLatitude="0" orientationLongitude="0" orientationRange="0" particleType="sprite" redRange="0" redSpeed="0" repeatCount="0" repeatDuration="0" rotation="0" rotationRange="0" scale="1.3" scaleRange="0" scaleSpeed="0" speed="1" spin="0" spinRange="0" timeOffset="0" velocity="0" velocityRange="0" xAcceleration="0" yAcceleration="700" zAcceleration="0">
+		<contents type="CGImage" src="assets/smiley.png"/>
+		<emitterBehaviors>
+		  <CAEmitterBehavior behavior="colorOverLife" name="colorOverLife">
+		    <colors>
+		      <CGColor value="1 1 1"/>
+		      <CGColor value="1 1 1"/>
+		      <CGColor value="1 1 1"/>
+		      <CGColor value="1 1 1"/>
+		      <CGColor opacity="0.8043" value="1 1 1"/>
+		      <CGColor opacity="0" value="1 1 1"/>
+		    </colors>
+		  </CAEmitterBehavior>
+		  <CAEmitterBehavior behavior="valueOverLife" name="valueOverLife" additive="0" keyPath="scale">
+		    <values>
+		      <integer value="0"/>
+		      <real value="0.9"/>
+		      <real value="1.3"/>
+		      <real value="1.2"/>
+		      <integer value="1"/>
+		    </values>
+		    <locations>
+		      <integer value="0"/>
+		      <real value="0.15"/>
+		      <real value="0.3"/>
+		      <real value="0.852889"/>
+		      <integer value="1"/>
+		    </locations>
+		  </CAEmitterBehavior>
+		  <CAEmitterBehavior behavior="drag" name="drag" drag="0.25">
+		    <preservesDepth type="integer" value="0"/>
+		  </CAEmitterBehavior>
+		</emitterBehaviors>
+	      </CAEmitterCell>
+	    </emitterCells>
+	    <animations>
+	      <animation type="CAKeyframeAnimation" calculationMode="linear" keyPath="birthRate" beginTime="1.56317" duration="0.0225777" fillMode="both" removedOnCompletion="0">
+		<keyTimes>
+		  <integer value="0"/>
+		  <integer value="1"/>
+		</keyTimes>
+		<timingFunctions/>
+		<values>
+		  <integer value="6"/>
+		  <integer value="0"/>
+		</values>
+	      </animation>
+	    </animations>
+	  </CAEmitterLayer>
+	</sublayers>
+      </CALayer>
+    </sublayers>
+  </CALayer>
+</caml>

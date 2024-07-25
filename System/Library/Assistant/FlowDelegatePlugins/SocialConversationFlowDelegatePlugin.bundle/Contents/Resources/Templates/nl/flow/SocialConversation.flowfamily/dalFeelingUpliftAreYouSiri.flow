@@ -1,0 +1,17 @@
+%
+ProjectdalFeelingUpliftAreYouSiri=
+Description.For users who ask Siri if they are feeling sad'
+CreationDate2022-10-06 14:42:52 PDT1
+	Copyright$(c) 2022 Apple. All rights reserved."@
+feelingr-SocialConversation#dalFeelingUpliftAreYouSiri’input"G
+followupr+SocialConversation#dalFeelingUpliftFollowup’followupInput"5
+decliner*SocialConversation#dalFeelingUpliftDecline"=
+nobodyToTalkTor+SocialConversation#dalFeelingNobodyToTalkTo"3
+	trustSirir&SocialConversation#dalFeelingTrustSiriÒ2.0.7êa
+inputZ2followup:yesZ2decline:noZ2	trustSiri:	trustSiriZ 2nobodyToTalkTo:nobodyToTalkToêI
+followupInputZ2	trustSiri:	trustSiriZ 2nobodyToTalkTo:nobodyToTalkTo‚	
+feelingŠ,
+yesByesJ b3ce7f0b7fd11a53935d8dbaf6436715Š/
+noBdeclineJ 8b75072d1bdcdc806b64df3d99912ae3ŠB
+nobodyToTalkToBnobodyToTalkToJ 73332717f81d6ccaa5840d32df1adde4Š4
+	trustSiriBtrustJ bc818da9a7aab30d2f7e2989578fb071

@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<cat xmlns="urn:apple:names:siri:visualcat:2.0" id="SocialConversation#dalRockPaperScissor_result">
+    <parameters>
+        <parameter name="userChoiceImage" type="dialog.String" description="Image of user's rock/paper/scissor choice"/>
+        <parameter name="siriChoiceImage" type="dialog.String" description="Image of Siri's rock/paper/scissor choice"/>
+        <parameter name="title" type="dialog.String" valueFromCat="SocialConversation#dalRockPaperScissor_snippets#title_*"/>
+        <parameter name="detail" type="dialog.String" valueFromCat="SocialConversation#dalRockPaperScissor_snippets#detail_*"/>
+        <parameter name="playAgain" type="dialog.String" valueFromCat="SocialConversation#dalRockPaperScissor_snippets#play_again"/>
+        <parameter name="againAction" type="dialog.String" description="Action for the play again button"/>
+    </parameters>
+    <response>
+        <hide-redacted-elements>false</hide-redacted-elements>
+        <groups>
+            <id>Response</id>
+            <components>
+                <value>
+                    <summary-item-pair-v2>
+                        <text-1>
+                            <text-elements>
+                                <value>
+                                    <plain><var name="title"/></plain>
+                                </value>
+                            </text-elements>
+                        </text-1>
+                        <text-2>
+                            <text-elements>
+                                <value>
+                                    <plain><var name="detail"/></plain>
+                                </value>
+                            </text-elements>
+                        </text-2>
+                        <thumbnail-1>
+                            <visuals>
+                                <element>
+                                    <image-element>
+                                        <sources>
+                                            <value>
+                                                <data>
+                                                    <png-data><var name="siriChoiceImage"/></png-data>
+                                                </data>
+                                            </value>
+                                        </sources>
+                                    </image-element>
+                                </element>
+                            </visuals>
+                        </thumbnail-1>
+                        <thumbnail-2>
+                            <visuals>
+                                <element>
+                                    <image-element>
+                                        <sources>
+                                            <value>
+                                                <data>
+                                                    <png-data><var name="userChoiceImage"/></png-data>
+                                                </data>
+                                            </value>
+                                        </sources>
+                                    </image-element>
+                                </element>
+                            </visuals>
+                        </thumbnail-2>
+                    </summary-item-pair-v2>
+                </value>
+            </components>
+            <components>
+                <value>
+                    <button>
+                        <label>
+                            <text-elements>
+                                <value>
+                                    <plain><var name="playAgain"/></plain>
+                                </value>
+                            </text-elements>
+                        </label>
+                        <action>
+                            <actions>
+                                <command>
+                                    <value>
+                                        <direct-invocation><var name="againAction"/></direct-invocation>
+                                    </value>
+                                </command>
+                            </actions>
+                        </action>
+                    </button>
+                </value>
+            </components>
+        </groups>
+        <sections>
+            <level-of-detail>FULL</level-of-detail>
+            <level-of-detail>SUPPORTING</level-of-detail>
+            <component-list>
+                <value>
+                    <group-id>Response</group-id>
+                </value>
+            </component-list>
+        </sections>
+    </response>
+</cat>

@@ -1,0 +1,71 @@
+phoneset_name,NvASR,L&H+,SAMPA,TTS_XSAMPA,TTS_XSAMPA.new,internalTTS,category,TTSsimplXSAMPA
+stress_method,,on_syl,,,,after_phone,,
+primary_stress,,',,,,:,,
+phone_boundary,.,, , , , ,,
+syllable_boundary,,.,.,.,.,.,,.
+word_boundary,,_,_,#,_,_,,_
+silence_phones,_sil,#,sil,sil,sil,_ sil _,N,sil
+silence_phones,sil,#*,sil*,sil*,sil*,_ sil _*,N,sil*
+,m,m,m,m,m,m,C,m
+,p,p,p,p,p,p,C,p
+,b,b,b,b,b,b,C,b
+,f,f,f,f,f,f,C,f
+,v,v,v,v,v,v,C,v
+,n,n,n,n,n,n,C,n
+,t,t,t,t,t,t,C,t
+,d,d,d,d,d,d,C,d
+,s,s,s,s,s,s,C,s
+,z,z,z,z,z,z,C,z
+,l,l,l,l,l,l,C,l
+,gn,n~,J,J,J,164,C,J
+,sh,S,S,S,S,S,C,S
+,ge,Z,Z,Z,Z,Z,C,Z
+,y,j,j,j,j,j,C,j
+,yw,h\,H,H,H,W,C,H
+,k,k,k,k,k,k,C,k
+,g,g,g,g,g,g,C,g
+,ng,nK,N,N,N,N,C,N
+,w,w,w,w,w,w,C,w
+,r,R,R,R,R,r,C,R
+,II,i,i,i,i,i,V,i
+,II*,'i,i*,i*,i*,i:,V,i*
+,EAC,e,e,e,e,e,V,e
+,EAC*,'e,e*,e*,e*,e:,V,e*
+,ECI,E,E,E,E,E,V,E
+,ECI*,'E,E*,E*,E*,E:,V,E*
+,EN,E%~,e~,e~,e~,136,V,e_~ N
+,EN*,'E%~,e~*,e~*,e~*,136:,V,e_~ N*
+,ACI,A,A,A,a*,a,V,a*
+,ACI*,'A,A*,A*,a*,A:*,V,a*
+,UY,y,y,y,y,129,V,y
+,UY*,'y,y*,y*,y*,129:,V,y*
+,OEE,e+,2,2,2,148,V,2
+,OEE*,'e+,2*,2*,2*,148:,V,2*
+,OE,E+,9,9,9,^,V,9
+,OE*,'E+,9*,9*,9*,^:,V,9*
+,OEN,E+%~,9~,9~,e~*,150,V,9_~ N
+,OEN*,'E+%~,9~*,9~*,e~*,150:,V,9_~ N*
+,AE,$,@,@,@,$,V,@
+,QQ,,,,,,,
+,QQ*,$*,@*,@*,@*,$*,V*,@*
+,UGR,u,u,u,u,u,V,u
+,UGR*,'u,u*,u*,u*,u:,V,u*
+,OCI,o,o,o,o,o,V,o
+,OCI*,'o,o*,o*,o*,o:,V,o*
+,OO,O,O,O,O,O,V,O
+,OO*,'O,O*,O*,O*,O:,V,O*
+,ON,O%~,o~,o~,o~,147,V,o_~ N
+,ON*,'O%~,o~*,o~*,o~*,147:,V,o_~ N*
+,AGR,a,a,a,a,A,V,a
+,AGR*,'a,a*,a*,a*,A:,V,a*
+,AN,A%~,a~,a~,a~,131,V,a_~ N
+,AN*,'A%~,a~*,a~*,a~*,131:,V,a_~ N*
+,*,?,*,*,*,?,C,*
+,*,*,h,h,h,h,C,h
+,d.ge,dZ,dZ,dZ,d Z,d Z,C,d Z*
+,d.ge*,dZ*,d Z,d Z,d Z*,d Z*,C,d Z*
+,t.sh,tS,tS,tS,t S,t S,C,t S*
+,t.sh*,tS*,t S,t S,t S*,t S*,C,t S*
+,s*,s*,T,T,s*,s*,C,s*
+,z*,z*,D,D,z*,z*,C,z*
+,r*,R*,r\,r\,R*,r*,C,R*

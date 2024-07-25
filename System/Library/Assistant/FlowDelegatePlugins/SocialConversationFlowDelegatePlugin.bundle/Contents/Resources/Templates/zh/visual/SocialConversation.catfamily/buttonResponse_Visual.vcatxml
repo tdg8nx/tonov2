@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<cat xmlns="urn:apple:names:siri:visualcat:2.0" id="SocialConversation#buttonResponse_Visual">
+  <parameters>
+    <parameter name="buttonLabel" type="dialog.String"/>
+    <parameter name="buttonAction" type="dialog.String"/>
+  </parameters>
+
+  <conditions>
+    <condition name="has_button">
+      <and>
+        <expression name="buttonLabel" op="nonempty"/>
+        <expression name="buttonAction" op="nonempty"/>
+      </and>
+    </condition>
+  </conditions>
+
+  <response>
+    <hide-redacted-elements>false</hide-redacted-elements>
+    <sections>
+      <level-of-detail>FULL</level-of-detail>
+      <level-of-detail>SUPPORTING</level-of-detail>
+      <component-list condition="has_button">
+        <value>
+          <button>
+            <label>
+              <text-elements>
+                <value><plain><var name="buttonLabel"/></plain></value>
+              </text-elements>
+            </label>
+            <action>
+              <actions>
+                <command>
+                  <value>
+                    <ace-command><var name="buttonAction"/></ace-command>
+                  </value>
+                </command>
+              </actions>
+            </action>
+          </button>
+        </value>
+      </component-list>
+    </sections>
+  </response>
+</cat>

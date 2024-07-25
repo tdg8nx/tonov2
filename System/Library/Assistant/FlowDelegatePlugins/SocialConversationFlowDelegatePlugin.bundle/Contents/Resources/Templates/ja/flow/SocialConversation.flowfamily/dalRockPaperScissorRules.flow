@@ -1,0 +1,11 @@
+#
+ProjectdalRockPaperScissorRulesd
+DescriptionUDescribe the rules of the Rock Paper Scissors game and ask if the user wants to play.1
+	Copyright$(c) 2022 Apple. All rights reserved.#
+	languagesde, en, es, fr, ja, zh"F
+startb1SocialConversation#dalRockPaperScissorRules_startí	askToPlay*J
+playGameJauthoredFlowR0
+flowId*&SocialConversation#dalRockPaperScissor“2.0.7Í
+	askToPlayZ2playGame:yesÇ
+startä/
+yesBdalYesJ 815b0d7f6c93275b38a3ed304c8530c4

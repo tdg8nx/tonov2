@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<pattern xmlns="urn:apple:names:siri:pattern:1.0" type="pattern.SimpleResult" id="SocialConversation#dalHoHoHo">
+  <group name="Item">
+    <dialog id="SocialConversation#dalHoHoHo"/>
+  </group>
+</pattern>

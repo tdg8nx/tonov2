@@ -1,0 +1,96 @@
+phoneset_name,NvASR,L&H+,internalTTS,ACS38,SAMPA.01,Novauris_mjh,SAMPA,IPA,TTS_XSAMPA,TTSsimplXSAMPA
+stress_method,case,on_syl,after_phone,after_phone,after_phone,after_phone,before_phone,on_syl,before_phone,before_phone
+primary_stress,uppercase,',:,1,1,1,",ˈ,","
+secondary_stress,,,,2,2,2,%,ˌ,,
+phone_boundary,.,, , , , , ,, , 
+syllable_boundary,,.,.,/,.,/,.,.,.,.
+word_boundary,,_,_,-,_,,_, ,#,#
+silence_phones,_sil,#,_ sil _,sil,sil,sil,sil,(.),sil,sil
+silence_phones,sil,#*,_ sil _*,sil*,sil*,sil*,sil*,(.)*,sil*,sil*
+,AA,'@,145:,AE1,{1,AE1,"{,ˈæ,"{,"{
+,AA*,@,145,AE0,{0,AE0,{,æ,{*,{*
+,AA*,@*,145*,AE2,{2,AE2,%{,ˌæ,{,{
+,AH,'A,a:,AA1,A1,AA1,"A,ˈɑ,"A,"A
+,AH*,A,a,AA0,A0,AA0,A,ɑ,A,A
+,AH*,A*,a*,AA2,A2,AA2,%A,ˌɑ,A*,A*
+,AW,'A*,a:*,AA1*,Q1,AA1*,"Q,ˈɒ,"A*,"A*
+,AW*,A*,a*,AA0*,Q0,AA0*,Q,ɒ,A*,A*
+,AW*,A*,a*,AA2*,Q2,AA2*,%Q,ˌɒ,A*,A*
+,AWH,'O,A:,AO1,O1,AO1,"O,ˈɔ,"O,"O
+,AWH*,O,A,AO0,O0,AO0,O,ɔ,O,O
+,AWH*,O*,A*,AO2,O2,AO2,%O,ˌɔ,O*,O*
+,AY,'a&I,Y:,AY1,aI1,AY1,"aI,ˈaɪ,"aI,"a I
+,AY*,a&I,Y,AY0,aI0,AY0,aI,aɪ,aI,a I
+,AY*,a&I*,Y*,AY2,aI2,AY2,%aI,ˌaɪ,aI*,a I*
+,b,b,b,B,b,B,b,b,b,b
+,ch,t&S,C,CH,tS,CH,tS,tʃ,tS,t_} S
+,d,d,d,D,d,D,d,d,d,d
+,dh,D,D,DH,D,DH,D,ð,D,D
+,ee,i,i,IY0,i0,IY0,i,i,i,i
+,EE,'i,i:,IY1,i1,IY1,"i,ˈi,"i,"i
+,EE*,i*,i*,IY2,i2,IY2,%i,ˌi,i*,i*
+,eh,E,E,EH0,E0,EH0,E,ɛ,E,E
+,EH,'E,E:,EH1,E1,EH1,"E,ˈɛ,"E,"E
+,EH*,E*,E*,EH2,E2,EH2,%E,ˌɛ,E*,E*
+,AE,'E*,E:*,EH1*,E@1,EH1*,"E@,ˈɛə,"E*,"E*
+,AE*,E*,E*,EH0*,E@0,EH0*,E@,ɛə,E*,E*
+,AE*,E*,E*,EH2*,E@2,EH2*,%E@,ˌɛə,E*,E*
+,EY,'e&I,J:,EY1,e1,EY1,"e,ˈeɪ,"eI,"e I
+,EY*,e&I,J,EY0,e0,EY0,e,eɪ,eI,e I
+,EY*,e&I*,J*,EY2,e2,EY2,%e,ˌeɪ,eI*,e I*
+,f,f,f,F,f,F,f,f,f,f
+,g,g,g,G,g,G,g,g,g,g
+,h,h,h,HH,h,HH,h,h,h,h
+,ih,I,I,IH0,I0,IH0,I,ɪ,I,I
+,IH,'I,I:,IH1,I1,IH1,"I,ˈɪ,"I,"I
+,IH*,I*,I*,IH2,I2,IH2,%I,ˌɪ,I*,I*
+,j,d&Z,G,JH,dZ,JH,dZ,dʒ,dZ,d_} Z
+,k,k,k,K,k,K,k,k,k,k
+,k*,k*,K,K*,k*,K*,k*,k*,k*,k*
+,l,l,l,L,l,L,l,l,l,l
+,l*,l*,l*,L*,l*,LX,l*,l*,l*,l*
+,m,m,m,M,m,M,m,m,m,m
+,n,n,n,N,n,N,n,n,n,n
+,n*,n*,n*,N*,n*,NX,n*,n*,n*,n*
+,ng,nK,N,NG,ng,NG,ng,ŋ,N,N
+,oh,o&U,O,OW0,o0,OW0,o,oʊ,oU,o U
+,OH,'o&U,O:,OW1,o1,OW1,"o,ˈoʊ,"oU,"o U
+,OH*,o&U*,O*,OW2,o2,OW2,%o,ˌoʊ,oU*,o U*
+,OY,'O&I,y:,OY1,OI1,OY1,"OI,ˈɔɪ,"OI,"O I
+,OY*,O&I,y,OY0,OI0,OY0,OI,ɔɪ,OI,O I
+,OY*,O&I*,y*,OY2,OI2,OY2,%OI,ˌɔɪ,OI*,O I*
+,OO,'U,U:,UH1,U1,UH1,"U,ˈʊ,"U,"U
+,OO*,U,U,UH0,U0,UH0,U,ʊ,U,U
+,OO*,U*,U*,UH2,U2,UH2,%U,ˌʊ,U*,U*
+,OOH,'u,u:,UW1,u1,UW1,"u,ˈu,"u,"u
+,OOH*,u,u,UW0,u0,UW0,u,u,u,u
+,OOH*,u*,u*,UW2,u2,UW2,%u,ˌu,u*,u*
+,OW,'a&U,@:,AW1,aU1,AW1,"aU,ˈaʊ,"aU,"a U
+,OW*,a&U,@,AW0,aU0,AW0,aU,aʊ,aU,a U
+,OW*,a&U*,@*,AW2,aU2,AW2,%aU,ˌaʊ,aU*,a U*
+,p,p,p,P,p,P,p,p,p,p
+,p*,p*,P,P*,p*,P*,p*,p*,p*,p*
+,r,R+,r,R,r,R,r,ɹ,r\,r\
+,s,s,s,S,s,S,s,s,s,s
+,sh,S,S,SH,S,SH,S,ʃ,S,S
+,t,t,t,T,t,T,t,t,t,t
+,t*,t*,146,T*,t*,T*,t*,t*,t*,t*
+,t*,r6,R,T*,t*,TX,4,ɾ,t*,4
+,d*,r6*,R*,T*,d*,DX,4*,ɾ*,d*,4*
+,th,T,T,TH,T,TH,T,θ,T,T
+,UH,'^,^:,AH1,V1,AH1,"V,ˈʌ,"V,"V
+,UH*,^,^,AH2,V0,AH2,V,ʌ,V,V
+,uh,$,$,AH0,@0,AH0,@,ə,@,@
+,ul,l%),L,UL0,l=,AH0 L*,l=,l̩,@ l,@ l
+,um,$m*,$ m*,UM0,m=,AH0 M*,m=,m̩,@ m,@ m
+,un,n%),164,UN0,n=,AH0 N*,n=,n̩,@ n,@ n
+,UR*,'E0R+,e:*,ER1*,@r1*,AH1 R*,"@r*,ˈɝ*,"3`*,"3 r\*
+,UR,'E0,e:,ER1,@r1,AH1 R*,"@r,ˈɝ,"3`,"3 r\
+,UR*,E0R+,e*,ER2*,@r2*,AH2 R*,%@r*,ˌɚ*,@`*,@ r\*
+,UR*,E0,e*,ER2,@r2,AH2 R*,%@r,ˌɚ,@`*,@ r\*
+,ur,$R+,e,ER0,@r0,AH0 R*,@r,ɚ,@`,@ r\
+,v,v,v,V,v,V,v,v,v,v
+,w,w,w,W,w,W,w,w,w,w
+,y,j,j,Y,j,Y,j,j,j,j
+,z,z,z,Z,z,Z,z,z,z,z
+,zh,Z,Z,ZH,Z,ZH,Z,ʒ,Z,Z

@@ -1,0 +1,26 @@
+{
+    "nodes":[
+        {
+            "label":"All",
+            "exposed":1,
+            "children":["JoyCon (L)"]
+        },
+        {
+            "label":"Default",
+            "exposed":1,
+            "children":["JoyCon (L)"]
+        },
+        {
+            "label":"JoyCon (L)",
+            "exposed":1,
+            "actuators":["JoyCon (L)"]
+        }
+    ],
+    "actuators":[
+        {
+            "label":"JoyCon (L)",
+            "type":1,
+            "index":0
+        }
+    ]
+}

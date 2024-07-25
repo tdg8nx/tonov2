@@ -1,0 +1,112 @@
+[
+  {
+    "fileName" : "default.metallib",
+    "type" : "MTLLibrary",
+    "name" : "default",
+    "isFromSource" : false
+  },
+  {
+    "vertexFunction" : {
+      "name" : "payLaterCard_vertex",
+      "library" : "default"
+    },
+    "vertexDescriptor" : {
+      "attributes" : [
+        {
+          "index" : 0,
+          "format" : 29
+        },
+        {
+          "index" : 1,
+          "format" : 29,
+          "offset" : 8
+        }
+      ],
+      "layouts" : [
+        {
+          "index" : 0,
+          "stride" : 16
+        },
+        {
+          "index" : 0,
+          "stride" : 16
+        }
+      ]
+    },
+    "fragmentFunction" : {
+      "name" : "payLaterCard_fragment_background",
+      "library" : "default"
+    },
+    "type" : "MTLRenderPipelineDescriptor",
+    "depthAttachmentPixelFormat" : 252,
+    "colorAttachments" : [
+      {
+        "index" : 0,
+        "pixelFormat" : 80
+      }
+    ]
+  },
+  {
+    "vertexFunction" : {
+      "name" : "payLaterCard_instanceVertex",
+      "library" : "default"
+    },
+    "fragmentFunction" : {
+      "name" : "payLaterCard_fragment_instances",
+      "library" : "default"
+    },
+    "type" : "MTLRenderPipelineDescriptor",
+    "depthAttachmentPixelFormat" : 252,
+    "colorAttachments" : [
+      {
+        "index" : 0,
+        "pixelFormat" : 80
+      }
+    ]
+  },
+  {
+    "vertexFunction" : {
+      "name" : "payLaterCard_vertex",
+      "library" : "default"
+    },
+    "vertexDescriptor" : {
+      "attributes" : [
+        {
+          "index" : 0,
+          "format" : 29
+        },
+        {
+          "index" : 1,
+          "format" : 29,
+          "offset" : 8
+        }
+      ],
+      "layouts" : [
+        {
+          "index" : 0,
+          "stride" : 16
+        },
+        {
+          "index" : 0,
+          "stride" : 16
+        }
+      ]
+    },
+    "fragmentFunction" : {
+      "name" : "payLaterCard_fragment_overlay",
+      "library" : "default"
+    },
+    "type" : "MTLRenderPipelineDescriptor",
+    "depthAttachmentPixelFormat" : 252,
+    "colorAttachments" : [
+      {
+        "sourceRGBBlendFactor" : 4,
+        "destinationRGBBlendFactor" : 1,
+        "destinationAlphaBlendFactor" : 1,
+        "blendingEnabled" : 1,
+        "pixelFormat" : 80,
+        "index" : 0
+      }
+    ]
+  }
+]

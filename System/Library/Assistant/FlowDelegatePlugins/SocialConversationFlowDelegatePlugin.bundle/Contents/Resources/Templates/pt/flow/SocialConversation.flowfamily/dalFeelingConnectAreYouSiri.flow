@@ -1,0 +1,17 @@
+&
+ProjectdalFeelingConnectAreYouSirin
+Description_For when users ask Siri if it is feeling lonely or insecure. Part of 2020 feelings pilot revamp'
+CreationDate2022-10-19 10:53:08 PDT1
+	Copyright$(c) 2022 Apple. All rights reserved."A
+feelingr.SocialConversation#dalFeelingConnectAreYouSiriíinput"H
+followupr,SocialConversation#dalFeelingConnectFollowupífollowupInput"6
+decliner+SocialConversation#dalFeelingConnectDecline"=
+nobodyToTalkTor+SocialConversation#dalFeelingNobodyToTalkTo"3
+	trustSirir&SocialConversation#dalFeelingTrustSiri“2.0.7Ía
+inputZ2followup:yesZ2decline:noZ2	trustSiri:	trustSiriZ 2nobodyToTalkTo:nobodyToTalkToÍI
+followupInputZ2	trustSiri:	trustSiriZ 2nobodyToTalkTo:nobodyToTalkToÇ	
+feelingä,
+yesByesJ ecea9696f7674e4f3c26b5c354061c6aä/
+noBdeclineJ 986037a74074977680b87ad5e0db6e44äB
+nobodyToTalkToBnobodyToTalkToJ e0e4bfe125e814f5d81122b396c0e6a2ä4
+	trustSiriBtrustJ 38e4bfb7f169fc8ae799103b75440157

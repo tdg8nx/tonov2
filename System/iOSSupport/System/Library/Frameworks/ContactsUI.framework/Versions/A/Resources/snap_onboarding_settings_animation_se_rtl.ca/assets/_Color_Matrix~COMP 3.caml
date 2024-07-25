@@ -1,0 +1,319 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<caml xmlns="http://www.apple.com/CoreAnimation/1.0">
+	<LKScriptComponent name="_Color_Matrix~COMP">
+		<scriptObject src="_Color_Matrix~DATA.js"/>
+		<properties>
+			<subgroups>
+				<LKPropertyItem title="︙Label" key="_lbl" type_id="string" commitOnReturn="true"/>
+				<LKPropertyItem title="︙Details" key="_details" commitOnReturn="true" type_id="string" subtype_id="enum">
+					<enumNames>
+						<string value="————————————M—O—D—E————————————"/>
+						<string value=" "/>
+						<string value="COLOR MATRIX v22-03-09a"/>
+						<string value="Many Features Under Construction "/>
+						<string value=" "/>
+						<string value="————————————M—O—D—E————————————"/>
+						<string value=" "/>
+						<string value="◦ Output Disabled"/>
+						<string value="• Color Matrix 1"/>
+						<string value="• Color Matrix 2"/>
+						<string value="• Color Matrix 3"/>
+						<string value="• Color Matrix 4"/>
+						<string value="• Color Matrix 5"/>
+						<string value="• Color Matrix 6"/>
+						<string value="• Color Matrix 7"/>
+						<string value="• Color Matrix 8"/>
+						<string value="• Color Matrix 9"/>
+						<string value="• Vibrant Matrix"/>
+						<string value="• RE Matrix"/>
+						<string value="• Layer Keypath(s)"/>
+						<string value=" "/>
+						<string value="——————————A—C—T—I—O—N—S——————————"/>
+						<string value=" "/>
+						<string value="☰ Reset To Neutral Default Corrections"/>
+						<string value=" "/>
+						<string value="——————————P—R—E—S—E—T—S——————————"/>
+						<string value=" "/>
+						<string value="☰ Smooth Colorization (masked)"/>
+						<string value="☰ Smooth Highlight Padding (masked)"/>
+						<string value=" "/>
+						<string value="————D—O—C—U—M—E—N—T—A—T—I—O—N————"/>
+						<string value=" "/>
+						<string value=" "/>
+						<string value="OUTPUT "/>
+						<string value="tip:  "/>
+						<string value=" "/>
+						<string value="PRESERIVING MATRICES WHEN ASSIGNING MODES "/>
+						<string value="Use the popup to the upper right of a matrix filter to "/>
+						<string value="copy value. You can then set the mode and paste into the "/>
+						<string value="advanced RGB input matrix as a starting point. "/>
+						<string value=" "/>
+						<string value=" "/>
+						<string value=" "/>
+						<string value=" "/>
+						<string value=" "/>
+						<string value=" "/>
+						<string value=" "/>
+					</enumNames>
+				</LKPropertyItem>
+				<LKPropertyGroup title="︱Settings" expanded="false">
+					<subgroups>
+						<LKPropertyItem title="︙Contrast (ʟᴜᴍᴀ)" key="_lumaContrast" sliderMax="3" type_id="number" subtype_id="percentage" sliderMin="-1"/>
+						<LKPropertyItem title="︙Lightness (ʟᴜᴍᴀ)" key="_lightness" sliderMax="1" type_id="number" subtype_id="percentage" sliderMin="-1"/>
+						<LKPropertyItem title="︙Brightness (ʟᴜᴍᴀ)" key="_brightness" sliderMax="2" type_id="number" subtype_id="percentage" sliderMin="-2"/>
+						<LKPropertyItem title="︙Saturation" key="_saturation" sliderMax="3" type_id="number" subtype_id="percentage" sliderMin="-1"/>
+						<LKPropertyItem title="︙Hue" key="_hue" type_id="number" subtype_id="angle" sliderMin="-3.141592653589793" sliderMax="3.141592653589793"/>
+						<LKPropertyItem title="︙Solid Fill Color" key="_fill" type_id="Color"/>
+						<LKPropertyItem title="︙Mask Luma" key="_maskLuma" type_id="number" sliderMin="-1" sliderMax="1" expanded="false"/>
+					</subgroups>
+				</LKPropertyGroup>
+				<LKPropertyGroup title="︱Output" expanded="false">
+					<subgroups>
+						<LKPropertyItem title="︙Layer(s)" key="_lArr" type_id="array" subtype_id="Layer"/>
+						<LKPropertyItem title="︙Keys(s)" key="_kArr" type_id="array" subtype_id="string" commitOnReturn="true" fullWidth="1" lineCount="2"/>
+					</subgroups>
+				</LKPropertyGroup>
+				<LKPropertyGroup title="︱Advanced">
+					<subgroups>
+						<LKPropertyItem title= "︱Inspector" key="_usePreview" type_id="bool">
+							<subgroups>
+								<LKPropertyItem title="︙Images" key="_inspectors" type_id="array" subtype_id="Image"/>
+								<LKPropertyItem title= "︱PSD Safe" key="_psdOk" type_id="bool" disabled="true">
+									<subgroups>
+										<LKPropertyItem title="︙Print Mixer" key="_printPsdMixer" type_id="number" subtype_id="button"/>
+									</subgroups>
+								</LKPropertyItem>
+								<LKPropertyGroup title="︱Inspector Settings" expanded="false">
+									<subgroups>
+										<LKPropertyItem title="︙Details" key="_previewDetails" commitOnReturn="true" type_id="string" subtype_id="enum">
+											<enumNames>
+												<string value="• Render For MacOS"/>
+												<string value="• Render For iOS"/>
+												<string value="• Render For nOS"/>
+												<string value="• Render For tvOS"/>
+												<string value="• Render For RE"/>
+											</enumNames>
+										</LKPropertyItem>
+										<LKPropertyItem title="︙Order" key="_previewConfiguration" type_id="array" subtype_id="enum">
+											<enumNames>
+												<string value=""/>
+												<string value="RGB Curves"/>
+												<string value="RGB Curve Overlay"/>
+												<string value="RGB Channels"/>
+												<string value="RGB Channel Mix"/>
+												<string value="Spectrum Channels"/>
+												<string value="Spectrum To 0.00"/>
+												<string value="Spectrum To 0.25"/>
+												<string value="Spectrum To 0.50"/>
+												<string value="Spectrum To 0.75"/>
+												<string value="Spectrum To 1.00"/>
+												<string value="Spectrum"/>
+												<string value="YCC Curve"/>
+												<string value="YCC Channel"/>
+												<string value="YCC Channel Mix"/>
+											</enumNames>
+										</LKPropertyItem>
+										<LKPropertyItem title="︙Export To Layer" key="_previewToLayer" type_id="array" subtype_id="Layer"/>
+									</subgroups>
+								</LKPropertyGroup>
+							</subgroups>
+						</LKPropertyItem>
+						<LKPropertyItem title="︱CʙCʀ Luminance" key="_useComponentLuminance" type_id="bool">
+							<subgroups>
+								<LKPropertyItem title="︙Blue / Yellow" key="_blueYellowLumaContrast" type_id="number" sliderMin="-1" sliderMax="1"/>
+								<LKPropertyItem title="︙Red / Cyan" key="_redCyanLumaContrast" type_id="number" sliderMin="-1" sliderMax="1"/>
+							</subgroups>
+						</LKPropertyItem>
+						<LKPropertyItem title="︱CʙCʀ Brightness" key="_useComponentBrightness" type_id="bool">
+							<subgroups>
+								<LKPropertyItem title="︙Anti Yellows" key="_antiYellowBrightness" sliderMax="2" type_id="number" subtype_id="percentage" sliderMin="-2"/>
+								<LKPropertyItem title="︙Anti Cyans" key="_antiCyanBrightness" sliderMax="2" type_id="number" subtype_id="percentage" sliderMin="-2"/>
+							</subgroups>
+						</LKPropertyItem>
+						<LKPropertyItem title="︱CʙCʀ Saturation" key="_useComponentSaturation" type_id="bool">
+							<subgroups>
+								<LKPropertyItem title="︙Blue / Yellow" key="_blueYellowSaturation" sliderMax="3" type_id="number" subtype_id="percentage" sliderMin="-1"/>
+								<LKPropertyItem title="︙Red / Cyan" key="_redCyanSaturation" sliderMax="3" type_id="number" subtype_id="percentage" sliderMin="-1"/>
+							</subgroups>
+						</LKPropertyItem>
+						<LKPropertyItem title="︱CʙCʀ Hue" key="_useComponentHue" type_id="bool">
+							<subgroups>
+								<LKPropertyItem title="︙Blue / Yellow" key="_blueYellowHue" sliderMax="1" type_id="number" subtype_id="percentage" sliderMin="-1"/>
+								<LKPropertyItem title="︙Red / Cyan" key="_redCyanHue" sliderMax="1" type_id="number" subtype_id="percentage" sliderMin="-1"/>
+							</subgroups>
+						</LKPropertyItem>
+						<LKPropertyItem title="︱Modal Colorize" key="_useModalColorization" type_id="bool">
+							<subgroups>
+								<LKPropertyItem title="︙CʙCʀ Mode" key="_cbcrColor" type_id="Color"/>
+								<LKPropertyItem title="︙Multiply Mode" key="_multiplyColor" type_id="Color"/>
+								<LKPropertyItem title="︙Burn Mode" key="_burnColor" type_id="Color"/>
+								<LKPropertyItem title="︙Screen Mode" key="_screenColor" type_id="Color"/>
+								<LKPropertyItem title="︙Dodge Mode" key="_dodgeColor" type_id="Color"/>
+								<LKPropertyItem title="︙Hard Light" key="_hardLightColor" type_id="Color"/>
+								<LKPropertyItem title="︙Linear Light" key="_linearLightColor" type_id="Color"/>
+								<LKPropertyItem title="︙Linear Highs" key="_linearHighlights" type_id="Color"/>
+								<LKPropertyItem title="︙Linear Lows" key="_linearShadows" type_id="Color"/>
+								<LKPropertyItem title="︙Exclusion" key="_exclusionColor" type_id="Color"/>
+								<LKPropertyItem title="︙Masked Color" key="_maskedColor" type_id="Color"/>
+								<LKPropertyItem title="︙Alpha Factor" key="_colorAlphaFactor" sliderMax="3" type_id="number" subtype_id="percentage" sliderMin="-1"/>
+							</subgroups>
+						</LKPropertyItem>
+						<LKPropertyItem title="︱RGB Mask" key="_useMaskRGB" type_id="bool">
+							<subgroups>
+								<LKPropertyItem title="︙Mask Red" key="_maskRed" type_id="number" sliderMin="-1" sliderMax="1"/>
+								<LKPropertyItem title="︙Mask Green" key="_maskGreen" type_id="number" sliderMin="-1" sliderMax="1"/>
+								<LKPropertyItem title="︙Mask Blue" key="_maskBlue" type_id="number" sliderMin="-1" sliderMax="1"/>
+							</subgroups>
+						</LKPropertyItem>│
+						<LKPropertyItem title="︱Smooth Padding" key="_useSmoothPad" type_id="bool">
+							<subgroups>
+								<LKPropertyItem title="︙Pad  ₍ₘ₁₅ ₘ₂₅ ₘ₃₅₎" key="_padAmount" sliderMin="0" sliderMax="1" type_id="number"/>
+								<LKPropertyItem title="︙Bend  ₍ₘ₁₁ ₘ₂₂ ₘ₃₃₎" key="_padBend" sliderMin="0" sliderMax="1" type_id="number"/>
+								<LKPropertyItem title="︱Threshold ₍ₘ₄₄₎" key="_padThreshold" sliderMin="0" sliderMax="1" type_id="number">
+									<subgroups>
+										<LKPropertyItem title="︙Kr (0.2126₇₀₉)" key="_padKr" type_id="number" sliderMin="0" sliderMax="1"/>
+										<LKPropertyItem title="︙Kg (0.7152₇₀₉)" key="_padKg" type_id="number" sliderMin="0" sliderMax="1"/>
+									</subgroups>
+								</LKPropertyItem>
+							</subgroups>
+						</LKPropertyItem>
+						<LKPropertyItem title="︱Smooth Lift" key="_useSmoothLift" type_id="bool">
+							<subgroups>
+								<LKPropertyItem title="︙Lift  ₍ₘ₁₅ ₘ₂₅ ₘ₃₅₎" key="_liftAmount" sliderMin="0" sliderMax="1" type_id="number"/>
+								<LKPropertyItem title="︙Bend  ₍ₘ₁₁ ₘ₂₂ ₘ₃₃₎" key="_liftBend" sliderMin="0" sliderMax="1" type_id="number"/>
+								<LKPropertyItem title="︱Threshold ₍ₘ₄₄₎" key="_liftThreshold" sliderMin="0" sliderMax="1" type_id="number">
+									<subgroups>
+										<LKPropertyItem title="︙Kr (0.2126₇₀₉)" key="_liftKr" type_id="number" sliderMin="0" sliderMax="1"/>
+										<LKPropertyItem title="︙Kg (0.7152₇₀₉)" key="_liftKg" type_id="number" sliderMin="0" sliderMax="1"/>
+									</subgroups>
+								</LKPropertyItem>
+							</subgroups>
+						</LKPropertyItem>
+						<LKPropertyItem title="︱Custom Matrix" key="_useCustomMatrices" type_id="bool">
+							<subgroups>
+								<LKPropertyItem title="︙Cheat Sheet" key="_cheatSheet" type_id="string" subtype_id="enum">
+									<enumNames>
+										<string value="————————————————————————————————————————"/>
+										<string value="YCC CHEAT SHEET "/>
+										<string value=" "/>
+										<string value="m11: Luminance Percentage multiplier "/>
+										<string value="m12: Luminance In Non-Green Areas "/>
+										<string value="m13: Luminance In Non-Yellow Areas "/>
+										<string value="m14: Send Alpha Channel To Luminance "/>
+										<string value="m15: Add/Subtract Luminance "/>
+										<string value=" "/>
+										<string value="m21: Colorize Red/Green in Highlights and Non-Blue Colors "/>
+										<string value="m22: Colorize Red/Green in Non-Cyan Areas "/>
+										<string value="m23: Colorize Red/Green in Non-Yellow Areas "/>
+										<string value="m24: Send Alpha Channel To Red/Green "/>
+										<string value="m25: Colorize Red/Green "/>
+										<string value=" "/>
+										<string value="m31: Colorize Blue/Yellow in Highlights and Non-Red Colors "/>
+										<string value="m32: Colorize Blue/Yellow in Non-Cyan Areas "/>
+										<string value="m33: Colorize Blue/Yellow in Non-Yellow Areas "/>
+										<string value="m34: Send Alpha Channel To Blue/Yellow "/>
+										<string value="m35: Colorize Blue/Yellow "/>
+										<string value=" "/>
+										<string value="m41: Send Luminance Channel To Alpha Channel "/>
+										<string value="m42: Send Red/Green Channel To Alpha Channel "/>
+										<string value="m43: Send Blue/Yellow Channel To Alpha Channel "/>
+										<string value="m44: Alpha Channel Percentage multiplier "/>
+										<string value="m45: Add Alpha Constant "/>
+										<string value=" "/>
+										<string value="————————————————————————————————————————"/>
+										<string value="FILL CHEAT SHEET "/>
+										<string value=" "/>
+										<string value="m11: Red Channel Percentage multiplier "/>
+										<string value="m12: Send Green Channel To Red Channel "/>
+										<string value="m13: Send Blue Channel To Red Channel "/>
+										<string value="m14: Send Alpha Channel To Red Channel "/>
+										<string value="m15: Add Red Constant "/>
+										<string value=" "/>
+										<string value="m21: Send Red Channel To Green Channel "/>
+										<string value="m22: Green Channel Percentage multiplier "/>
+										<string value="m23: Send Blue Channel To Green Channel "/>
+										<string value="m24: Send Alpha Channel To Green Channel "/>
+										<string value="m25: Add Green Constant "/>
+										<string value=" "/>
+										<string value="m31: Send Red Channel To Blue Channel "/>
+										<string value="m32: Send Green Channel To Blue Channel "/>
+										<string value="m33: Blue Channel Percentage multiplier "/>
+										<string value="m34: Send Alpha Channel To Blue Channel "/>
+										<string value="m35: Add Blue Constant "/>
+										<string value=" "/>
+										<string value="m41: Send Red Channel To Alpha Channel "/>
+										<string value="m42: Send Green Channel To Alpha Channel "/>
+										<string value="m43: Send Blue Channel To Alpha Channel "/>
+										<string value="m44: Alpha Channel Percentage multiplier "/>
+										<string value="m45: Add Alpha Constant "/>
+										<string value=" "/>
+										<string value="————————————————————————————————————————"/>
+									</enumNames>
+								</LKPropertyItem>
+								<LKPropertyGroup title="︱RGB Input Matrix ↓" expanded="false">
+									<subgroups>
+										<LKPropertyItem title="    " key="_inputMatrix" type_id="Size" subtype_id="colorMatrix"/>
+									</subgroups>
+								</LKPropertyGroup>
+								<LKPropertyGroup title="︱Pre YCC Matrix ↓" expanded="false">
+									<subgroups>
+										<LKPropertyItem title="    " key="_preYCCMatrix" type_id="Size" subtype_id="colorMatrix"/>
+									</subgroups>
+								</LKPropertyGroup>
+								<LKPropertyGroup title="︱Post YCC Matrix ↓" expanded="false">
+									<subgroups>
+										<LKPropertyItem title="    " key="_postYCCMatrix" type_id="Size" subtype_id="colorMatrix"/>
+									</subgroups>
+								</LKPropertyGroup>
+								<LKPropertyGroup title="︱Pre RGB Matrix ↓" expanded="false">
+									<subgroups>
+										<LKPropertyItem title="    " key="_preRGBMatrix" type_id="Size" subtype_id="colorMatrix"/>
+									</subgroups>
+								</LKPropertyGroup>
+								<LKPropertyGroup title="︱Post RGB Matrix ↓" expanded="false">
+									<subgroups>
+										<LKPropertyItem title="    " key="_postRGBMatrix" type_id="Size" subtype_id="colorMatrix"/>
+									</subgroups>
+								</LKPropertyGroup>
+								<LKPropertyGroup title="︱RGB Output Matrix ↓" expanded="false">
+									<subgroups>
+										<LKPropertyItem title="(read only)" key="_outputMatrix" type_id="Size" subtype_id="colorMatrix"/>
+									</subgroups>
+								</LKPropertyGroup>
+							</subgroups>
+						</LKPropertyItem>
+						<LKPropertyGroup title="︱Scripting">
+							<subgroups>
+								<LKPropertyItem title="︙Global Object"  key="_globalPath" type_id="string" commitOnReturn="true"/>
+								<LKPropertyGroup title="︱Eval">
+									<subgroups>
+										<LKPropertyItem title="" key="_eval" type_id="string" commitOnReturn="1" fullWidth="1" lineCount="12"/>
+										<LKPropertyItem title="Run Again" key="_runEval" type_id="number" subtype_id="button"/>
+									</subgroups>
+								</LKPropertyGroup>
+							</subgroups>
+						</LKPropertyGroup>
+						<LKPropertyGroup title="︱Preferences">
+							<subgroups>
+								<LKPropertyItem title="︱Custom YCC" key="_useCustomYcc" type_id="bool">
+									<subgroups>
+										<LKPropertyItem title="︙Kʀ (0.2126₇₀₉)" key="_Kr" sliderMax=".4252" type_id="number" sliderMin="0"/>
+										<LKPropertyItem title="︙Kɢ (0.7152₇₀₉)" key="_Kg" sliderMax="1.4304" type_id="number" sliderMin="0"/>
+										<LKPropertyItem title="︙Kʙ (0.0722₇₀₉)" key="_Kb" sliderMax=".1444" type_id="number" sliderMin="0"/>
+										<LKPropertyItem title="︙Print Matrices" key="_printMatrices" type_id="number" subtype_id="button"/>
+									</subgroups>
+								</LKPropertyItem>
+								<LKPropertyItem title="︱Quantize" key="_useQuantize" type_id="bool">
+									<subgroups>
+										<LKPropertyItem title="︙Divisor" key="_quantizeSteps" type_id="number" sliderMin="0" sliderMax="1000"/>
+										<LKPropertyItem title="︙Zero Thresh" key="_zeroThreshold" type_id="number" sliderMin="0" sliderMax=".0001"/>
+									</subgroups>
+								</LKPropertyItem>
+							</subgroups>
+						</LKPropertyGroup>
+					</subgroups>
+				</LKPropertyGroup>
+			</subgroups>
+		</properties>
+	</LKScriptComponent>
+</caml>

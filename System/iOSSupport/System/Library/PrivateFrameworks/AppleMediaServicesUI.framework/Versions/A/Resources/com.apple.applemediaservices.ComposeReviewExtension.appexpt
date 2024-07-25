@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>com.apple.applemediaservices.extensions.compose-review</key>
+	<dict>
+        <key>EXPresentsUserInterface</key>
+        <true/>
+        <key>EXExtensionPointIsPublic</key>
+        <false/>
+        <key>EXSupportsCatalyst</key>
+        <true/>
+        <key>EXRequiredEntitlements</key>
+        <dict>
+            <key>com.apple.private.applemediaservices</key>
+            <true/>
+        </dict>
+        <key>EXSupportedPlatforms</key>
+        <array>
+            <string>iOS</string>
+            <string>macOS</string>
+            <string>macCatalyst</string>
+            <string>xrOS</string>
+            <string>visionOS</string>
+        </array>
+    </dict>
+</dict>
+</plist>
