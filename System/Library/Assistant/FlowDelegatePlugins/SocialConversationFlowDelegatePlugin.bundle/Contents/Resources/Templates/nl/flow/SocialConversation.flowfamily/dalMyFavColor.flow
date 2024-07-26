@@ -1,0 +1,46 @@
+
+ProjectdalMyFavColor:
+Description+Users ask Siri what is their favorite color'
+CreationDate2023-01-31 16:24:53 PDT1
+	Copyright$(c) 2022 Apple. All rights reserved."@
+dalMyFavColorr SocialConversation#dalMyFavColor’my_fav_color"@
+
+siri_guessr#SocialConversation#dalGuessFavColor’my_fav_color"<
+favColor_norSocialConversation#favColor_no’my_fav_color"B
+favColor_iLiker!SocialConversation#favColor_iLike’my_fav_color"6
+nice_choicer'SocialConversation#dalLikeOtherColorFav"5
+dalLikeBlackFavr"SocialConversation#dalLikeBlackFav"3
+dalLikeBlueFavr!SocialConversation#dalLikeBlueFav"5
+dalLikeGreenFavr"SocialConversation#dalLikeGreenFav"7
+dalLikeOrangeFavr#SocialConversation#dalLikeOrangeFav"3
+dalLikePinkFavr!SocialConversation#dalLikePinkFav"7
+dalLikePurpleFavr#SocialConversation#dalLikePurpleFav"9
+dalLikeRainbowFavr$SocialConversation#dalLikeRainbowFav"1
+dalLikeRedFavr SocialConversation#dalLikeRedFav"5
+dalLikeWhiteFavr"SocialConversation#dalLikeWhiteFav"7
+dalLikeYellowFavr#SocialConversation#dalLikeYellowFav"9
+favColor_dontKnowr$SocialConversation#favColor_dontKnowÒ2.0.7ê«
+my_fav_colorZ2
+siri_guess:guessZ2
+siri_guess:
+guessAgainZ2favColor_iLike:iLikeZ2favColor_no:noZ2nice_choice:yesZ"2dalLikeBlackFav:dalLikeBlackFavZ 2dalLikeBlueFav:dalLikeBlueFavZ"2dalLikeGreenFav:dalLikeGreenFavZ$2dalLikeOrangeFav:dalLikeOrangeFavZ#2nice_choice:dalLikeOtherColorFavZ 2dalLikePinkFav:dalLikePinkFavZ$2dalLikePurpleFav:dalLikePurpleFavZ&2dalLikeRainbowFav:dalLikeRainbowFavZ2dalLikeRedFav:dalLikeRedFavZ"2dalLikeWhiteFav:dalLikeWhiteFavZ$2dalLikeYellowFav:dalLikeYellowFavZ2favColor_dontKnow:dontKnow‚
+dalMyFavColorŠD
+dalLikeBlackFavBdalLikeBlackFavJ bc9fd85d1b358a0a1e8b618ca043189fŠB
+dalLikeBlueFavBdalLikeBlueFavJ 995c484979ea1fc648c3a48d242a786eŠD
+dalLikeGreenFavBdalLikeGreenFavJ 034a69e31a560a88712a55e247ae1db9ŠF
+dalLikeOrangeFavBdalLikeOrangeFavJ 865faa4f9a16d681604f09511a43a2e1ŠN
+dalLikeOtherColorFavBdalLikeOtherColorFavJ ab7b385eedc4d6c9b2d3aa10fc1fce49ŠB
+dalLikePinkFavBdalLikePinkFavJ bc84b5dbb732c6b7cdf1192c22e35ec6ŠF
+dalLikePurpleFavBdalLikePurpleFavJ a278039d8263f164202fdde536f927c9ŠH
+dalLikeRainbowFavBdalLikeRainbowFavJ da170302b04779bc00dd73a5e3c8d7e9Š@
+dalLikeRedFavBdalLikeRedFavJ f3662bea3457a08ddea672ffe2f6b1e1ŠD
+dalLikeWhiteFavBdalLikeWhiteFavJ 1a0d1d2566aa5b5964ca45215934ee36ŠF
+dalLikeYellowFavBdalLikeYellowFavJ 07ff2cb59ce128e41ea9f9b1a164aabfŠ0
+guessBguessJ 5cc9012788422462356c88091659bec0Š:
+
+guessAgainB
+guessAgainJ 52a3c3fef40c17641a260d88ae339d4cŠ*
+noBnoJ c782ff06a5bbc8364611adb6e5f8490dŠ0
+iLikeBiLikeJ 7c7df186aa7599a66dba87f4b46946ffŠ,
+yesByesJ 9a9713e1436c70dc4df9ce71f9fda9ebŠ6
+dontKnowBdontKnowJ 143fa06b127a15de740e44584db3d922

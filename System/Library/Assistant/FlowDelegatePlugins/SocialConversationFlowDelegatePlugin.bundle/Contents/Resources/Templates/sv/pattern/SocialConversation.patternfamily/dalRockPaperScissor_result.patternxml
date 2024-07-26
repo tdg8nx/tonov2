@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<pattern xmlns="urn:apple:names:siri:pattern:1.0" type="pattern.SimpleResult" id="SocialConversation#dalRockPaperScissor_result">
+    <settings>
+        <setting name="printSupportingDialogInDisplayModes" value="true"/>
+    </settings>
+    <group name="Sash">
+        <visual id="SocialConversation#Sash"/>
+    </group>
+    <group name="Item">
+        <visual id="SocialConversation#dalRockPaperScissor_result"/>
+    </group>
+    <group name="Prompt">
+        <dialog id="SocialConversation#dalRockPaperScissor_result"/>
+    </group>
+</pattern>

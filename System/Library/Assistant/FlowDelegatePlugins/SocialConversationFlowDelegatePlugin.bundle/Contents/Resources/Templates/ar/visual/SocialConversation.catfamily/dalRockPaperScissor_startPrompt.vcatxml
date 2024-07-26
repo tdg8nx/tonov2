@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<cat xmlns="urn:apple:names:siri:visualcat:2.0" id="SocialConversation#dalRockPaperScissor_startPrompt">
+    <parameters>
+        <parameter name="rockText" type="dialog.String" valueFromCat="SocialConversation#dalRockPaperScissor_snippets#rock"/>
+        <parameter name="rockImage" type="dialog.String"/>
+        <parameter name="rockAction" type="dialog.String"/>
+        <parameter name="paperText" type="dialog.String" valueFromCat="SocialConversation#dalRockPaperScissor_snippets#paper"/>
+        <parameter name="paperImage" type="dialog.String"/>
+        <parameter name="paperAction" type="dialog.String"/>
+        <parameter name="scissorsText" type="dialog.String" valueFromCat="SocialConversation#dalRockPaperScissor_snippets#scissors"/>
+        <parameter name="scissorsImage" type="dialog.String"/>
+        <parameter name="scissorsAction" type="dialog.String"/>
+    </parameters>
+
+    <conditions>
+      <condition name="RockScissorsPaper" note="Locales where they say Rock, Scissors, then Paper.">
+        <or>
+          <expression name="device.siriLocale" op="startswith" value="'da'"/>
+          <expression name="device.siriLocale" op="startswith" value="'ja'"/>
+          <expression name="device.siriLocale" op="startswith" value="'sv'"/>
+          <expression name="device.siriLocale" op="startswith" value="'zh-CN'"/>
+        </or>
+      </condition>
+      <condition name="ScissorsRockPaper" note="Locales where they say Scissors, Rock, then Paper.">
+        <or>
+          <expression name="device.siriLocale" op="startswith" value="'de'"/>
+          <expression name="device.siriLocale" op="startswith" value="'ko'"/>
+          <expression name="device.siriLocale" op="startswith" value="'zh-TW'"/>
+        </or>
+      </condition>
+      <condition name="PaperScissorsRock" note="Locales where they say Paper, Scissors, then Rock.">
+        <or>
+          <expression name="device.siriLocale" op="startswith" value="'it'"/>
+          <expression name="device.siriLocale" op="startswith" value="'zh-HK'"/>
+        </or>
+      </condition>
+      <condition name="RockPaperScissors" note="The default order is Rock, Paper, then Scissors, if none of the above conditions match.">
+        <and>
+          <not>
+            <sub-condition name="RockScissorsPaper"/>
+          </not>
+          <not>
+            <sub-condition name="ScissorsRockPaper"/>
+          </not>
+          <not>
+            <sub-condition name="PaperScissorsRock"/>
+          </not>
+        </and>
+      </condition>
+      <condition name="RockBeforeScissors" note="Should rock appear before scissors in the order?">
+        <or>
+          <sub-condition name="RockScissorsPaper"/>
+          <sub-condition name="RockPaperScissors"/>
+        </or>
+      </condition>
+      <condition name="PaperBeforeScissors" note="Should paper appear before scissors in the order?">
+        <or>
+          <sub-condition name="PaperScissorsRock"/>
+          <sub-condition name="RockPaperScissors"/>
+        </or>
+      </condition>
+      <condition name="RockAfterScissors" note="Should rock appear after scissors in the order?">
+        <or>
+          <sub-condition name="ScissorsRockPaper"/>
+          <sub-condition name="PaperScissorsRock"/>
+        </or>
+      </condition>
+      <condition name="PaperAfterScissors" note="Should paper appear after scissors in the order?">
+        <or>
+          <sub-condition name="RockScissorsPaper"/>
+          <sub-condition name="ScissorsRockPaper"/>
+        </or>
+      </condition>
+    </conditions>
+    
+    <response>
+        <hide-redacted-elements>false</hide-redacted-elements>
+        <groups>
+            <id>Rock</id>
+            <components>
+                <value>
+                    <simple-item-rich>
+                        <text-1>
+                            <text-elements>
+                                <value>
+                                    <plain><var name="rockText"/></plain>
+                                </value>
+                            </text-elements>
+                        </text-1>
+                        <thumbnail>
+                            <visuals>
+                                <element>
+                                    <image-element>
+                                        <sources>
+                                            <value>
+                                                <data>
+                                                    <png-data><var name="rockImage"/></png-data>
+                                                </data>
+                                            </value>
+                                        </sources>
+                                    </image-element>
+                                </element>
+                            </visuals>
+                        </thumbnail>
+                        <action>
+                            <actions>
+                                <command>
+                                    <value>
+                                        <direct-invocation><var name="rockAction"/></direct-invocation>
+                                    </value>
+                                </command>
+                            </actions>
+                        </action>
+                    </simple-item-rich>
+                </value>
+            </components>
+        </groups>
+        <groups>
+            <id>Paper</id>
+            <components>
+                <value>
+                    <simple-item-rich>
+                        <text-1>
+                            <text-elements>
+                                <value>
+                                    <plain><var name="paperText"/></plain>
+                                </value>
+                            </text-elements>
+                        </text-1>
+                        <thumbnail>
+                            <visuals>
+                                <element>
+                                    <image-element>
+                                        <sources>
+                                            <value>
+                                                <data>
+                                                    <png-data><var name="paperImage"/></png-data>
+                                                </data>
+                                            </value>
+                                        </sources>
+                                    </image-element>
+                                </element>
+                            </visuals>
+                        </thumbnail>
+                        <action>
+                            <actions>
+                                <command>
+                                    <value>
+                                        <direct-invocation><var name="paperAction"/></direct-invocation>
+                                    </value>
+                                </command>
+                            </actions>
+                        </action>
+                    </simple-item-rich>
+                </value>
+            </components>
+        </groups>
+        <groups>
+            <id>Scissors</id>
+            <components>
+                <value>
+                    <simple-item-rich>
+                        <text-1>
+                            <text-elements>
+                                <value>
+                                    <plain><var name="scissorsText"/></plain>
+                                </value>
+                            </text-elements>
+                        </text-1>
+                        <thumbnail>
+                            <visuals>
+                                <element>
+                                    <image-element>
+                                        <sources>
+                                            <value>
+                                                <data>
+                                                    <png-data><var name="scissorsImage"/></png-data>
+                                                </data>
+                                            </value>
+                                        </sources>
+                                    </image-element>
+                                </element>
+                            </visuals>
+                        </thumbnail>
+                        <action>
+                            <actions>
+                                <command>
+                                    <value>
+                                        <direct-invocation><var name="scissorsAction"/></direct-invocation>
+                                    </value>
+                                </command>
+                            </actions>
+                        </action>
+                    </simple-item-rich>
+                </value>
+            </components>
+        </groups>
+        <sections condition="RockBeforeScissors">
+            <level-of-detail>FULL</level-of-detail>
+            <level-of-detail>SUPPORTING</level-of-detail>
+            <idioms>CAR</idioms>
+            <is-hidden-on-idioms>true</is-hidden-on-idioms>
+            <component-list>
+                <value>
+                    <group-id>Rock</group-id>
+                </value>
+            </component-list>
+        </sections>
+        <sections condition="PaperBeforeScissors">
+            <level-of-detail>FULL</level-of-detail>
+            <level-of-detail>SUPPORTING</level-of-detail>
+            <idioms>CAR</idioms>
+            <is-hidden-on-idioms>true</is-hidden-on-idioms>
+            <component-list>
+                <value>
+                    <group-id>Paper</group-id>
+                </value>
+            </component-list>
+        </sections>
+        <sections>
+            <level-of-detail>FULL</level-of-detail>
+            <level-of-detail>SUPPORTING</level-of-detail>
+            <idioms>CAR</idioms>
+            <is-hidden-on-idioms>true</is-hidden-on-idioms>
+            <component-list>
+                <value>
+                    <group-id>Scissors</group-id>
+                </value>
+            </component-list>
+        </sections>
+        <sections condition="RockAfterScissors">
+            <level-of-detail>FULL</level-of-detail>
+            <level-of-detail>SUPPORTING</level-of-detail>
+            <idioms>CAR</idioms>
+            <is-hidden-on-idioms>true</is-hidden-on-idioms>
+            <component-list>
+                <value>
+                    <group-id>Rock</group-id>
+                </value>
+            </component-list>
+        </sections>
+        <sections condition="PaperAfterScissors">
+            <level-of-detail>FULL</level-of-detail>
+            <level-of-detail>SUPPORTING</level-of-detail>
+            <idioms>CAR</idioms>
+            <is-hidden-on-idioms>true</is-hidden-on-idioms>
+            <component-list>
+                <value>
+                    <group-id>Paper</group-id>
+                </value>
+            </component-list>
+        </sections>
+    </response>
+</cat>

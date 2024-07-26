@@ -1,0 +1,1099 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<caml xmlns="http://www.apple.com/CoreAnimation/1.0">
+  <CALayer allowsEdgeAntialiasing="1" allowsGroupOpacity="1" bounds="0 0 1100 1100" contentsFormat="RGBA8" duration="10" geometryFlipped="1" name="Root Layer" position="550 550" repeatCount="inf">
+    <backgroundColor opacity="0" value="1 1 1"/>
+    <sublayers>
+      <CALayer allowsEdgeAntialiasing="1" allowsGroupOpacity="1" bounds="0 0 2556 2556" contentsFormat="RGBA8" name="SNaP" position="550 550" transform="scale(0.43, 0.43, 1)">
+	<sublayers>
+	  <CALayer allowsEdgeAntialiasing="1" allowsGroupOpacity="1" bounds="0 0 2556 2556" contentsFormat="RGBA8" name="Content" position="1278 1278">
+	    <mask allowsEdgeAntialiasing="1" allowsGroupOpacity="1" backgroundColor="1.011 0.1491 -0.02277" bounds="0 0 2556 2556" contentsFormat="RGBA8" cornerCurve="continuous" masksToBounds="0" name="Mask" position="1278 1278">
+	      <animations>
+		<p key="animation-6" type="CASpringAnimation" keyPath="bounds.size.height" beginTime="1e-100" duration="1.5" removedOnCompletion="0">
+		  <fromValue type="integer" value="2556"/>
+		  <toValue type="integer" value="2556"/>
+		</p>
+		<p key="animation-4" type="CASpringAnimation" damping="50" mass="2" stiffness="300" keyPath="cornerRadius" autoreverses="0" beginTime="1e-100" duration="1.5" preferredFrameRateRangeMaximum="0" preferredFrameRateRangeMinimum="0" preferredFrameRateRangePreferred="0" removedOnCompletion="0" repeatCount="0" timeOffset="0">
+		  <fromValue type="integer" value="1278"/>
+		  <toValue type="integer" value="1278"/>
+		</p>
+		<p key="animation-5" type="CASpringAnimation" damping="50" mass="2" stiffness="300" keyPath="bounds.size.width" autoreverses="0" beginTime="1e-100" duration="1.5" preferredFrameRateRangeMaximum="0" preferredFrameRateRangeMinimum="0" preferredFrameRateRangePreferred="0" removedOnCompletion="0" repeatCount="0" timeOffset="0">
+		  <fromValue type="integer" value="2556"/>
+		  <toValue type="integer" value="2556"/>
+		</p>
+		<p key="animation-7" type="CASpringAnimation" damping="50" mass="2" stiffness="300" keyPath="bounds.size.height" beginTime="1.5" duration="1" removedOnCompletion="0">
+		  <fromValue type="integer" value="2556"/>
+		  <toValue type="integer" value="2556"/>
+		</p>
+		<animation type="CASpringAnimation" damping="50" mass="2" stiffness="300" keyPath="bounds.size.width" autoreverses="0" beginTime="1.5" duration="1" preferredFrameRateRangeMaximum="0" preferredFrameRateRangeMinimum="0" preferredFrameRateRangePreferred="0" removedOnCompletion="0" repeatCount="0" timeOffset="0">
+		  <fromValue type="integer" value="2556"/>
+		  <toValue type="integer" value="1437"/>
+		</animation>
+		<p key="animation-1" type="CASpringAnimation" damping="50" mass="2" stiffness="300" keyPath="cornerRadius" autoreverses="0" beginTime="1.5" duration="1" preferredFrameRateRangeMaximum="0" preferredFrameRateRangeMinimum="0" preferredFrameRateRangePreferred="0" removedOnCompletion="0" repeatCount="0" timeOffset="0">
+		  <fromValue type="integer" value="1278"/>
+		  <toValue type="integer" value="30"/>
+		</p>
+		<p key="animation-8" type="CASpringAnimation" damping="50" mass="2" stiffness="300" keyPath="bounds.size.height" beginTime="2.5" duration="6.5" removedOnCompletion="0">
+		  <fromValue type="integer" value="2556"/>
+		  <toValue type="integer" value="2556"/>
+		</p>
+		<p key="animation-2" type="CASpringAnimation" damping="50" mass="2" stiffness="300" keyPath="cornerRadius" beginTime="2.5" duration="6.5" removedOnCompletion="0">
+		  <fromValue type="integer" value="30"/>
+		  <toValue type="integer" value="30"/>
+		</p>
+		<p key="animation-3" type="CASpringAnimation" keyPath="bounds.size.width" beginTime="2.5" duration="6.5" removedOnCompletion="0">
+		  <fromValue type="integer" value="1437"/>
+		  <toValue type="integer" value="1437"/>
+		</p>
+		<p key="animation-9" type="CASpringAnimation" damping="50" mass="2" stiffness="300" keyPath="cornerRadius" autoreverses="0" beginTime="9" duration="1" preferredFrameRateRangeMaximum="0" preferredFrameRateRangeMinimum="0" preferredFrameRateRangePreferred="0" removedOnCompletion="0" repeatCount="0" timeOffset="0">
+		  <fromValue type="integer" value="30"/>
+		  <toValue type="integer" value="1278"/>
+		</p>
+		<p key="animation-10" type="CASpringAnimation" damping="50" mass="2" stiffness="300" keyPath="bounds.size.width" autoreverses="0" beginTime="9" duration="1" preferredFrameRateRangeMaximum="0" preferredFrameRateRangeMinimum="0" preferredFrameRateRangePreferred="0" removedOnCompletion="0" repeatCount="0" timeOffset="0">
+		  <fromValue type="integer" value="1437"/>
+		  <toValue type="integer" value="2556"/>
+		</p>
+		<p key="animation-11" type="CASpringAnimation" damping="50" mass="2" stiffness="300" keyPath="bounds.size.height" beginTime="9" duration="1" removedOnCompletion="0">
+		  <fromValue type="integer" value="2556"/>
+		  <toValue type="integer" value="2556"/>
+		</p>
+	      </animations>
+	    </mask>
+	    <sublayers>
+	      <CALayer allowsEdgeAntialiasing="1" allowsGroupOpacity="1" bounds="0 0 1179 2556" contentsFormat="RGBA8" hidden="0" name="Tap to Meet" position="1278.999999999998 1848">
+		<sublayers>
+		  <CALayer id="TTM.png" allowsEdgeAntialiasing="1" allowsGroupOpacity="1" bounds="0 0 1437 2556" contentsFormat="RGBA8" name="TTM.png" position="589.574126809676 1278"/>
+		  <CAGradientLayer id="#1" allowsEdgeAntialiasing="1" allowsGroupOpacity="1" allowsHitTesting="0" bounds="0 0 1437 2556.540832519531" contentsFormat="RGBA8" hidden="0" name="Extreme White Padding Gridient" position="589.500000000002 1277.729583740234">
+		    <colors>
+		      <CGColor value="0 0 0"/>
+		      <CGColor opacity="0" value="0 0 0"/>
+		    </colors>
+		    <filters>
+		      <CAFilter filter="vibrantColorMatrix" name="vibrantColorMatrix 1" inputColorMatrix="matrix(0.718 -0.048 -0.005 0 0.054 -0.014 0.685 -0.005 0 0.054 -0.014 -0.048 0.727 0 0.054 0.213 0.715 0.072 -0.75 0)"/>
+		    </filters>
+		    <scriptComponents>
+		      <LKScriptComponentInstance name="_Color_Matrix~COMP">
+			<component id="#4" src="assets/_Color_Matrix~COMP%203.caml"/>
+			<values>
+			  <_Kb type="real" value="0.0722"/>
+			  <_Kg type="real" value="0.7152"/>
+			  <_Kr type="real" value="0.2126"/>
+			  <_antiCyanBrightness type="integer" value="0"/>
+			  <_antiYellowBrightness type="integer" value="0"/>
+			  <_blueYellowHue type="integer" value="0"/>
+			  <_blueYellowLumaContrast type="integer" value="0"/>
+			  <_blueYellowSaturation type="integer" value="1"/>
+			  <_brightness type="integer" value="0"/>
+			  <_burnColor type="CGColor" opacity="0" value="0 0.5 1"/>
+			  <_cbcrColor type="CGColor" opacity="0" value="0 0.5 1"/>
+			  <_colorAlphaFactor type="integer" value="1"/>
+			  <_details type="string" value="• Vibrant Matrix"/>
+			  <_dodgeColor type="CGColor" opacity="0" value="0 0.5 1"/>
+			  <_eval type="string" value="// evalDoc()"/>
+			  <_exclusionColor type="CGColor" opacity="0" value="0 0.5 1"/>
+			  <_fill type="CGColor" opacity="0" value="0 0.5 1"/>
+			  <_globalPath type="string" value="globalThis._Color_Matrix_COMP = 	findLayer(&apos;Extreme White Padding Gridient&apos;).valueForKeyPath(		&apos;scriptComponents._Color_Matrix~COMP.globalThis&apos;)"/>
+			  <_hardLightColor type="CGColor" opacity="0" value="0 0.5 1"/>
+			  <_hue type="integer" value="0"/>
+			  <_inspectors type="NSArray">
+			    <CGImage/>
+			  </_inspectors>
+			  <_lArr type="NSArray">
+			    <CAGradientLayer object="#1"/>
+			  </_lArr>
+			  <_liftAmount type="real" value="0.1"/>
+			  <_liftBend type="real" value="0.7"/>
+			  <_liftKg type="real" value="0.333333"/>
+			  <_liftKr type="real" value="0.333333"/>
+			  <_liftThreshold type="integer" value="0"/>
+			  <_lightness type="integer" value="0"/>
+			  <_linearHighlights type="CGColor" opacity="0" value="0 0.5 1"/>
+			  <_linearLightColor type="CGColor" opacity="0" value="0 0.5 1"/>
+			  <_linearShadows type="CGColor" opacity="0" value="0 0.5 1"/>
+			  <_lumaContrast type="integer" value="1"/>
+			  <_maskBlue type="integer" value="0"/>
+			  <_maskGreen type="integer" value="0"/>
+			  <_maskLuma type="integer" value="0"/>
+			  <_maskRed type="integer" value="0"/>
+			  <_maskedColor type="CGColor" opacity="0" value="0 0.5 1"/>
+			  <_multiplyColor type="CGColor" opacity="0" value="0 0.5 1"/>
+			  <_padAmount type="real" value="0.07"/>
+			  <_padBend type="real" value="0.2506"/>
+			  <_padKg type="real" value="0.7152"/>
+			  <_padKr type="real" value="0.2126"/>
+			  <_padThreshold type="real" value="0.75"/>
+			  <_previewConfiguration type="NSArray">
+			    <string value="RGB Curves"/>
+			  </_previewConfiguration>
+			  <_previewToLayer type="NSArray"/>
+			  <_printPsdMixer type="integer" value="0"/>
+			  <_psdOk type="integer" value="1"/>
+			  <_quantizeSteps type="integer" value="1000"/>
+			  <_redCyanHue type="integer" value="0"/>
+			  <_redCyanLumaContrast type="integer" value="0"/>
+			  <_redCyanSaturation type="integer" value="1"/>
+			  <_saturation type="real" value="1.1"/>
+			  <_screenColor type="CGColor" opacity="0" value="0 0.5 1"/>
+			  <_useComponentBrightness type="integer" value="0"/>
+			  <_useComponentHue type="integer" value="0"/>
+			  <_useComponentLuminance type="integer" value="0"/>
+			  <_useComponentSaturation type="integer" value="0"/>
+			  <_useCustomMatrices type="integer" value="0"/>
+			  <_useCustomYcc type="integer" value="0"/>
+			  <_useMaskRGB type="integer" value="0"/>
+			  <_useModalColorization type="integer" value="0"/>
+			  <_usePreview type="integer" value="1"/>
+			  <_useQuantize type="integer" value="1"/>
+			  <_useSmoothLift type="integer" value="0"/>
+			  <_useSmoothPad type="integer" value="0"/>
+			  <_zeroThreshold type="integer" value="0"/>
+			</values>
+		      </LKScriptComponentInstance>
+		    </scriptComponents>
+		  </CAGradientLayer>
+		  <CALayer allowsEdgeAntialiasing="1" allowsGroupOpacity="1" bounds="0 0 1179 2556" contentsFormat="RGBA8" name="UI" position="589 1278">
+		    <sublayers>
+		      <CALayer allowsEdgeAntialiasing="1" allowsGroupOpacity="1" bounds="0 0 1437 2556" contentsFormat="RGBA8" name="BTM_BTN.png" position="590.162790697676 1276.604651162791" shadowOffset="0 0" shadowOpacity="0.5" shadowRadius="300">
+			<contents type="CGImage" src="assets/SE_BTM_BTN.png"/>
+		      </CALayer>
+		      <CALayer allowsEdgeAntialiasing="1" allowsGroupOpacity="1" bounds="0 0 1179 2556" contentsFormat="RGBA8" name="Labels" position="589.5 1278">
+			<mask allowsEdgeAntialiasing="1" allowsGroupOpacity="1" bounds="0 0 1179 2556" contentsFormat="RGBA8" name="Mask" position="589.499999999999 1277.999999999998">
+			  <sublayers>
+			    <CALayer allowsEdgeAntialiasing="1" allowsGroupOpacity="1" bounds="0 0 1437 2556" contentsFormat="RGBA8" name="BTM_Text Copy.png" position="590.162790697677 1276.604651162793">
+			      <contents type="CGImage" src="assets/SE_BTM_Text%20Copy.png"/>
+			    </CALayer>
+			    <CALayer allowsEdgeAntialiasing="1" allowsGroupOpacity="1" bounds="0 0 1437 2556" contentsFormat="RGBA8" name="BTM_Handle.png" position="589.500000000001 1278.000000000002">
+			      <contents type="CGImage" src="assets/SE_BTM_Handle.png"/>
+			    </CALayer>
+			  </sublayers>
+			</mask>
+			<sublayers>
+			  <CABackdropLayer id="#3" allowsEdgeAntialiasing="1" allowsGroupOpacity="1" allowsHitTesting="0" bounds="0 0 1437 2556" contentsFormat="RGBA8" hidden="0" name="Backdrop Layer 10" position="589.5 1278">
+			    <filters>
+			      <CAFilter filter="colorMatrix" name="colorMatrix" inputColorMatrix="matrix(0.787 -0.715 -0.072 0 0.925 -0.213 0.285 -0.072 0 0.925 -0.213 -0.715 0.928 0 0.925 0 0 0 1 0)"/>
+			      <CAFilter filter="gaussianBlur" name="gaussianBlur" inputRadius="24" inputQuality="low" inputNormalizeEdges="1" inputHardEdges="1" inputDither="0"/>
+			    </filters>
+			    <scriptComponents>
+			      <LKScriptComponentInstance name="_Color_Matrix~COMP">
+				<component id="#7" src="assets/_Color_Matrix~COMP%209%201%203%201%204.caml"/>
+				<values>
+				  <_Kb type="real" value="0.0722"/>
+				  <_Kg type="real" value="0.7152"/>
+				  <_Kr type="real" value="0.2126"/>
+				  <_antiCyanBrightness type="integer" value="0"/>
+				  <_antiYellowBrightness type="integer" value="0"/>
+				  <_blueYellowHue type="integer" value="0"/>
+				  <_blueYellowLumaContrast type="integer" value="0"/>
+				  <_blueYellowSaturation type="integer" value="1"/>
+				  <_brightness type="real" value="0.05"/>
+				  <_burnColor type="CGColor" opacity="0" value="0 0.5 1"/>
+				  <_cbcrColor type="CGColor" opacity="0" value="0 0.5 1"/>
+				  <_colorAlphaFactor type="integer" value="1"/>
+				  <_details type="string" value="• Color Matrix 1"/>
+				  <_dodgeColor type="CGColor" opacity="0" value="0 0.5 1"/>
+				  <_eval type="string" value="// evalDoc()"/>
+				  <_exclusionColor type="CGColor" opacity="0" value="0 0.5 1"/>
+				  <_fill type="CGColor" opacity="0" value="0 0.5 1"/>
+				  <_globalPath type="string" value="globalThis._Color_Matrix_COMP = 	findLayer(&apos;Backdrop Layer 10&apos;).valueForKeyPath(		&apos;scriptComponents._Color_Matrix~COMP.globalThis&apos;)"/>
+				  <_hardLightColor type="CGColor" opacity="0" value="0 0.5 1"/>
+				  <_hue type="integer" value="0"/>
+				  <_inspectors type="NSArray">
+				    <CGImage/>
+				  </_inspectors>
+				  <_lArr/>
+				  <_liftAmount type="real" value="0.1"/>
+				  <_liftBend type="real" value="0.7"/>
+				  <_liftKg type="real" value="0.333333"/>
+				  <_liftKr type="real" value="0.333333"/>
+				  <_liftThreshold type="integer" value="0"/>
+				  <_lightness type="real" value="0.75"/>
+				  <_linearHighlights type="CGColor" opacity="0" value="0 0.5 1"/>
+				  <_linearLightColor type="CGColor" opacity="0" value="0 0.5 1"/>
+				  <_linearShadows type="CGColor" opacity="0" value="0 0.5 1"/>
+				  <_lumaContrast type="integer" value="0"/>
+				  <_maskBlue type="integer" value="0"/>
+				  <_maskGreen type="integer" value="0"/>
+				  <_maskLuma type="integer" value="0"/>
+				  <_maskRed type="integer" value="0"/>
+				  <_maskedColor type="CGColor" opacity="0" value="0 0.5 1"/>
+				  <_multiplyColor type="CGColor" opacity="0" value="0 0.5 1"/>
+				  <_padAmount type="real" value="0.1"/>
+				  <_padBend type="real" value="0.7"/>
+				  <_padKg type="real" value="0.7152"/>
+				  <_padKr type="real" value="0.2126"/>
+				  <_padThreshold type="real" value="0.8"/>
+				  <_previewConfiguration type="NSArray">
+				    <string value="RGB Curves"/>
+				  </_previewConfiguration>
+				  <_previewToLayer type="NSArray"/>
+				  <_printPsdMixer type="integer" value="0"/>
+				  <_psdOk type="integer" value="1"/>
+				  <_quantizeSteps type="integer" value="1000"/>
+				  <_redCyanHue type="integer" value="0"/>
+				  <_redCyanLumaContrast type="integer" value="0"/>
+				  <_redCyanSaturation type="integer" value="1"/>
+				  <_saturation type="integer" value="1"/>
+				  <_screenColor type="CGColor" opacity="0" value="0 0.5 1"/>
+				  <_useComponentBrightness type="integer" value="0"/>
+				  <_useComponentHue type="integer" value="0"/>
+				  <_useComponentLuminance type="integer" value="0"/>
+				  <_useComponentSaturation type="integer" value="0"/>
+				  <_useCustomMatrices type="integer" value="0"/>
+				  <_useCustomYcc type="integer" value="0"/>
+				  <_useMaskRGB type="integer" value="0"/>
+				  <_useModalColorization type="integer" value="0"/>
+				  <_usePreview type="integer" value="1"/>
+				  <_useQuantize type="integer" value="1"/>
+				  <_useSmoothLift type="integer" value="0"/>
+				  <_useSmoothPad type="integer" value="0"/>
+				  <_zeroThreshold type="integer" value="0"/>
+				</values>
+			      </LKScriptComponentInstance>
+			    </scriptComponents>
+			  </CABackdropLayer>
+			</sublayers>
+		      </CALayer>
+		    </sublayers>
+		  </CALayer>
+		  <CABackdropLayer allowsEdgeAntialiasing="1" allowsGroupOpacity="1" bounds="0 0 1437 2556" contentsFormat="RGBA8" name="Blur_TTM" position="589.5 1278">
+		    <filters>
+		      <CAFilter filter="gaussianBlur" name="gaussianBlur" inputRadius="0" inputQuality="default" inputHardEdges="0"/>
+		    </filters>
+		    <animations>
+		      <animation type="CASpringAnimation" keyPath="filters.gaussianBlur.inputRadius" beginTime="1e-100" duration="9" removedOnCompletion="0">
+			<fromValue type="string" value=""/>
+			<toValue type="string" value=""/>
+		      </animation>
+		      <p key="animation-1" type="CASpringAnimation" keyPath="filters.gaussianBlur.inputRadius" beginTime="9" duration="1" removedOnCompletion="0">
+			<fromValue type="string" value=""/>
+			<toValue type="integer" value="40"/>
+		      </p>
+		    </animations>
+		  </CABackdropLayer>
+		</sublayers>
+		<animations>
+		  <animation type="CASpringAnimation" damping="50" mass="2" stiffness="300" keyPath="position.y" beginTime="6.5" duration="1" removedOnCompletion="0">
+		    <fromValue type="integer" value="1938"/>
+		    <toValue type="integer" value="1279"/>
+		  </animation>
+		  <p key="animation-1" type="CASpringAnimation" damping="50" mass="2" stiffness="300" keyPath="position.y" beginTime="7.5" duration="1.5" removedOnCompletion="0">
+		    <fromValue type="integer" value="1279"/>
+		    <toValue type="integer" value="1279"/>
+		  </p>
+		  <p key="animation-2" type="CASpringAnimation" damping="50" mass="2" stiffness="300" keyPath="transform.scale.xy" beginTime="9" duration="1" removedOnCompletion="0">
+		    <fromValue type="integer" value="1"/>
+		    <toValue type="real" value="1.8"/>
+		  </p>
+		  <p key="animation-3" type="CASpringAnimation" damping="50" mass="2" stiffness="300" keyPath="position.y" beginTime="9" duration="1.5" removedOnCompletion="0">
+		    <fromValue type="integer" value="1279"/>
+		    <toValue type="integer" value="1108"/>
+		  </p>
+		</animations>
+	      </CALayer>
+	      <CALayer allowsEdgeAntialiasing="1" allowsGroupOpacity="1" bounds="0 0 1179 2556" contentsFormat="RGBA8" name="Contact Card" position="1278 1278">
+		<sublayers>
+		  <CALayer id="Contact.png" allowsEdgeAntialiasing="1" allowsGroupOpacity="1" bounds="0 0 1437 2556" contentsFormat="RGBA8" name="Contact.png" position="590.662790697675 1278"/>
+		  <CAGradientLayer id="#5" allowsEdgeAntialiasing="1" allowsGroupOpacity="1" allowsHitTesting="0" bounds="0 0 1179 2556.540832519531" contentsFormat="RGBA8" hidden="0" name="Extreme White Padding Gridient" position="589.500000000003 1277.729583740234">
+		    <colors>
+		      <CGColor value="0 0 0"/>
+		      <CGColor opacity="0" value="0 0 0"/>
+		    </colors>
+		    <filters>
+		      <CAFilter filter="vibrantColorMatrix" name="vibrantColorMatrix 1" inputColorMatrix="matrix(0.718 -0.048 -0.005 0 0.054 -0.014 0.685 -0.005 0 0.054 -0.014 -0.048 0.727 0 0.054 0.213 0.715 0.072 -0.75 0)"/>
+		    </filters>
+		    <scriptComponents>
+		      <LKScriptComponentInstance name="_Color_Matrix~COMP">
+			<component object="#4"/>
+			<values>
+			  <_Kb type="real" value="0.0722"/>
+			  <_Kg type="real" value="0.7152"/>
+			  <_Kr type="real" value="0.2126"/>
+			  <_antiCyanBrightness type="integer" value="0"/>
+			  <_antiYellowBrightness type="integer" value="0"/>
+			  <_blueYellowHue type="integer" value="0"/>
+			  <_blueYellowLumaContrast type="integer" value="0"/>
+			  <_blueYellowSaturation type="integer" value="1"/>
+			  <_brightness type="integer" value="0"/>
+			  <_burnColor type="CGColor" opacity="0" value="0 0.5 1"/>
+			  <_cbcrColor type="CGColor" opacity="0" value="0 0.5 1"/>
+			  <_colorAlphaFactor type="integer" value="1"/>
+			  <_details type="string" value="• Vibrant Matrix"/>
+			  <_dodgeColor type="CGColor" opacity="0" value="0 0.5 1"/>
+			  <_eval type="string" value="// evalDoc()"/>
+			  <_exclusionColor type="CGColor" opacity="0" value="0 0.5 1"/>
+			  <_fill type="CGColor" opacity="0" value="0 0.5 1"/>
+			  <_globalPath type="string" value="globalThis._Color_Matrix_COMP = 	findLayer(&apos;Extreme White Padding Gridient&apos;).valueForKeyPath(		&apos;scriptComponents._Color_Matrix~COMP.globalThis&apos;)"/>
+			  <_hardLightColor type="CGColor" opacity="0" value="0 0.5 1"/>
+			  <_hue type="integer" value="0"/>
+			  <_inspectors type="NSArray">
+			    <CGImage/>
+			  </_inspectors>
+			  <_lArr type="NSArray">
+			    <CAGradientLayer object="#5"/>
+			  </_lArr>
+			  <_liftAmount type="real" value="0.1"/>
+			  <_liftBend type="real" value="0.7"/>
+			  <_liftKg type="real" value="0.333333"/>
+			  <_liftKr type="real" value="0.333333"/>
+			  <_liftThreshold type="integer" value="0"/>
+			  <_lightness type="integer" value="0"/>
+			  <_linearHighlights type="CGColor" opacity="0" value="0 0.5 1"/>
+			  <_linearLightColor type="CGColor" opacity="0" value="0 0.5 1"/>
+			  <_linearShadows type="CGColor" opacity="0" value="0 0.5 1"/>
+			  <_lumaContrast type="integer" value="1"/>
+			  <_maskBlue type="integer" value="0"/>
+			  <_maskGreen type="integer" value="0"/>
+			  <_maskLuma type="integer" value="0"/>
+			  <_maskRed type="integer" value="0"/>
+			  <_maskedColor type="CGColor" opacity="0" value="0 0.5 1"/>
+			  <_multiplyColor type="CGColor" opacity="0" value="0 0.5 1"/>
+			  <_padAmount type="real" value="0.07"/>
+			  <_padBend type="real" value="0.2506"/>
+			  <_padKg type="real" value="0.7152"/>
+			  <_padKr type="real" value="0.2126"/>
+			  <_padThreshold type="real" value="0.75"/>
+			  <_previewConfiguration type="NSArray">
+			    <string value="RGB Curves"/>
+			  </_previewConfiguration>
+			  <_previewToLayer type="NSArray"/>
+			  <_printPsdMixer type="integer" value="0"/>
+			  <_psdOk type="integer" value="1"/>
+			  <_quantizeSteps type="integer" value="1000"/>
+			  <_redCyanHue type="integer" value="0"/>
+			  <_redCyanLumaContrast type="integer" value="0"/>
+			  <_redCyanSaturation type="integer" value="1"/>
+			  <_saturation type="real" value="1.1"/>
+			  <_screenColor type="CGColor" opacity="0" value="0 0.5 1"/>
+			  <_useComponentBrightness type="integer" value="0"/>
+			  <_useComponentHue type="integer" value="0"/>
+			  <_useComponentLuminance type="integer" value="0"/>
+			  <_useComponentSaturation type="integer" value="0"/>
+			  <_useCustomMatrices type="integer" value="0"/>
+			  <_useCustomYcc type="integer" value="0"/>
+			  <_useMaskRGB type="integer" value="0"/>
+			  <_useModalColorization type="integer" value="0"/>
+			  <_usePreview type="integer" value="1"/>
+			  <_useQuantize type="integer" value="1"/>
+			  <_useSmoothLift type="integer" value="0"/>
+			  <_useSmoothPad type="integer" value="0"/>
+			  <_zeroThreshold type="integer" value="0"/>
+			</values>
+		      </LKScriptComponentInstance>
+		    </scriptComponents>
+		  </CAGradientLayer>
+		  <CALayer allowsEdgeAntialiasing="1" allowsGroupOpacity="1" bounds="0 0 1179 2556" contentsFormat="RGBA8" name="UI" position="590 628">
+		    <sublayers>
+		      <CALayer allowsEdgeAntialiasing="1" allowsGroupOpacity="1" bounds="0 0 1179 2556" contentsFormat="RGBA8" name="CTA" position="589.500000000001 1278">
+			<mask allowsEdgeAntialiasing="1" allowsGroupOpacity="1" bounds="0 0 1437 2556" contentsFormat="RGBA8" name="contact card btn.png" position="590.162790697673 1278">
+			  <contents type="CGImage" src="assets/SE_contact%20card%20btn.png"/>
+			</mask>
+			<sublayers>
+			  <CABackdropLayer id="#6" allowsEdgeAntialiasing="1" allowsGroupOpacity="1" allowsHitTesting="0" bounds="0 0 1437 2556" contentsFormat="RGBA8" hidden="0" name="Backdrop Layer 10" position="589.5 1278">
+			    <filters>
+			      <CAFilter filter="colorMatrix" name="colorMatrix" inputColorMatrix="matrix(1.204 -0.322 -0.032 0 -0.075 -0.096 0.978 -0.032 0 -0.075 -0.096 -0.322 1.268 0 -0.075 0 0 0 1 0)"/>
+			      <CAFilter filter="gaussianBlur" name="gaussianBlur" inputRadius="30" inputQuality="low" inputNormalizeEdges="1" inputHardEdges="1" inputDither="0"/>
+			    </filters>
+			    <scriptComponents>
+			      <LKScriptComponentInstance name="_Color_Matrix~COMP">
+				<component id="#10" src="assets/_Color_Matrix~COMP%209%201%203%201%203.caml"/>
+				<values>
+				  <_Kb type="real" value="0.0722"/>
+				  <_Kg type="real" value="0.7152"/>
+				  <_Kr type="real" value="0.2126"/>
+				  <_antiCyanBrightness type="integer" value="0"/>
+				  <_antiYellowBrightness type="integer" value="0"/>
+				  <_blueYellowHue type="integer" value="0"/>
+				  <_blueYellowLumaContrast type="integer" value="0"/>
+				  <_blueYellowSaturation type="integer" value="1"/>
+				  <_brightness type="real" value="-0.15"/>
+				  <_burnColor type="CGColor" opacity="0" value="0 0.5 1"/>
+				  <_cbcrColor type="CGColor" opacity="0" value="0 0.5 1"/>
+				  <_colorAlphaFactor type="integer" value="1"/>
+				  <_details type="string" value="• Color Matrix 1"/>
+				  <_dodgeColor type="CGColor" opacity="0" value="0 0.5 1"/>
+				  <_eval type="string" value="// evalDoc()"/>
+				  <_exclusionColor type="CGColor" opacity="0" value="0 0.5 1"/>
+				  <_fill type="CGColor" opacity="0" value="0 0.5 1"/>
+				  <_globalPath type="string" value="globalThis._Color_Matrix_COMP = 	findLayer(&apos;Backdrop Layer 10&apos;).valueForKeyPath(		&apos;scriptComponents._Color_Matrix~COMP.globalThis&apos;)"/>
+				  <_hardLightColor type="CGColor" opacity="0" value="0 0.5 1"/>
+				  <_hue type="integer" value="0"/>
+				  <_inspectors type="NSArray">
+				    <CGImage/>
+				  </_inspectors>
+				  <_lArr/>
+				  <_liftAmount type="real" value="0.1"/>
+				  <_liftBend type="real" value="0.7"/>
+				  <_liftKg type="real" value="0.333333"/>
+				  <_liftKr type="real" value="0.333333"/>
+				  <_liftThreshold type="integer" value="0"/>
+				  <_lightness type="integer" value="0"/>
+				  <_linearHighlights type="CGColor" opacity="0" value="0 0.5 1"/>
+				  <_linearLightColor type="CGColor" opacity="0" value="0 0.5 1"/>
+				  <_linearShadows type="CGColor" opacity="0" value="0 0.5 1"/>
+				  <_lumaContrast type="real" value="0.85"/>
+				  <_maskBlue type="integer" value="0"/>
+				  <_maskGreen type="integer" value="0"/>
+				  <_maskLuma type="integer" value="0"/>
+				  <_maskRed type="integer" value="0"/>
+				  <_maskedColor type="CGColor" opacity="0" value="0 0.5 1"/>
+				  <_multiplyColor type="CGColor" opacity="0" value="0 0.5 1"/>
+				  <_padAmount type="real" value="0.1"/>
+				  <_padBend type="real" value="0.7"/>
+				  <_padKg type="real" value="0.7152"/>
+				  <_padKr type="real" value="0.2126"/>
+				  <_padThreshold type="real" value="0.8"/>
+				  <_previewConfiguration type="NSArray">
+				    <string value="RGB Curves"/>
+				  </_previewConfiguration>
+				  <_previewToLayer type="NSArray"/>
+				  <_printPsdMixer type="integer" value="0"/>
+				  <_psdOk type="integer" value="1"/>
+				  <_quantizeSteps type="integer" value="1000"/>
+				  <_redCyanHue type="integer" value="0"/>
+				  <_redCyanLumaContrast type="integer" value="0"/>
+				  <_redCyanSaturation type="integer" value="1"/>
+				  <_saturation type="real" value="1.3"/>
+				  <_screenColor type="CGColor" opacity="0" value="0 0.5 1"/>
+				  <_useComponentBrightness type="integer" value="0"/>
+				  <_useComponentHue type="integer" value="0"/>
+				  <_useComponentLuminance type="integer" value="0"/>
+				  <_useComponentSaturation type="integer" value="0"/>
+				  <_useCustomMatrices type="integer" value="0"/>
+				  <_useCustomYcc type="integer" value="0"/>
+				  <_useMaskRGB type="integer" value="0"/>
+				  <_useModalColorization type="integer" value="0"/>
+				  <_usePreview type="integer" value="1"/>
+				  <_useQuantize type="integer" value="1"/>
+				  <_useSmoothLift type="integer" value="0"/>
+				  <_useSmoothPad type="integer" value="0"/>
+				  <_zeroThreshold type="integer" value="0"/>
+				</values>
+			      </LKScriptComponentInstance>
+			    </scriptComponents>
+			  </CABackdropLayer>
+			</sublayers>
+		      </CALayer>
+		      <CALayer allowsEdgeAntialiasing="1" allowsGroupOpacity="1" bounds="0 0 1437 2556" contentsFormat="RGBA8" name="contact card content.png" position="590.162790697674 1278">
+			<contents type="CGImage" src="assets/SE_contact%20card%20content.png"/>
+		      </CALayer>
+		      <CALayer allowsEdgeAntialiasing="1" allowsGroupOpacity="1" bounds="0 0 1179 2556" contentsFormat="RGBA8" hidden="0" name="Text" position="589.500000000001 1278">
+			<mask allowsEdgeAntialiasing="1" allowsGroupOpacity="1" bounds="0 0 1437 2556" contentsFormat="RGBA8" name="Contact_Buttons.png" position="588.5 1278"/>
+			<sublayers>
+			  <CABackdropLayer id="#8" allowsEdgeAntialiasing="1" allowsGroupOpacity="1" allowsHitTesting="0" bounds="0 0 1437 2556" contentsFormat="RGBA8" hidden="0" name="Backdrop Layer 10" position="589.5 1278">
+			    <filters>
+			      <CAFilter filter="colorMatrix" name="colorMatrix" inputColorMatrix="matrix(0.521 0.072 0.007 0 0.45 0.021 0.572 0.007 0 0.45 0.021 0.072 0.507 0 0.45 0 0 0 1 0)"/>
+			      <CAFilter filter="gaussianBlur" name="gaussianBlur" inputRadius="24" inputQuality="low" inputNormalizeEdges="1" inputHardEdges="1" inputDither="0"/>
+			    </filters>
+			    <scriptComponents>
+			      <LKScriptComponentInstance name="_Color_Matrix~COMP">
+				<component object="#7"/>
+				<values>
+				  <_Kb type="real" value="0.0722"/>
+				  <_Kg type="real" value="0.7152"/>
+				  <_Kr type="real" value="0.2126"/>
+				  <_antiCyanBrightness type="integer" value="0"/>
+				  <_antiYellowBrightness type="integer" value="0"/>
+				  <_blueYellowHue type="integer" value="0"/>
+				  <_blueYellowLumaContrast type="integer" value="0"/>
+				  <_blueYellowSaturation type="integer" value="1"/>
+				  <_brightness type="real" value="0.25"/>
+				  <_burnColor type="CGColor" opacity="0" value="0 0.5 1"/>
+				  <_cbcrColor type="CGColor" opacity="0" value="0 0.5 1"/>
+				  <_colorAlphaFactor type="integer" value="1"/>
+				  <_details type="string" value="• Color Matrix 1"/>
+				  <_dodgeColor type="CGColor" opacity="0" value="0 0.5 1"/>
+				  <_eval type="string" value="// evalDoc()"/>
+				  <_exclusionColor type="CGColor" opacity="0" value="0 0.5 1"/>
+				  <_fill type="CGColor" opacity="0" value="0 0.5 1"/>
+				  <_globalPath type="string" value="globalThis._Color_Matrix_COMP = 	findLayer(&apos;Backdrop Layer 10&apos;).valueForKeyPath(		&apos;scriptComponents._Color_Matrix~COMP.globalThis&apos;)"/>
+				  <_hardLightColor type="CGColor" opacity="0" value="0 0.5 1"/>
+				  <_hue type="integer" value="0"/>
+				  <_inspectors type="NSArray">
+				    <CGImage/>
+				  </_inspectors>
+				  <_lArr/>
+				  <_liftAmount type="real" value="0.1"/>
+				  <_liftBend type="real" value="0.7"/>
+				  <_liftKg type="real" value="0.333333"/>
+				  <_liftKr type="real" value="0.333333"/>
+				  <_liftThreshold type="integer" value="0"/>
+				  <_lightness type="integer" value="0"/>
+				  <_linearHighlights type="CGColor" opacity="0" value="0 0.5 1"/>
+				  <_linearLightColor type="CGColor" opacity="0" value="0 0.5 1"/>
+				  <_linearShadows type="CGColor" opacity="0" value="0 0.5 1"/>
+				  <_lumaContrast type="real" value="0.6"/>
+				  <_maskBlue type="integer" value="0"/>
+				  <_maskGreen type="integer" value="0"/>
+				  <_maskLuma type="integer" value="0"/>
+				  <_maskRed type="integer" value="0"/>
+				  <_maskedColor type="CGColor" opacity="0" value="0 0.5 1"/>
+				  <_multiplyColor type="CGColor" opacity="0" value="0 0.5 1"/>
+				  <_padAmount type="real" value="0.1"/>
+				  <_padBend type="real" value="0.7"/>
+				  <_padKg type="real" value="0.7152"/>
+				  <_padKr type="real" value="0.2126"/>
+				  <_padThreshold type="real" value="0.8"/>
+				  <_previewConfiguration type="NSArray">
+				    <string value="RGB Curves"/>
+				  </_previewConfiguration>
+				  <_previewToLayer type="NSArray"/>
+				  <_printPsdMixer type="integer" value="0"/>
+				  <_psdOk type="integer" value="1"/>
+				  <_quantizeSteps type="integer" value="1000"/>
+				  <_redCyanHue type="integer" value="0"/>
+				  <_redCyanLumaContrast type="integer" value="0"/>
+				  <_redCyanSaturation type="integer" value="1"/>
+				  <_saturation type="real" value="0.5"/>
+				  <_screenColor type="CGColor" opacity="0" value="0 0.5 1"/>
+				  <_useComponentBrightness type="integer" value="0"/>
+				  <_useComponentHue type="integer" value="0"/>
+				  <_useComponentLuminance type="integer" value="0"/>
+				  <_useComponentSaturation type="integer" value="0"/>
+				  <_useCustomMatrices type="integer" value="0"/>
+				  <_useCustomYcc type="integer" value="0"/>
+				  <_useMaskRGB type="integer" value="0"/>
+				  <_useModalColorization type="integer" value="0"/>
+				  <_usePreview type="integer" value="1"/>
+				  <_useQuantize type="integer" value="1"/>
+				  <_useSmoothLift type="integer" value="0"/>
+				  <_useSmoothPad type="integer" value="0"/>
+				  <_zeroThreshold type="integer" value="0"/>
+				</values>
+			      </LKScriptComponentInstance>
+			    </scriptComponents>
+			  </CABackdropLayer>
+			</sublayers>
+		      </CALayer>
+		    </sublayers>
+		  </CALayer>
+		</sublayers>
+		<animations>
+		  <p key="animation-3" type="CAKeyframeAnimation" keyPath="opacity" beginTime="1e-100" duration="6.84836" fillMode="both" removedOnCompletion="0">
+		    <keyTimes>
+		      <integer value="0"/>
+		      <real value="0.978339"/>
+		      <integer value="1"/>
+		    </keyTimes>
+		    <values>
+		      <integer value="1"/>
+		      <real value="1.00271"/>
+		      <real value="-0.004841"/>
+		    </values>
+		  </p>
+		  <p key="animation-1" type="CASpringAnimation" damping="50" mass="2" stiffness="300" keyPath="position.y" beginTime="4" duration="1" removedOnCompletion="0">
+		    <fromValue type="integer" value="1278"/>
+		    <toValue type="integer" value="1938"/>
+		  </p>
+		  <animation type="CASpringAnimation" damping="50" mass="2" stiffness="300" keyPath="position.y" beginTime="5" duration="1.5" removedOnCompletion="0">
+		    <fromValue type="integer" value="1938"/>
+		    <toValue type="integer" value="1938"/>
+		  </animation>
+		  <p key="animation-2" type="CASpringAnimation" damping="50" mass="2" stiffness="300" keyPath="position.y" beginTime="6.5" duration="1" removedOnCompletion="0">
+		    <fromValue type="integer" value="1938"/>
+		    <toValue type="integer" value="1278"/>
+		  </p>
+		  <p key="animation-4" type="CASpringAnimation" damping="50" mass="2" stiffness="300" keyPath="position.y" beginTime="7.5" duration="2.5" removedOnCompletion="0">
+		    <fromValue type="integer" value="1279"/>
+		    <toValue type="integer" value="1279"/>
+		  </p>
+		</animations>
+	      </CALayer>
+	      <CALayer allowsEdgeAntialiasing="1" allowsGroupOpacity="1" bounds="0 0 1179 2556" contentsFormat="RGBA8" hidden="0" name="Calls" position="1278 1278" transform="scale(2.17, 2.17, 1)">
+		<sublayers>
+		  <CALayer id="Calls.png" allowsEdgeAntialiasing="1" allowsGroupOpacity="1" bounds="0 0 1437 2556" contentsFormat="RGBA8" name="Calls.png" position="589.028541226216 1278.363636363636"/>
+		  <CAGradientLayer id="#9" allowsEdgeAntialiasing="1" allowsGroupOpacity="1" allowsHitTesting="0" bounds="0 0 1179 2556.540832519531" contentsFormat="RGBA8" hidden="0" name="Extreme White Padding Gridient" position="589.500000000001 1277.729583740234">
+		    <colors>
+		      <CGColor value="0 0 0"/>
+		      <CGColor opacity="0" value="0 0 0"/>
+		    </colors>
+		    <filters>
+		      <CAFilter filter="vibrantColorMatrix" name="vibrantColorMatrix 1" inputColorMatrix="matrix(0.718 -0.048 -0.005 0 0.054 -0.014 0.685 -0.005 0 0.054 -0.014 -0.048 0.727 0 0.054 0.213 0.715 0.072 -0.75 0)"/>
+		    </filters>
+		    <scriptComponents>
+		      <LKScriptComponentInstance name="_Color_Matrix~COMP">
+			<component object="#4"/>
+			<values>
+			  <_Kb type="real" value="0.0722"/>
+			  <_Kg type="real" value="0.7152"/>
+			  <_Kr type="real" value="0.2126"/>
+			  <_antiCyanBrightness type="integer" value="0"/>
+			  <_antiYellowBrightness type="integer" value="0"/>
+			  <_blueYellowHue type="integer" value="0"/>
+			  <_blueYellowLumaContrast type="integer" value="0"/>
+			  <_blueYellowSaturation type="integer" value="1"/>
+			  <_brightness type="integer" value="0"/>
+			  <_burnColor type="CGColor" opacity="0" value="0 0.5 1"/>
+			  <_cbcrColor type="CGColor" opacity="0" value="0 0.5 1"/>
+			  <_colorAlphaFactor type="integer" value="1"/>
+			  <_details type="string" value="• Vibrant Matrix"/>
+			  <_dodgeColor type="CGColor" opacity="0" value="0 0.5 1"/>
+			  <_eval type="string" value="// evalDoc()"/>
+			  <_exclusionColor type="CGColor" opacity="0" value="0 0.5 1"/>
+			  <_fill type="CGColor" opacity="0" value="0 0.5 1"/>
+			  <_globalPath type="string" value="globalThis._Color_Matrix_COMP = 	findLayer(&apos;Extreme White Padding Gridient&apos;).valueForKeyPath(		&apos;scriptComponents._Color_Matrix~COMP.globalThis&apos;)"/>
+			  <_hardLightColor type="CGColor" opacity="0" value="0 0.5 1"/>
+			  <_hue type="integer" value="0"/>
+			  <_inspectors type="NSArray">
+			    <CGImage/>
+			  </_inspectors>
+			  <_lArr type="NSArray">
+			    <CAGradientLayer object="#9"/>
+			  </_lArr>
+			  <_liftAmount type="real" value="0.1"/>
+			  <_liftBend type="real" value="0.7"/>
+			  <_liftKg type="real" value="0.333333"/>
+			  <_liftKr type="real" value="0.333333"/>
+			  <_liftThreshold type="integer" value="0"/>
+			  <_lightness type="integer" value="0"/>
+			  <_linearHighlights type="CGColor" opacity="0" value="0 0.5 1"/>
+			  <_linearLightColor type="CGColor" opacity="0" value="0 0.5 1"/>
+			  <_linearShadows type="CGColor" opacity="0" value="0 0.5 1"/>
+			  <_lumaContrast type="integer" value="1"/>
+			  <_maskBlue type="integer" value="0"/>
+			  <_maskGreen type="integer" value="0"/>
+			  <_maskLuma type="integer" value="0"/>
+			  <_maskRed type="integer" value="0"/>
+			  <_maskedColor type="CGColor" opacity="0" value="0 0.5 1"/>
+			  <_multiplyColor type="CGColor" opacity="0" value="0 0.5 1"/>
+			  <_padAmount type="real" value="0.07"/>
+			  <_padBend type="real" value="0.2506"/>
+			  <_padKg type="real" value="0.7152"/>
+			  <_padKr type="real" value="0.2126"/>
+			  <_padThreshold type="real" value="0.75"/>
+			  <_previewConfiguration type="NSArray">
+			    <string value="RGB Curves"/>
+			  </_previewConfiguration>
+			  <_previewToLayer type="NSArray"/>
+			  <_printPsdMixer type="integer" value="0"/>
+			  <_psdOk type="integer" value="1"/>
+			  <_quantizeSteps type="integer" value="1000"/>
+			  <_redCyanHue type="integer" value="0"/>
+			  <_redCyanLumaContrast type="integer" value="0"/>
+			  <_redCyanSaturation type="integer" value="1"/>
+			  <_saturation type="real" value="1.1"/>
+			  <_screenColor type="CGColor" opacity="0" value="0 0.5 1"/>
+			  <_useComponentBrightness type="integer" value="0"/>
+			  <_useComponentHue type="integer" value="0"/>
+			  <_useComponentLuminance type="integer" value="0"/>
+			  <_useComponentSaturation type="integer" value="0"/>
+			  <_useCustomMatrices type="integer" value="0"/>
+			  <_useCustomYcc type="integer" value="0"/>
+			  <_useMaskRGB type="integer" value="0"/>
+			  <_useModalColorization type="integer" value="0"/>
+			  <_usePreview type="integer" value="1"/>
+			  <_useQuantize type="integer" value="1"/>
+			  <_useSmoothLift type="integer" value="0"/>
+			  <_useSmoothPad type="integer" value="0"/>
+			  <_zeroThreshold type="integer" value="0"/>
+			</values>
+		      </LKScriptComponentInstance>
+		    </scriptComponents>
+		  </CAGradientLayer>
+		  <CALayer allowsEdgeAntialiasing="1" allowsGroupOpacity="1" bounds="0 0 1437 2556" contentsFormat="RGBA8" name="UI" position="589.999975918499 1278">
+		    <sublayers>
+		      <CALayer allowsEdgeAntialiasing="1" allowsGroupOpacity="1" bounds="0 0 1437 2556" contentsFormat="RGBA8" name="Button" position="718.499951836999 1278">
+			<mask allowsEdgeAntialiasing="1" allowsGroupOpacity="1" bounds="0 0 1437 2556" contentsFormat="RGBA8" name="call extra.png" position="720.472430055147 1280.295380474189">
+			  <contents type="CGImage" src="assets/SE_call%20extra.png"/>
+			</mask>
+			<sublayers>
+			  <CABackdropLayer id="#11" allowsEdgeAntialiasing="1" allowsGroupOpacity="1" allowsHitTesting="0" bounds="0 0 1437 2556" contentsFormat="RGBA8" hidden="0" name="Backdrop Layer 10" position="718.5 1278">
+			    <filters>
+			      <CAFilter filter="colorMatrix" name="colorMatrix" inputColorMatrix="matrix(1.204 -0.322 -0.032 0 -0.075 -0.096 0.978 -0.032 0 -0.075 -0.096 -0.322 1.268 0 -0.075 0 0 0 1 0)"/>
+			      <CAFilter filter="gaussianBlur" name="gaussianBlur" inputRadius="30" inputQuality="low" inputNormalizeEdges="1" inputHardEdges="1" inputDither="0"/>
+			    </filters>
+			    <scriptComponents>
+			      <LKScriptComponentInstance name="_Color_Matrix~COMP">
+				<component object="#10"/>
+				<values>
+				  <_Kb type="real" value="0.0722"/>
+				  <_Kg type="real" value="0.7152"/>
+				  <_Kr type="real" value="0.2126"/>
+				  <_antiCyanBrightness type="integer" value="0"/>
+				  <_antiYellowBrightness type="integer" value="0"/>
+				  <_blueYellowHue type="integer" value="0"/>
+				  <_blueYellowLumaContrast type="integer" value="0"/>
+				  <_blueYellowSaturation type="integer" value="1"/>
+				  <_brightness type="real" value="-0.15"/>
+				  <_burnColor type="CGColor" opacity="0" value="0 0.5 1"/>
+				  <_cbcrColor type="CGColor" opacity="0" value="0 0.5 1"/>
+				  <_colorAlphaFactor type="integer" value="1"/>
+				  <_details type="string" value="• Color Matrix 1"/>
+				  <_dodgeColor type="CGColor" opacity="0" value="0 0.5 1"/>
+				  <_eval type="string" value="// evalDoc()"/>
+				  <_exclusionColor type="CGColor" opacity="0" value="0 0.5 1"/>
+				  <_fill type="CGColor" opacity="0" value="0 0.5 1"/>
+				  <_globalPath type="string" value="globalThis._Color_Matrix_COMP = 	findLayer(&apos;Backdrop Layer 10&apos;).valueForKeyPath(		&apos;scriptComponents._Color_Matrix~COMP.globalThis&apos;)"/>
+				  <_hardLightColor type="CGColor" opacity="0" value="0 0.5 1"/>
+				  <_hue type="integer" value="0"/>
+				  <_inspectors type="NSArray">
+				    <CGImage/>
+				  </_inspectors>
+				  <_lArr/>
+				  <_liftAmount type="real" value="0.1"/>
+				  <_liftBend type="real" value="0.7"/>
+				  <_liftKg type="real" value="0.333333"/>
+				  <_liftKr type="real" value="0.333333"/>
+				  <_liftThreshold type="integer" value="0"/>
+				  <_lightness type="integer" value="0"/>
+				  <_linearHighlights type="CGColor" opacity="0" value="0 0.5 1"/>
+				  <_linearLightColor type="CGColor" opacity="0" value="0 0.5 1"/>
+				  <_linearShadows type="CGColor" opacity="0" value="0 0.5 1"/>
+				  <_lumaContrast type="real" value="0.85"/>
+				  <_maskBlue type="integer" value="0"/>
+				  <_maskGreen type="integer" value="0"/>
+				  <_maskLuma type="integer" value="0"/>
+				  <_maskRed type="integer" value="0"/>
+				  <_maskedColor type="CGColor" opacity="0" value="0 0.5 1"/>
+				  <_multiplyColor type="CGColor" opacity="0" value="0 0.5 1"/>
+				  <_padAmount type="real" value="0.1"/>
+				  <_padBend type="real" value="0.7"/>
+				  <_padKg type="real" value="0.7152"/>
+				  <_padKr type="real" value="0.2126"/>
+				  <_padThreshold type="real" value="0.8"/>
+				  <_previewConfiguration type="NSArray">
+				    <string value="RGB Curves"/>
+				  </_previewConfiguration>
+				  <_previewToLayer type="NSArray"/>
+				  <_printPsdMixer type="integer" value="0"/>
+				  <_psdOk type="integer" value="1"/>
+				  <_quantizeSteps type="integer" value="1000"/>
+				  <_redCyanHue type="integer" value="0"/>
+				  <_redCyanLumaContrast type="integer" value="0"/>
+				  <_redCyanSaturation type="integer" value="1"/>
+				  <_saturation type="real" value="1.3"/>
+				  <_screenColor type="CGColor" opacity="0" value="0 0.5 1"/>
+				  <_useComponentBrightness type="integer" value="0"/>
+				  <_useComponentHue type="integer" value="0"/>
+				  <_useComponentLuminance type="integer" value="0"/>
+				  <_useComponentSaturation type="integer" value="0"/>
+				  <_useCustomMatrices type="integer" value="0"/>
+				  <_useCustomYcc type="integer" value="0"/>
+				  <_useMaskRGB type="integer" value="0"/>
+				  <_useModalColorization type="integer" value="0"/>
+				  <_usePreview type="integer" value="1"/>
+				  <_useQuantize type="integer" value="1"/>
+				  <_useSmoothLift type="integer" value="0"/>
+				  <_useSmoothPad type="integer" value="0"/>
+				  <_zeroThreshold type="integer" value="0"/>
+				</values>
+			      </LKScriptComponentInstance>
+			    </scriptComponents>
+			  </CABackdropLayer>
+			</sublayers>
+		      </CALayer>
+		      <CALayer allowsEdgeAntialiasing="1" allowsGroupOpacity="1" bounds="0 0 1437 2556" contentsFormat="RGBA8" name="call main.png" position="718.157476685049 1280.295380474189">
+			<contents type="CGImage" src="assets/SE_call%20main.png"/>
+		      </CALayer>
+		      <CALayer allowsEdgeAntialiasing="1" allowsGroupOpacity="1" bounds="0 0 1437 2556" contentsFormat="RGBA8" hidden="0" name="Labels" position="718.499951836998 1278">
+			<mask allowsEdgeAntialiasing="1" allowsGroupOpacity="1" bounds="0 0 1437 2556" contentsFormat="RGBA8" name="call text.png" position="720.472430055148 1280.295380474189">
+			  <contents type="CGImage" src="assets/SE_call%20text.png"/>
+			</mask>
+			<sublayers>
+			  <CABackdropLayer id="#12" allowsEdgeAntialiasing="1" allowsGroupOpacity="1" allowsHitTesting="0" bounds="0 0 1437 2556" contentsFormat="RGBA8" hidden="0" name="Backdrop Layer 10" position="718.5 1278">
+			    <filters>
+			      <CAFilter filter="colorMatrix" name="colorMatrix" inputColorMatrix="matrix(0.787 -0.715 -0.072 0 0.875 -0.213 0.285 -0.072 0 0.875 -0.213 -0.715 0.928 0 0.875 0 0 0 1 0)"/>
+			      <CAFilter filter="gaussianBlur" name="gaussianBlur" inputRadius="24" inputQuality="low" inputNormalizeEdges="1" inputHardEdges="1" inputDither="0"/>
+			    </filters>
+			    <scriptComponents>
+			      <LKScriptComponentInstance name="_Color_Matrix~COMP">
+				<component object="#7"/>
+				<values>
+				  <_Kb type="real" value="0.0722"/>
+				  <_Kg type="real" value="0.7152"/>
+				  <_Kr type="real" value="0.2126"/>
+				  <_antiCyanBrightness type="integer" value="0"/>
+				  <_antiYellowBrightness type="integer" value="0"/>
+				  <_blueYellowHue type="integer" value="0"/>
+				  <_blueYellowLumaContrast type="integer" value="0"/>
+				  <_blueYellowSaturation type="integer" value="1"/>
+				  <_brightness type="real" value="0.05"/>
+				  <_burnColor type="CGColor" opacity="0" value="0 0.5 1"/>
+				  <_cbcrColor type="CGColor" opacity="0" value="0 0.5 1"/>
+				  <_colorAlphaFactor type="integer" value="1"/>
+				  <_details type="string" value="• Color Matrix 1"/>
+				  <_dodgeColor type="CGColor" opacity="0" value="0 0.5 1"/>
+				  <_eval type="string" value="// evalDoc()"/>
+				  <_exclusionColor type="CGColor" opacity="0" value="0 0.5 1"/>
+				  <_fill type="CGColor" opacity="0" value="0 0.5 1"/>
+				  <_globalPath type="string" value="globalThis._Color_Matrix_COMP = 	findLayer(&apos;Backdrop Layer 10&apos;).valueForKeyPath(		&apos;scriptComponents._Color_Matrix~COMP.globalThis&apos;)"/>
+				  <_hardLightColor type="CGColor" opacity="0" value="0 0.5 1"/>
+				  <_hue type="integer" value="0"/>
+				  <_inspectors type="NSArray">
+				    <CGImage/>
+				  </_inspectors>
+				  <_lArr/>
+				  <_liftAmount type="real" value="0.1"/>
+				  <_liftBend type="real" value="0.7"/>
+				  <_liftKg type="real" value="0.333333"/>
+				  <_liftKr type="real" value="0.333333"/>
+				  <_liftThreshold type="integer" value="0"/>
+				  <_lightness type="real" value="0.65"/>
+				  <_linearHighlights type="CGColor" opacity="0" value="0 0.5 1"/>
+				  <_linearLightColor type="CGColor" opacity="0" value="0 0.5 1"/>
+				  <_linearShadows type="CGColor" opacity="0" value="0 0.5 1"/>
+				  <_lumaContrast type="integer" value="0"/>
+				  <_maskBlue type="integer" value="0"/>
+				  <_maskGreen type="integer" value="0"/>
+				  <_maskLuma type="integer" value="0"/>
+				  <_maskRed type="integer" value="0"/>
+				  <_maskedColor type="CGColor" opacity="0" value="0 0.5 1"/>
+				  <_multiplyColor type="CGColor" opacity="0" value="0 0.5 1"/>
+				  <_padAmount type="real" value="0.1"/>
+				  <_padBend type="real" value="0.7"/>
+				  <_padKg type="real" value="0.7152"/>
+				  <_padKr type="real" value="0.2126"/>
+				  <_padThreshold type="real" value="0.8"/>
+				  <_previewConfiguration type="NSArray">
+				    <string value="RGB Curves"/>
+				  </_previewConfiguration>
+				  <_previewToLayer type="NSArray"/>
+				  <_printPsdMixer type="integer" value="0"/>
+				  <_psdOk type="integer" value="1"/>
+				  <_quantizeSteps type="integer" value="1000"/>
+				  <_redCyanHue type="integer" value="0"/>
+				  <_redCyanLumaContrast type="integer" value="0"/>
+				  <_redCyanSaturation type="integer" value="1"/>
+				  <_saturation type="integer" value="1"/>
+				  <_screenColor type="CGColor" opacity="0" value="0 0.5 1"/>
+				  <_useComponentBrightness type="integer" value="0"/>
+				  <_useComponentHue type="integer" value="0"/>
+				  <_useComponentLuminance type="integer" value="0"/>
+				  <_useComponentSaturation type="integer" value="0"/>
+				  <_useCustomMatrices type="integer" value="0"/>
+				  <_useCustomYcc type="integer" value="0"/>
+				  <_useMaskRGB type="integer" value="0"/>
+				  <_useModalColorization type="integer" value="0"/>
+				  <_usePreview type="integer" value="1"/>
+				  <_useQuantize type="integer" value="1"/>
+				  <_useSmoothLift type="integer" value="0"/>
+				  <_useSmoothPad type="integer" value="0"/>
+				  <_zeroThreshold type="integer" value="0"/>
+				</values>
+			      </LKScriptComponentInstance>
+			    </scriptComponents>
+			  </CABackdropLayer>
+			</sublayers>
+		      </CALayer>
+		    </sublayers>
+		  </CALayer>
+		  <CABackdropLayer allowsEdgeAntialiasing="1" allowsGroupOpacity="1" bounds="0 0 1437 2556" contentsFormat="RGBA8" name="Blur_Call" position="589.5 1278">
+		    <filters>
+		      <CAFilter filter="gaussianBlur" name="gaussianBlur" inputRadius="20" inputQuality="default" inputHardEdges="0"/>
+		    </filters>
+		    <animations>
+		      <p key="animation-1" type="CASpringAnimation" keyPath="filters.gaussianBlur.inputRadius" beginTime="1e-100" duration="1.5" removedOnCompletion="0">
+			<fromValue type="integer" value="40"/>
+			<toValue type="integer" value="40"/>
+		      </p>
+		      <animation type="CASpringAnimation" keyPath="filters.gaussianBlur.inputRadius" beginTime="1.5" duration="1" removedOnCompletion="0">
+			<fromValue type="integer" value="40"/>
+			<toValue type="integer" value="0"/>
+		      </animation>
+		      <p key="animation-2" type="CASpringAnimation" keyPath="filters.gaussianBlur.inputRadius" beginTime="2.5" duration="7.5" removedOnCompletion="0">
+			<fromValue type="integer" value="0"/>
+			<toValue type="integer" value="0"/>
+		      </p>
+		    </animations>
+		  </CABackdropLayer>
+		</sublayers>
+		<animations>
+		  <p key="animation-3" type="CAKeyframeAnimation" keyPath="opacity" beginTime="1e-100" duration="4.15001" fillMode="both" removedOnCompletion="0">
+		    <keyTimes>
+		      <integer value="0"/>
+		      <real value="0.965059"/>
+		      <integer value="1"/>
+		    </keyTimes>
+		    <values>
+		      <integer value="1"/>
+		      <integer value="1"/>
+		      <integer value="0"/>
+		    </values>
+		  </p>
+		  <p key="animation-8" type="CASpringAnimation" damping="50" mass="2" stiffness="300" keyPath="position.y" beginTime="1e-100" duration="1.5" removedOnCompletion="0">
+		    <fromValue type="integer" value="858"/>
+		    <toValue type="integer" value="858"/>
+		  </p>
+		  <animation type="CASpringAnimation" damping="50" mass="2" stiffness="300" keyPath="transform.scale.xy" beginTime="1e-100" duration="1.5" removedOnCompletion="0">
+		    <fromValue type="real" value="2.2"/>
+		    <toValue type="real" value="2.2"/>
+		  </animation>
+		  <p key="animation-1" type="CASpringAnimation" damping="50" mass="2" stiffness="300" keyPath="transform.scale.xy" beginTime="1.5" duration="1" removedOnCompletion="0">
+		    <fromValue type="real" value="1.8"/>
+		    <toValue type="integer" value="1"/>
+		  </p>
+		  <p key="animation-4" type="CASpringAnimation" damping="50" mass="2" stiffness="300" keyPath="position.y" beginTime="1.5" duration="1" removedOnCompletion="0">
+		    <fromValue type="integer" value="1158"/>
+		    <toValue type="integer" value="1278"/>
+		  </p>
+		  <p key="animation-2" type="CASpringAnimation" damping="50" mass="2" stiffness="300" keyPath="transform.scale.xy" beginTime="2.5" duration="7.5" removedOnCompletion="0">
+		    <fromValue type="integer" value="1"/>
+		    <toValue type="integer" value="1"/>
+		  </p>
+		  <p key="animation-5" type="CASpringAnimation" damping="50" mass="2" stiffness="300" keyPath="position.y" beginTime="4" duration="1" removedOnCompletion="0">
+		    <fromValue type="integer" value="1278"/>
+		    <toValue type="integer" value="1938"/>
+		  </p>
+		  <p key="animation-6" type="CASpringAnimation" damping="50" mass="2" stiffness="300" keyPath="position.y" beginTime="5" duration="1.5" removedOnCompletion="0">
+		    <fromValue type="integer" value="1938"/>
+		    <toValue type="integer" value="1938"/>
+		  </p>
+		  <p key="animation-7" type="CASpringAnimation" damping="50" mass="2" stiffness="300" keyPath="position.y" beginTime="6.5" duration="1" removedOnCompletion="0">
+		    <fromValue type="integer" value="1938"/>
+		    <toValue type="integer" value="1278"/>
+		  </p>
+		</animations>
+	      </CALayer>
+	      <CALayer allowsEdgeAntialiasing="1" allowsGroupOpacity="1" bounds="0 0 2556 2556" contentsFormat="RGBA8" hidden="0" name="Avatar" position="1278.000000000001 1278">
+		<sublayers>
+		  <CALayer id="Avatar.png" allowsEdgeAntialiasing="1" allowsGroupOpacity="1" bounds="0 0 2556 2556" contentsFormat="RGBA8" name="Avatar.png" position="1277.999999999999 1278"/>
+		  <CABackdropLayer allowsEdgeAntialiasing="1" allowsGroupOpacity="1" bounds="0 0 2556 2556" contentsFormat="RGBA8" name="Blur_Avatar" position="1278 1278">
+		    <filters>
+		      <CAFilter filter="gaussianBlur" name="gaussianBlur" inputRadius="0" inputQuality="default" inputHardEdges="0"/>
+		    </filters>
+		    <animations>
+		      <animation type="CASpringAnimation" keyPath="filters.gaussianBlur.inputRadius" beginTime="1.5" duration="1" removedOnCompletion="0" speed="1">
+			<fromValue type="integer" value="0"/>
+			<toValue type="integer" value="30"/>
+		      </animation>
+		      <p key="animation-1" type="CASpringAnimation" startAngle="0.349066" keyPath="filters.gaussianBlur.inputRadius" beginTime="2.5" duration="6.5" removedOnCompletion="0">
+			<fromValue type="integer" value="20"/>
+			<toValue type="integer" value="50"/>
+		      </p>
+		      <p key="animation-2" type="CASpringAnimation" damping="50" mass="2" stiffness="300" keyPath="filters.gaussianBlur.inputRadius" beginTime="9" duration="1" removedOnCompletion="0">
+			<fromValue type="integer" value="50"/>
+			<toValue type="string" value=""/>
+		      </p>
+		    </animations>
+		  </CABackdropLayer>
+		</sublayers>
+		<animations>
+		  <p key="animation-1" type="CASpringAnimation" damping="50" mass="2" stiffness="300" keyPath="transform.scale.xy" beginTime="1e-100" duration="1.5" removedOnCompletion="0">
+		    <fromValue type="integer" value="1"/>
+		    <toValue type="integer" value="1"/>
+		  </p>
+		  <animation type="CAKeyframeAnimation" keyPath="opacity" beginTime="1e-100" duration="9.24833" fillMode="both" removedOnCompletion="0">
+		    <keyTimes>
+		      <integer value="0"/>
+		      <real value="0.162192"/>
+		      <real value="0.175888"/>
+		      <real value="0.986665"/>
+		      <integer value="1"/>
+		    </keyTimes>
+		    <values>
+		      <integer value="1"/>
+		      <integer value="1"/>
+		      <real value="-0.00284414"/>
+		      <integer value="0"/>
+		      <real value="0.997202"/>
+		    </values>
+		  </animation>
+		  <p key="animation-5" type="CASpringAnimation" damping="50" mass="2" stiffness="300" keyPath="position.y" beginTime="1e-100" duration="1.5" removedOnCompletion="0">
+		    <fromValue type="integer" value="1278"/>
+		    <toValue type="integer" value="1278"/>
+		  </p>
+		  <p key="animation-6" type="CASpringAnimation" damping="50" mass="2" stiffness="300" keyPath="position.y" beginTime="1.5" duration="1" removedOnCompletion="0">
+		    <fromValue type="integer" value="1278"/>
+		    <toValue type="integer" value="1478"/>
+		  </p>
+		  <p key="animation-2" type="CASpringAnimation" damping="50" mass="2" stiffness="300" keyPath="transform.scale.xy" beginTime="1.5" duration="1" removedOnCompletion="0">
+		    <fromValue type="integer" value="1"/>
+		    <toValue type="real" value="0.5"/>
+		  </p>
+		  <p key="animation-3" type="CASpringAnimation" damping="50" mass="2" stiffness="300" keyPath="transform.scale.xy" beginTime="2.5" duration="6.5" removedOnCompletion="0">
+		    <fromValue type="real" value="0.5"/>
+		    <toValue type="real" value="0.5"/>
+		  </p>
+		  <p key="animation-7" type="CASpringAnimation" damping="50" mass="2" stiffness="300" keyPath="position.y" beginTime="2.5" duration="6.5" removedOnCompletion="0">
+		    <fromValue type="integer" value="2378"/>
+		    <toValue type="integer" value="1478"/>
+		  </p>
+		  <p key="animation-8" type="CASpringAnimation" damping="50" mass="2" stiffness="300" keyPath="position.y" beginTime="9" duration="1" removedOnCompletion="0">
+		    <fromValue type="integer" value="1478"/>
+		    <toValue type="integer" value="1278"/>
+		  </p>
+		  <p key="animation-4" type="CASpringAnimation" damping="50" mass="2" stiffness="300" keyPath="transform.scale.xy" beginTime="9" duration="1" removedOnCompletion="0">
+		    <fromValue type="real" value="0.5"/>
+		    <toValue type="integer" value="1"/>
+		  </p>
+		</animations>
+	      </CALayer>
+	      <CABackdropLayer allowsEdgeAntialiasing="1" allowsGroupOpacity="1" bounds="0 0 2556 2556" contentsFormat="RGBA8" name="Blur_Everything" position="1278 1278">
+		<filters>
+		  <CAFilter filter="gaussianBlur" name="gaussianBlur" inputRadius="0" inputQuality="default" inputHardEdges="0"/>
+		</filters>
+		<animations>
+		  <animation type="CASpringAnimation" keyPath="filters.gaussianBlur.inputRadius" beginTime="1e-100" duration="9" removedOnCompletion="0" speed="1">
+		    <fromValue type="integer" value="0"/>
+		    <toValue type="integer" value="0"/>
+		  </animation>
+		  <p key="animation-1" type="CASpringAnimation" startAngle="0.349066" keyPath="filters.gaussianBlur.inputRadius" beginTime="9" duration="0.2" removedOnCompletion="0">
+		    <fromValue type="integer" value="0"/>
+		    <toValue type="integer" value="50"/>
+		  </p>
+		  <p key="animation-2" type="CASpringAnimation" damping="10" mass="1" stiffness="100" keyPath="filters.gaussianBlur.inputRadius" beginTime="9.2" duration="0.8" removedOnCompletion="0">
+		    <fromValue type="integer" value="50"/>
+		    <toValue type="string" value=""/>
+		  </p>
+		</animations>
+	      </CABackdropLayer>
+	    </sublayers>
+	  </CALayer>
+	  <CALayer allowsEdgeAntialiasing="1" allowsGroupOpacity="1" borderWidth="3" bounds="0 0 2556 2556" contentsFormat="RGBA8" cornerCurve="continuous" hidden="0" masksToBounds="0" name="Stroke" opacity="0.2" position="1278 1278">
+	    <backgroundColor opacity="0" value="1.011 0.1491 -0.02277"/>
+	    <compositingFilter type="CAFilter" filter="plusD" name="plusD"/>
+	    <animations>
+	      <p key="animation-6" type="CASpringAnimation" keyPath="bounds.size.height" beginTime="1e-100" duration="1.5" removedOnCompletion="0">
+		<fromValue type="integer" value="2556"/>
+		<toValue type="integer" value="2556"/>
+	      </p>
+	      <p key="animation-4" type="CASpringAnimation" damping="50" mass="2" stiffness="300" keyPath="cornerRadius" autoreverses="0" beginTime="1e-100" duration="1.5" preferredFrameRateRangeMaximum="0" preferredFrameRateRangeMinimum="0" preferredFrameRateRangePreferred="0" removedOnCompletion="0" repeatCount="0" timeOffset="0">
+		<fromValue type="integer" value="1278"/>
+		<toValue type="integer" value="1278"/>
+	      </p>
+	      <p key="animation-5" type="CASpringAnimation" damping="50" mass="2" stiffness="300" keyPath="bounds.size.width" autoreverses="0" beginTime="1e-100" duration="1.5" preferredFrameRateRangeMaximum="0" preferredFrameRateRangeMinimum="0" preferredFrameRateRangePreferred="0" removedOnCompletion="0" repeatCount="0" timeOffset="0">
+		<fromValue type="integer" value="2556"/>
+		<toValue type="integer" value="2556"/>
+	      </p>
+	      <p key="animation-7" type="CASpringAnimation" damping="50" mass="2" stiffness="300" keyPath="bounds.size.height" beginTime="1.5" duration="1" removedOnCompletion="0">
+		<fromValue type="integer" value="2556"/>
+		<toValue type="integer" value="2556"/>
+	      </p>
+	      <animation type="CASpringAnimation" damping="50" mass="2" stiffness="300" keyPath="bounds.size.width" autoreverses="0" beginTime="1.5" duration="1" preferredFrameRateRangeMaximum="0" preferredFrameRateRangeMinimum="0" preferredFrameRateRangePreferred="0" removedOnCompletion="0" repeatCount="0" timeOffset="0">
+		<fromValue type="integer" value="2556"/>
+		<toValue type="integer" value="1437"/>
+	      </animation>
+	      <p key="animation-1" type="CASpringAnimation" damping="50" mass="2" stiffness="300" keyPath="cornerRadius" autoreverses="0" beginTime="1.5" duration="1" preferredFrameRateRangeMaximum="0" preferredFrameRateRangeMinimum="0" preferredFrameRateRangePreferred="0" removedOnCompletion="0" repeatCount="0" timeOffset="0">
+		<fromValue type="integer" value="1278"/>
+		<toValue type="integer" value="30"/>
+	      </p>
+	      <p key="animation-8" type="CASpringAnimation" damping="50" mass="2" stiffness="300" keyPath="bounds.size.height" beginTime="2.5" duration="6.5" removedOnCompletion="0">
+		<fromValue type="integer" value="2556"/>
+		<toValue type="integer" value="2556"/>
+	      </p>
+	      <p key="animation-2" type="CASpringAnimation" damping="50" mass="2" stiffness="300" keyPath="cornerRadius" beginTime="2.5" duration="6.5" removedOnCompletion="0">
+		<fromValue type="integer" value="30"/>
+		<toValue type="integer" value="30"/>
+	      </p>
+	      <p key="animation-3" type="CASpringAnimation" keyPath="bounds.size.width" beginTime="2.5" duration="6.5" removedOnCompletion="0">
+		<fromValue type="integer" value="1437"/>
+		<toValue type="integer" value="1437"/>
+	      </p>
+	      <p key="animation-9" type="CASpringAnimation" damping="50" mass="2" stiffness="300" keyPath="cornerRadius" autoreverses="0" beginTime="9" duration="1" preferredFrameRateRangeMaximum="0" preferredFrameRateRangeMinimum="0" preferredFrameRateRangePreferred="0" removedOnCompletion="0" repeatCount="0" timeOffset="0">
+		<fromValue type="integer" value="30"/>
+		<toValue type="integer" value="1278"/>
+	      </p>
+	      <p key="animation-10" type="CASpringAnimation" damping="50" mass="2" stiffness="300" keyPath="bounds.size.width" autoreverses="0" beginTime="9" duration="1" preferredFrameRateRangeMaximum="0" preferredFrameRateRangeMinimum="0" preferredFrameRateRangePreferred="0" removedOnCompletion="0" repeatCount="0" timeOffset="0">
+		<fromValue type="integer" value="1437"/>
+		<toValue type="integer" value="2556"/>
+	      </p>
+	      <p key="animation-11" type="CASpringAnimation" damping="50" mass="2" stiffness="300" keyPath="bounds.size.height" beginTime="9" duration="1" removedOnCompletion="0">
+		<fromValue type="integer" value="2556"/>
+		<toValue type="integer" value="2556"/>
+	      </p>
+	    </animations>
+	  </CALayer>
+	</sublayers>
+      </CALayer>
+    </sublayers>
+  </CALayer>
+</caml>

@@ -1,5 +1,10 @@
 {% extends 'base.html' %}
 
+{% load django_bootstrap5 %}
+{% load socialaccount %}
+{% load static %}
+
+
 {% block title %}Register - Murtle{% endblock %}
 
 {% block content %}
@@ -7,8 +12,9 @@
     <div class="row justify-content-center">
         <div class="col-md-6">
             <div class="card">
-                <div class="card-header bg-dark text-light">
-                    <h2 class="mb-0">Register</h2>
+                <div class="card-header text-center">
+                    <h2 class="mb-0">Sign up</h2>
+
                 </div>
                 <div class="card-body">
                     <form method="post">
@@ -16,25 +22,60 @@
                         <div class="mb-3">
                             {{ form.first_name.label_tag }}
                             {{ form.first_name }}
+                            {% if form.first_name.errors %}
+                            <div class="invalid-feedback d-block">
+                                {{ form.first_name.errors }}
+                            </div>
+                            {% endif %}
+
                         </div>
                         <div class="mb-3">
                             {{ form.last_name.label_tag }}
                             {{ form.last_name }}
+                            {% if form.last_name.errors %}
+                            <div class="invalid-feedback d-block">
+                                {{ form.last_name.errors }}
+                            </div>
+                            {% endif %}
+
                         </div>
                         <div class="mb-3">
                             {{ form.email.label_tag }}
                             {{ form.email }}
+                            {% if form.email.errors %}
+                            <div class="invalid-feedback d-block">
+                                {{ form.email.errors }}
+                            </div>
+                            {% endif %}
+
                         </div>
                         <div class="mb-3">
                             {{ form.password1.label_tag }}
                             {{ form.password1 }}
+                            {% if form.password1.errors %}
+                            <div class="invalid-feedback d-block">
+                                {{ form.password1.errors }}
+                            </div>
+                            {% endif %}
+
                         </div>
                         <div class="mb-3">
                             {{ form.password2.label_tag }}
                             {{ form.password2 }}
+                            {% if form.password2.errors %}
+                            <div class="invalid-feedback d-block">
+                                {{ form.password2.errors }}
+                            </div>
+                            {% endif %}
                         </div>
-                        <button type="submit" class="btn btn-custom w-100">Register</button>
+                        <button type="submit" class="btn btn-primary w-100">Sign up</button>
                     </form>
+                    <div class="text-center mt-3">
+                        <a href="{% provider_login_url 'google' %}" class="btn btn-google btn-block">
+                            <i class="fab fa-google me-2"></i> Sign in with Google
+                        </a>
+                    </div>
+
                 </div>
             </div>
         </div>

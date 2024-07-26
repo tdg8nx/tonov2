@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>materialSettingsVersion</key>
+    <integer>2</integer>
+    <key>baseMaterial</key>
+    <dict>
+        <key>materialFiltering</key>
+        <dict>
+            <key>blurRadius</key>
+            <integer>45</integer>
+            <key>colorMatrix</key>
+            <dict>
+                <key>m11</key>
+                <real>0.921</real>
+                <key>m12</key>
+                <real>-0.265</real>
+                <key>m13</key>
+                <real>-0.027</real>
+                <key>m14</key>
+                <integer>0</integer>
+                <key>m15</key>
+                <real>0.235</real>
+                <key>m21</key>
+                <real>-0.079</real>
+                <key>m22</key>
+                <real>0.735</real>
+                <key>m23</key>
+                <real>-0.027</real>
+                <key>m24</key>
+                <integer>0</integer>
+                <key>m25</key>
+                <real>0.235</real>
+                <key>m31</key>
+                <real>-0.079</real>
+                <key>m32</key>
+                <real>-0.265</real>
+                <key>m33</key>
+                <real>0.973</real>
+                <key>m34</key>
+                <integer>0</integer>
+                <key>m35</key>
+                <real>0.235</real>
+                <key>m41</key>
+                <integer>0</integer>
+                <key>m42</key>
+                <integer>0</integer>
+                <key>m43</key>
+                <integer>0</integer>
+                <key>m44</key>
+                <real>1</real>
+                <key>m45</key>
+                <integer>0</integer>
+            </dict>
+        </dict>
+    </dict>
+</dict>
+</plist>

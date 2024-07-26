@@ -1,0 +1,88 @@
+[
+  {
+    "fileName" : "default.metallib",
+    "type" : "MTLLibrary",
+    "name" : "default",
+    "isFromSource" : false
+  },
+  {
+    "constants" : [
+      {
+        "value" : 1,
+        "dataType" : 53
+      }
+    ],
+    "type" : "MTLFunction",
+    "name" : "default_overlayFragment_0",
+    "baseFunction" : {
+      "name" : "overlayFragment",
+      "library" : "default"
+    }
+  },
+  {
+    "vertexFunction" : {
+      "name" : "circleVertex",
+      "library" : "default"
+    },
+    "fragmentFunction" : {
+      "name" : "circleFragment",
+      "library" : "default"
+    },
+    "type" : "MTLRenderPipelineDescriptor",
+    "colorAttachments" : [
+      {
+        "sourceAlphaBlendFactor" : 4,
+        "blendingEnabled" : 1,
+        "destinationAlphaBlendFactor" : 5,
+        "pixelFormat" : 80,
+        "destinationRGBBlendFactor" : 5,
+        "sourceRGBBlendFactor" : 4,
+        "index" : 0
+      }
+    ]
+  },
+  {
+    "vertexFunction" : {
+      "name" : "circleOutlineVertex",
+      "library" : "default"
+    },
+    "fragmentFunction" : {
+      "name" : "circleOutlineFragment",
+      "library" : "default"
+    },
+    "type" : "MTLRenderPipelineDescriptor",
+    "colorAttachments" : [
+      {
+        "sourceAlphaBlendFactor" : 4,
+        "blendingEnabled" : 1,
+        "destinationAlphaBlendFactor" : 5,
+        "pixelFormat" : 80,
+        "destinationRGBBlendFactor" : 5,
+        "sourceRGBBlendFactor" : 4,
+        "index" : 0
+      }
+    ]
+  },
+  {
+    "vertexFunction" : {
+      "name" : "overlayVertex",
+      "library" : "default"
+    },
+    "fragmentFunction" : {
+      "name" : "default_overlayFragment_0",
+      "library" : "specialized"
+    },
+    "type" : "MTLRenderPipelineDescriptor",
+    "colorAttachments" : [
+      {
+        "sourceAlphaBlendFactor" : 4,
+        "blendingEnabled" : 1,
+        "destinationAlphaBlendFactor" : 5,
+        "pixelFormat" : 80,
+        "destinationRGBBlendFactor" : 5,
+        "sourceRGBBlendFactor" : 4,
+        "index" : 0
+      }
+    ]
+  }
+]

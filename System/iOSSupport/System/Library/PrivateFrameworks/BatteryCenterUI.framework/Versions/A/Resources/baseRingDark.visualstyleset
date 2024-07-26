@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "https://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>visualStyleSetVersion</key>
+	<integer>1</integer>
+	<key>secondary</key>
+	<string>baseRingSecondary</string>
+	<key>styles</key>
+	<dict>
+		<key>baseRingSecondary</key>
+		<dict>
+			<key>tinting</key>
+			<dict>
+				<key>tintColor</key>
+				<dict>
+					<key>white</key>
+					<integer>1</integer>
+					<key>alpha</key>
+					<integer>1</integer>
+				</dict>
+			</dict>
+			<key>blending</key>
+			<dict>
+				<key>compositingFilter</key>
+				<string>plusL</string>
+			</dict>
+		</dict>
+	</dict>
+</dict>
+</plist>

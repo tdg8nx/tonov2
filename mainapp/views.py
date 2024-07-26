@@ -5,6 +5,9 @@ import pyrebase
 from users.forms import UserRegisterForm
 
 
-
 def home(request):
     return render(request, 'home.html')
+
+
+def support(request):
+    return render(request, 'support.html')

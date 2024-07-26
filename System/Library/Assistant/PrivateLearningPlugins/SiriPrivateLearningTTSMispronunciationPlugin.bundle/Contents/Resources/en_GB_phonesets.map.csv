@@ -1,0 +1,98 @@
+phoneset_name,NvASR,L&H+,internalTTS,SAMPA,category,TTSsimplXSAMPA
+stress_method,case,on_syl,after_phone,before_phone,,before_phone
+primary_stress,uppercase,',:,",,"
+secondary_stress,,,,%,,%
+phone_boundary,.,, , ,,
+syllable_boundary,,.,.,.,,.
+word_boundary,,_,_,_,,_
+silence_phones,_sil,#,_ sil _,sil,,sil
+silence_phones,sil,#*,_ sil _*,sil*,,sil*
+,AA,'@,145:,"{,V,"{
+,AA*,@,145,{,V,{
+,AA*,@*,145*,%{,V,{*
+,AH,'A,a:,"A,V,"A
+,AH*,A,a,A,V,A
+,AH*,A*,a*,%A,V,A*
+,AW,'A+,Q:,"Q,V,"Q
+,AW*,A+,Q,Q,V,Q
+,AW*,A+*,Q*,%Q,V,Q*
+,AWH,'O,o:,"O,V,"O
+,AWH*,O,o,O,V,O
+,AWH*,O*,o*,%O,V,O*
+,AY,'a&I,Y:,"aI,V,"a I
+,AY*,a&I,Y,aI,V,a I
+,AY*,a&I*,Y*,%aI,V,a I*
+,b,b,b,b,C,b
+,ch,t&S,C,tS,C,t_} S
+,d,d,d,d,C,d
+,dh,D,D,D,C,D
+,ee,i*,i,i,V,i
+,EE,'i,i:,"i,V,"i
+,EE*,i,i*,%i,V,i*
+,eh,E,E,E,V,E
+,EH,'E,E:,"E,V,"E
+,EH*,E*,E*,%E,V,E*
+,AE,'E&$,130:,"E@,V,"E @
+,AE*,E&$,130,E@,V,E @
+,AE*,E&$*,130*,%E@,V,E @*
+,EY,'e&I,J:,"eI,V,"e I
+,EY*,e&I,J,eI,V,e I
+,EY*,e&I*,J*,%eI,V,e I*
+,f,f,f,f,C,f
+,g,g,g,g,C,g
+,h,h,h,h,C,h
+,ih,I,I,I,V,I
+,IH,'I,I:,"I,V,"I
+,IH*,I*,I*,%I,V,I*
+,j,d&Z,G,dZ,C,d_} Z
+,k,k,k,k,C,k
+,k*,k*,K,k*,C,k*
+,l,l,l,l,C,l
+,m,m,m,m,C,m
+,n,n,n,n,C,n
+,ng,nK,N,N,C,N
+,oh,o&U,O,@U,V,@ U
+,OH,'o&U,O:,"@U,V,"@ U
+,OH*,o&U*,O*,%@U,V,@ U*
+,OY,'O&I,y:,"OI,V,"O I
+,OY*,O&I,y,OI,V,O I
+,OY*,O&I*,y*,%OI,V,O I*
+,OO,'U,U:,"U,V,"U
+,OO*,U,U,U,V,U
+,OO*,U*,U*,%U,V,U*
+,OO.ur*,'U&$,163:,"U@,V,"U @
+,OO.ur*,U&$,163,U@,V,U @
+,OO.ur*,U&$*,163*,%U@,V,U @*
+,OOH,'u,u:,"u,V,"u
+,OOH*,u,u,u,V,u
+,OOH*,u*,u*,%u,V,u*
+,OW,'a&U,@:,"aU,V,"a U
+,OW*,a&U,@,aU,V,a U
+,OW*,a&U*,@*,%aU,V,a U*
+,p,p,p,p,C,p
+,p*,p*,P,p*,C,p*
+,r,R+,r,r\,C,r\
+,s,s,s,s,C,s
+,sh,S,S,S,C,S
+,t,t,t,t,C,t
+,t*,t*,146,t*,C,t*
+,th,T,T,T,C,T
+,UH,'^,^:,"V,V,"V
+,UH*,^,^,V,V,V
+,uh,$,$,@,V,@
+,ul,l%),L,l=,V,@ l
+,um,$m*,$ m*,m=,V,@ m
+,un,n%),164,n=,V,@ n
+,UR*,'E0,e:*,"3*,V,"3*
+,UR*,E0,e*,3*,V,3*
+,UR,'E0R+,e:,"3,V,"3
+,UR*,E0R+,e,3,V,3
+,ur,$R+,$ r,@r,V,@ r\
+,v,v,v,v,C,v
+,w,w,w,w,C,w
+,y,j,j,j,C,j
+,z,z,z,z,C,z
+,zh,Z,Z,Z,C,Z
+,EE.r*,'I&$,161:,"I@,V,"I @
+,EE.r*,I&$,161,I@,V,I @
+,EE.r*,I&$*,161*,%I@,V,I @*

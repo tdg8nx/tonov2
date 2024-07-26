@@ -1,0 +1,20 @@
+#
+ProjectdalModernPoetryGenerator†
+DescriptionêUser asks Siri to write a poem, Siri generates one from predefined poetic structures and elements. (zh_CN specific UC ) |rdar://problem/60461801'
+CreationDate2022-08-09 16:43:34 PDT1
+	Copyright$(c) 2022 Apple. All rights reserved."P
+modernPoetryGeneratorr+SocialConversation#dalModernPoetryGeneratorí	mainInput"m
+%modernPoetryGeneratorNegativeFeedbackr;SocialConversation#dalModernPoetryGeneratorNegativeFeedbackírepeat"m
+%modernPoetryGeneratorPositiveFeedbackr;SocialConversation#dalModernPoetryGeneratorPositiveFeedbackírepeat"[
+modernPoetryGeneratorMeaningr2SocialConversation#dalModernPoetryGeneratorMeaningírepeat"P
+modernPoetryGeneratorAuthorr1SocialConversation#dalModernPoetryGeneratorAuthor"N
+modernPoetryGeneratorTitler0SocialConversation#dalModernPoetryGeneratorTitle“2.0.7Íˆ
+	mainInputZ92%modernPoetryGeneratorNegativeFeedback:negativeFeedbackZ#2modernPoetryGeneratorTitle:titleZ%2modernPoetryGeneratorAuthor:authorZ'2modernPoetryGeneratorMeaning:meaningZ92%modernPoetryGeneratorPositiveFeedback:positiveFeedbackÍ&
+repeatZ2modernPoetryGenerator:yesÇ
+modernPoetryGeneratorä
+yesYES_GUID_PLACEHOLDERä6
+negativeFeedback"NEGATIVE_FEEDBACK_GUID_PLACEHOLDERä
+titleTITLE_GUID_PLACEHOLDERä!
+authorAUTHOR_GUID_PLACEHOLDERä#
+meaningMEANING_GUID_PLACEHOLDERä6
+positiveFeedback"POSITIVE_FEEDBACK_GUID_PLACEHOLDER

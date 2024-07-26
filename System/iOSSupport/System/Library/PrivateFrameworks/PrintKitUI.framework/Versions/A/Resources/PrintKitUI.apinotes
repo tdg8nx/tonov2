@@ -1,0 +1,67 @@
+#
+# Swift 3 specific notes are at the end of the file.
+# The following are notes applicable to Swift 3 and Swift 4.
+#
+---
+Name: PrintKitUI
+Classes:
+- Name: UIPrintInfo
+  Methods:
+  - Selector: printInfo
+    MethodKind: Class
+    SwiftName: 'printInfo()'
+- Name: UIPrintInteractionController
+  Properties:
+  - Name: 'sharedPrintController'
+    SwiftName: shared
+Tags:
+- Name: UIPrinterCutterBehavior
+  SwiftName: UIPrinter.CutterBehavior
+- Name: UIPrinterJobTypes
+  SwiftName: UIPrinter.JobTypes
+- Name: UIPrintInfoDuplex
+  SwiftName: UIPrintInfo.Duplex
+- Name: UIPrintInfoOrientation
+  SwiftName: UIPrintInfo.Orientation
+- Name: UIPrintInfoOutputType
+  SwiftName: UIPrintInfo.OutputType
+Typedefs:
+# Swift 4.2 Renames
+- Name: UIPrintInteractionCompletionHandler
+  SwiftName: UIPrintInteractionController.CompletionHandler
+- Name: UIPrinterPickerCompletionHandler
+  SwiftName: UIPrinterPickerController.CompletionHandler
+Enumerators:
+- Name: UIPrinterJobTypeUnknown
+  SwiftName: unknown
+- Name: UIPrintingNotAvailableError
+  SwiftName: notAvailable
+- Name: UIPrintNoContentError
+  SwiftName: noContent
+- Name: UIPrintUnknownImageFormatError
+  SwiftName: unknownImageFormat
+- Name: UIPrintJobFailedError
+  SwiftName: jobFailed
+SwiftVersions:
+#
+# Swift 4 and below specific conversions
+#
+- Version: 4
+  Tags:
+  # Swift 4.2 Renames
+  - Name: UIPrinterCutterBehavior
+    SwiftName: UIPrinterCutterBehavior
+  - Name: UIPrinterJobTypes
+    SwiftName: UIPrinterJobTypes
+  - Name: UIPrintInfoDuplex
+    SwiftName: UIPrintInfoDuplex
+  - Name: UIPrintInfoOrientation
+    SwiftName: UIPrintInfoOrientation
+  - Name: UIPrintInfoOutputType
+    SwiftName: UIPrintInfoOutputType
+  Typedefs:
+  # Swift 4.2 Renames
+  - Name: UIPrintInteractionCompletionHandler
+    SwiftName: UIPrintInteractionCompletionHandler
+  - Name: UIPrinterPickerCompletionHandler
+    SwiftName: UIPrinterPickerCompletionHandler

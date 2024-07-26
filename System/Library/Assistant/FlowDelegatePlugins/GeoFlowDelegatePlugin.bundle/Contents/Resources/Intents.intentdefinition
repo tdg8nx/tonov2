@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>INEnums</key>
+	<array/>
+	<key>INIntentDefinitionModelVersion</key>
+	<string>1.2</string>
+	<key>INIntentDefinitionNamespace</key>
+	<string>DCxC9q</string>
+	<key>INIntentDefinitionSystemVersion</key>
+	<string>22A380019</string>
+	<key>INIntentDefinitionToolsBuildVersion</key>
+	<string>15E6079e</string>
+	<key>INIntentDefinitionToolsVersion</key>
+	<string>15.0</string>
+	<key>INIntents</key>
+	<array>
+		<dict>
+			<key>INIntentCategory</key>
+			<string>generic</string>
+			<key>INIntentDescriptionID</key>
+			<string>PALWP2</string>
+			<key>INIntentHash</key>
+			<integer>15939719214506543314</integer>
+			<key>INIntentIneligibleForSuggestions</key>
+			<true/>
+			<key>INIntentName</key>
+			<string>AnswerETA</string>
+			<key>INIntentResponse</key>
+			<dict>
+				<key>INIntentResponseCodes</key>
+				<array>
+					<dict>
+						<key>INIntentResponseCodeName</key>
+						<string>success</string>
+						<key>INIntentResponseCodeSuccess</key>
+						<true/>
+					</dict>
+					<dict>
+						<key>INIntentResponseCodeName</key>
+						<string>failure</string>
+					</dict>
+				</array>
+			</dict>
+			<key>INIntentTitle</key>
+			<string>AnswerETA</string>
+			<key>INIntentTitleID</key>
+			<string>ayVILi</string>
+			<key>INIntentType</key>
+			<string>Custom</string>
+			<key>INIntentVerb</key>
+			<string>Do</string>
+		</dict>
+	</array>
+	<key>INTypes</key>
+	<array/>
+</dict>
+</plist>

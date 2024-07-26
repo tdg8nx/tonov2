@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d5d926e6-d0be-45b2-94bd-fdf7cfca5b94" name="Changes" comment="idk why this needs to be committed but ok" />
+    <list default="true" id="d5d926e6-d0be-45b2-94bd-fdf7cfca5b94" name="Changes" comment="google oauth stuff not done yet" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,6 +14,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Python Script" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -52,10 +53,12 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "login__feature",
-    "last_opened_file_path": "/Users/MD/PycharmProjects/murtle/murtle/static/images",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "event__creation",
+    "last_opened_file_path": "/Users/MD/PycharmProjects/murtle/murtle/templates",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -67,9 +70,11 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/murtle/templates" />
       <recent name="$PROJECT_DIR$/murtle/static/images" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/murtle/convos/templates/convos" />
       <recent name="$PROJECT_DIR$/murtle/templates" />
     </key>
   </component>
@@ -97,6 +102,8 @@
       <workItem from="1719590471851" duration="3238000" />
       <workItem from="1720809880365" duration="2244000" />
       <workItem from="1721238905805" duration="123000" />
+      <workItem from="1721333095813" duration="4637000" />
+      <workItem from="1721504617811" duration="4678000" />
     </task>
     <task id="LOCAL-00001" summary="Checking if pushes work for me">
       <option name="closed" value="true" />
@@ -178,7 +185,23 @@
       <option name="project" value="LOCAL" />
       <updated>1721238640893</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Styling changes and fucntionality for users and admins to see events and admins to create and edit events">
+      <option name="closed" value="true" />
+      <created>1721419822205</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1721419822205</updated>
+    </task>
+    <task id="LOCAL-00012" summary="google oauth stuff not done yet">
+      <option name="closed" value="true" />
+      <created>1721767749107</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1721767749107</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -243,6 +266,8 @@
     <MESSAGE value="Styling stuff, performance issues, landing page (sorta)" />
     <MESSAGE value="removed firebase stuff" />
     <MESSAGE value="idk why this needs to be committed but ok" />
-    <option name="LAST_COMMIT_MESSAGE" value="idk why this needs to be committed but ok" />
+    <MESSAGE value="Styling changes and fucntionality for users and admins to see events and admins to create and edit events" />
+    <MESSAGE value="google oauth stuff not done yet" />
+    <option name="LAST_COMMIT_MESSAGE" value="google oauth stuff not done yet" />
   </component>
 </project>

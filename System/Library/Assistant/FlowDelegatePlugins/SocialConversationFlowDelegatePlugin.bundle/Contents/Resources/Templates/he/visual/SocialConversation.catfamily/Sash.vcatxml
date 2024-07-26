@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<cat xmlns="urn:apple:names:siri:visualcat:2.0" id="SocialConversation#Sash">
+    <response>
+        <hide-redacted-elements>false</hide-redacted-elements>
+        <sections>
+            <level-of-detail>FULL</level-of-detail>
+            <level-of-detail>SUPPORTING</level-of-detail>
+            <idioms>CAR</idioms>
+            <idioms>WATCH</idioms>
+            <is-hidden-on-idioms>true</is-hidden-on-idioms>
+            <component-list>
+                <value>
+                    <sash-standard>
+                        <title>
+                            <value>
+                                <application-bundle-identifier>com.apple.siri</application-bundle-identifier>
+                            </value>
+                        </title>
+                    </sash-standard>
+                </value>
+            </component-list>
+        </sections>
+    </response>
+</cat>

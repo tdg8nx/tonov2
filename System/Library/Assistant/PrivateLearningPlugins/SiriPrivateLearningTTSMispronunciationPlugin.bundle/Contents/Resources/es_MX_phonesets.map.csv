@@ -1,0 +1,61 @@
+phoneset_name,NvASR,L&H+,SAMPA,internalTTS,TTSsimplXSAMPA
+stress_method,case,on_syl,before_phone,after_phone,before_phone
+primary_stress,uppercase,',",:,"
+phone_boundary,.,, , ,
+syllable_boundary,,.,.,.,.
+word_boundary,,_,_,_,_
+silence_phones,_sil,#,sil,_ sil _,sil
+silence_phones,sil,#*,sil*,_ sil _*,sil*
+,ii,i,i,i,i
+,II,'i,"i,i:,"i
+,ee,e,e,e,e
+,EE,'e,"e,e:,"e
+,aa,a,a,a,a
+,AA,'a,"a,a:,"a
+,oo,o,o,o,o
+,OO,'o,"o,o:,"o
+,uu,u,u,u,u
+,UU,'u,"u,u:,"u
+,AY*,aj*,a_i,a j*,a i
+,AY,'aj*,"a_i,a: j*,"a i
+,AU*,aw*,a_u,a w*,a u
+,AU,'aw*,"a_u,a: w*,"a u
+,EY*,ej*,e_i,e j*,e i
+,EY,'ej*,"e_i,e: j*,"e i
+,OY*,oj*,o_i,o j*,o i
+,OY,'oj*,"o_i,o: j*,"o i
+,UY*,uj*,u_i,u j*,u i
+,UY,'uj*,"u_i,u: j*,"u i
+,OO.w,'ow,"o_u, o: w,"o u
+,oo.w,ow,o_u, o w,o u
+,EE.w,'ew,"e_u, e: w,"e u
+,ee.w,ew,e_u, e w,e u
+,p,p,p,p,p
+,b,b,b,b,b
+,t,t,t,t,t
+,d,d,d,d,d
+,k,k,k,k,k
+,ks,ks,k s,k s,k s
+,g,g,g,g,g
+,m,m,m,m,m
+,n,n,n,n,n
+,n*,nK,N,n*,N
+,nn,n~,J,164,J
+,rr,r,r,R,r
+,r,r6,4,r,4
+,b*,B,b*,b*,b*
+,f,f,f,f,f
+,Z,s*,T,s*,T
+,Z*,s*,s*,s*,s*
+,d*,D,d*,d*,d*
+,s,s,s,s,s
+,y*,J,j\,J,j\
+,j,x,x,x,x
+,g*,G,g*,g*,g*
+,y,j,j,j,j
+,w,w,w,w,w
+,l,l,l,l,l
+,ch,t&S,tS,C,t_} S
+,y*,d&Z,dZ,J*,d_} Z
+,ch*,S,S,S,S
+,s*,z,s*,s*,s*

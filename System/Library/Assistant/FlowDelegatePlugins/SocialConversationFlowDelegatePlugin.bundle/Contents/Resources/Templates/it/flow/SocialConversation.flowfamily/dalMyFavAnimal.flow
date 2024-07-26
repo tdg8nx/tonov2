@@ -1,0 +1,137 @@
+
+ProjectdalMyFavAnimal;
+Description,Users ask Siri what is their favorite animal'
+CreationDate2023-02-28 16:24:53 PDT1
+	Copyright$(c) 2022 Apple. All rights reserved."C
+dalMyFavAnimalr!SocialConversation#dalMyFavAnimalímy_fav_animal"B
+
+siri_guessr$SocialConversation#dalGuessFavAnimalímy_fav_animal"?
+favAnimal_norSocialConversation#favAnimal_noímy_fav_animal"E
+favAnimal_iLiker"SocialConversation#favAnimal_iLikeímy_fav_animal"G
+nice_choicer(SocialConversation#dalLikeOtherAnimalFavímy_fav_animal";
+favAnimal_dontKnowr%SocialConversation#favAnimal_dontKnow"1
+favAnimal_whyr SocialConversation#favAnimal_why"G
+favAnimal_reallyr#SocialConversation#favAnimal_reallyímy_fav_animal"K
+favAnimal_positiver%SocialConversation#favAnimal_positiveímy_fav_animal"C
+dalLikeDogsFavr!SocialConversation#dalLikeDogsFavímy_fav_animal"W
+dalLikeAnimalLikeFoodFavr+SocialConversation#dalLikeAnimalLikeFoodFavímy_fav_animal"C
+dalLikeApesFavr!SocialConversation#dalLikeApesFavímy_fav_animal"E
+dalLikeBearsFavr"SocialConversation#dalLikeBearsFavímy_fav_animal"E
+dalLikeBirdsFavr"SocialConversation#dalLikeBirdsFavímy_fav_animal"O
+dalLikeBlueWhalesFavr'SocialConversation#dalLikeBlueWhalesFavímy_fav_animal"C
+dalLikeBugsFavr!SocialConversation#dalLikeBugsFavímy_fav_animal"C
+dalLikeCatsFavr!SocialConversation#dalLikeCatsFavímy_fav_animal"K
+dalLikeCheetahsFavr%SocialConversation#dalLikeCheetahsFavímy_fav_animal"W
+dalLikeChickenNuggetsFavr+SocialConversation#dalLikeChickenNuggetsFavímy_fav_animal"K
+dalLikeChickensFavr%SocialConversation#dalLikeChickensFavímy_fav_animal"C
+dalLikeCowsFavr!SocialConversation#dalLikeCowsFavímy_fav_animal"M
+dalLikeDinosaursFavr&SocialConversation#dalLikeDinosaursFavímy_fav_animal"K
+dalLikeDolphinsFavr%SocialConversation#dalLikeDolphinsFavímy_fav_animal"E
+dalLikeDucksFavr"SocialConversation#dalLikeDucksFavímy_fav_animal"M
+dalLikeElephantsFavr&SocialConversation#dalLikeElephantsFavímy_fav_animal"G
+dalLikeFishesFavr#SocialConversation#dalLikeFishesFavímy_fav_animal"M
+dalLikeFlamingosFavr&SocialConversation#dalLikeFlamingosFavímy_fav_animal"E
+dalLikeFoxesFavr"SocialConversation#dalLikeFoxesFavímy_fav_animal"K
+dalLikeGiraffesFavr%SocialConversation#dalLikeGiraffesFavímy_fav_animal"E
+dalLikeGoatsFavr"SocialConversation#dalLikeGoatsFavímy_fav_animal"O
+dalLikeGuineaPigsFavr'SocialConversation#dalLikeGuineaPigsFavímy_fav_animal"K
+dalLikeHamstersFavr%SocialConversation#dalLikeHamstersFavímy_fav_animal"S
+dalLikeHoneyBadgersFavr)SocialConversation#dalLikeHoneyBadgersFavímy_fav_animal"G
+dalLikeHorsesFavr#SocialConversation#dalLikeHorsesFavímy_fav_animal"M
+dalLikeKangaroosFavr&SocialConversation#dalLikeKangaroosFavímy_fav_animal"G
+dalLikeKoalasFavr#SocialConversation#dalLikeKoalasFavímy_fav_animal"U
+dalLikeKomodoDragonsFavr*SocialConversation#dalLikeKomodoDragonsFavímy_fav_animal"E
+dalLikeLionsFavr"SocialConversation#dalLikeLionsFavímy_fav_animal"G
+dalLikeLlamasFavr#SocialConversation#dalLikeLlamasFavímy_fav_animal"C
+dalLikeMiceFavr!SocialConversation#dalLikeMiceFavímy_fav_animal"I
+dalLikeMonkeysFavr$SocialConversation#dalLikeMonkeysFavímy_fav_animal"G
+dalLikeOttersFavr#SocialConversation#dalLikeOttersFavímy_fav_animal"C
+dalLikeOwlsFavr!SocialConversation#dalLikeOwlsFavímy_fav_animal"G
+dalLikePandasFavr#SocialConversation#dalLikePandasFavímy_fav_animal"K
+dalLikePenguinsFavr%SocialConversation#dalLikePenguinsFavímy_fav_animal"C
+dalLikePigsFavr!SocialConversation#dalLikePigsFavímy_fav_animal"I
+dalLikeQuokkasFavr$SocialConversation#dalLikeQuokkasFavímy_fav_animal"I
+dalLikeRabbitsFavr$SocialConversation#dalLikeRabbitsFavímy_fav_animal"C
+dalLikeRatsFavr!SocialConversation#dalLikeRatsFavímy_fav_animal"M
+dalLikeReindeersFavr&SocialConversation#dalLikeReindeersFavímy_fav_animal"G
+dalLikeSharksFavr#SocialConversation#dalLikeSharksFavímy_fav_animal"G
+dalLikeSlothsFavr#SocialConversation#dalLikeSlothsFavímy_fav_animal"G
+dalLikeSnakesFavr#SocialConversation#dalLikeSnakesFavímy_fav_animal"M
+dalLikeSquirrelsFavr&SocialConversation#dalLikeSquirrelsFavímy_fav_animal"O
+dalLikeTarantulasFavr'SocialConversation#dalLikeTarantulasFavímy_fav_animal"G
+dalLikeTigersFavr#SocialConversation#dalLikeTigersFavímy_fav_animal"I
+dalLikeTurtlesFavr$SocialConversation#dalLikeTurtlesFavímy_fav_animal"K
+dalLikeUnicornsFavr%SocialConversation#dalLikeUnicornsFavímy_fav_animal"G
+dalLikeWolvesFavr#SocialConversation#dalLikeWolvesFavímy_fav_animal"I
+dalLikeWombatsFavr$SocialConversation#dalLikeWombatsFavímy_fav_animal"G
+dalLikeZebrasFavr#SocialConversation#dalLikeZebrasFavímy_fav_animal“2.0.7Í∏
+my_fav_animalZ2
+siri_guess:guessZ2
+siri_guess:
+guessAgainZ2favAnimal_no:noZ2favAnimal_iLike:iLikeZ2nice_choice:yesZ2favAnimal_dontKnow:dontKnowZ2favAnimal_why:whyZ2favAnimal_really:reallyZ
+cool2favAnimal_positiveZ 2dalLikeDogsFav:dalLikeDogsFavZ42dalLikeAnimalLikeFoodFav:dalLikeAnimalLikeFoodFavZ 2dalLikeApesFav:dalLikeApesFavZ"2dalLikeBearsFav:dalLikeBearsFavZ"2dalLikeBirdsFav:dalLikeBirdsFavZ,2dalLikeBlueWhalesFav:dalLikeBlueWhalesFavZ 2dalLikeBugsFav:dalLikeBugsFavZ 2dalLikeCatsFav:dalLikeCatsFavZ(2dalLikeCheetahsFav:dalLikeCheetahsFavZ42dalLikeChickenNuggetsFav:dalLikeChickenNuggetsFavZ(2dalLikeChickensFav:dalLikeChickensFavZ 2dalLikeCowsFav:dalLikeCowsFavZ*2dalLikeDinosaursFav:dalLikeDinosaursFavZ(2dalLikeDolphinsFav:dalLikeDolphinsFavZ"2dalLikeDucksFav:dalLikeDucksFavZ*2dalLikeElephantsFav:dalLikeElephantsFavZ$2dalLikeFishesFav:dalLikeFishesFavZ*2dalLikeFlamingosFav:dalLikeFlamingosFavZ"2dalLikeFoxesFav:dalLikeFoxesFavZ(2dalLikeGiraffesFav:dalLikeGiraffesFavZ"2dalLikeGoatsFav:dalLikeGoatsFavZ,2dalLikeGuineaPigsFav:dalLikeGuineaPigsFavZ(2dalLikeHamstersFav:dalLikeHamstersFavZ02dalLikeHoneyBadgersFav:dalLikeHoneyBadgersFavZ$2dalLikeHorsesFav:dalLikeHorsesFavZ*2dalLikeKangaroosFav:dalLikeKangaroosFavZ$2dalLikeKoalasFav:dalLikeKoalasFavZ22dalLikeKomodoDragonsFav:dalLikeKomodoDragonsFavZ"2dalLikeLionsFav:dalLikeLionsFavZ$2dalLikeLlamasFav:dalLikeLlamasFavZ 2dalLikeMiceFav:dalLikeMiceFavZ&2dalLikeMonkeysFav:dalLikeMonkeysFavZ$2dalLikeOttersFav:dalLikeOttersFavZ 2dalLikeOwlsFav:dalLikeOwlsFavZ$2dalLikePandasFav:dalLikePandasFavZ(2dalLikePenguinsFav:dalLikePenguinsFavZ 2dalLikePigsFav:dalLikePigsFavZ&2dalLikeQuokkasFav:dalLikeQuokkasFavZ&2dalLikeRabbitsFav:dalLikeRabbitsFavZ 2dalLikeRatsFav:dalLikeRatsFavZ*2dalLikeReindeersFav:dalLikeReindeersFavZ$2dalLikeSharksFav:dalLikeSharksFavZ$2dalLikeSlothsFav:dalLikeSlothsFavZ$2dalLikeSnakesFav:dalLikeSnakesFavZ*2dalLikeSquirrelsFav:dalLikeSquirrelsFavZ,2dalLikeTarantulasFav:dalLikeTarantulasFavZ$2dalLikeTigersFav:dalLikeTigersFavZ&2dalLikeTurtlesFav:dalLikeTurtlesFavZ(2dalLikeUnicornsFav:dalLikeUnicornsFavZ$2dalLikeWolvesFav:dalLikeWolvesFavZ&2dalLikeWombatsFav:dalLikeWombatsFavZ$2dalLikeZebrasFav:dalLikeZebrasFavZ$2nice_choice:dalLikeOtherAnimalFavÇ
+dalMyFavAnimaläB
+dalLikeDogsFavBdalLikeDogsFavJ aab252e623f2d9a935a1d0e2b1c4c3c4äV
+dalLikeAnimalLikeFoodFavBdalLikeAnimalLikeFoodFavJ 3a6f9fef57b0ea4418868ecade092f4aäB
+dalLikeApesFavBdalLikeApesFavJ 93cc668a058bdab3f1fe5e948cdea812äD
+dalLikeBearsFavBdalLikeBearsFavJ a77d6abe9efb567fe0291746ce494a95äD
+dalLikeBirdsFavBdalLikeBirdsFavJ e6119a5dfead7b5b517c50f7015a276däN
+dalLikeBlueWhalesFavBdalLikeBlueWhalesFavJ ff5fea4de8f1fe2e451c0f4ccc9409d0äB
+dalLikeBugsFavBdalLikeBugsFavJ 744eff9d579546a8c2ea2364dd8dbcf5äB
+dalLikeCatsFavBdalLikeCatsFavJ 8c0285848db517d2e41e80b22592c798äJ
+dalLikeCheetahsFavBdalLikeCheetahsFavJ c42c0e7154716607eaef431cfdc06397äV
+dalLikeChickenNuggetsFavBdalLikeChickenNuggetsFavJ ab16c7597da58f80d993a848e67663c5äJ
+dalLikeChickensFavBdalLikeChickensFavJ 3b016f0cee944a15a5d60d926905ef36äB
+dalLikeCowsFavBdalLikeCowsFavJ f94a7411adcc5c7e7793eb37dc729d9aäL
+dalLikeDinosaursFavBdalLikeDinosaursFavJ f3269b6d1f7a23166c8c35053590c6d2äJ
+dalLikeDolphinsFavBdalLikeDolphinsFavJ 4112f9f0cc746f43796a5cde31c426ffäD
+dalLikeDucksFavBdalLikeDucksFavJ 81d5b1b907f02ab7b9999ce0ba96ad04äL
+dalLikeElephantsFavBdalLikeElephantsFavJ 8596476a04938715f4395643f5735cd2äF
+dalLikeFishesFavBdalLikeFishesFavJ 1dc696bbba726a25ad2a4558c9d4a679äL
+dalLikeFlamingosFavBdalLikeFlamingosFavJ 048ca5556e90b5de56d7e33e7e357248äD
+dalLikeFoxesFavBdalLikeFoxesFavJ ce2652a3a9e242ef8c4b468143d3a147äJ
+dalLikeGiraffesFavBdalLikeGiraffesFavJ 3a7ebf5911df46d2d93abd71fc60cd87äD
+dalLikeGoatsFavBdalLikeGoatsFavJ 004497a57c069d9011fd7a54f6dd3015äN
+dalLikeGuineaPigsFavBdalLikeGuineaPigsFavJ 74da42419b80533538cda3417f505c40äJ
+dalLikeHamstersFavBdalLikeHamstersFavJ 4701994f542cda8cc3aae494a94aae67äR
+dalLikeHoneyBadgersFavBdalLikeHoneyBadgersFavJ d7362702f407331b2a7ff9cf99dcdbcdäF
+dalLikeHorsesFavBdalLikeHorsesFavJ 4fdbf3911574ca722db437d5b27c0184äL
+dalLikeKangaroosFavBdalLikeKangaroosFavJ ba1b2f529e6de9988d86516e985fb1e3äF
+dalLikeKoalasFavBdalLikeKoalasFavJ fec375ba777d675032388b58d46e5babäT
+dalLikeKomodoDragonsFavBdalLikeKomodoDragonsFavJ 7c3fff43758baaa2d7e3d80fe3957d61äD
+dalLikeLionsFavBdalLikeLionsFavJ 652ef2ef55e5c20e5dcc9bc055ce6aefäF
+dalLikeLlamasFavBdalLikeLlamasFavJ 0b20c4f5eb9102dd1d05dbb4ea7ee074äB
+dalLikeMiceFavBdalLikeMiceFavJ 17add7fe28fb50aeef75e65e770a8f6eäH
+dalLikeMonkeysFavBdalLikeMonkeysFavJ 0eb1470d12855b875dea30faeb2e86ecäF
+dalLikeOttersFavBdalLikeOttersFavJ d30d198239d61b3605c4a69519e14f76äB
+dalLikeOwlsFavBdalLikeOwlsFavJ ec9cc76eac00625512487b608898bfecäF
+dalLikePandasFavBdalLikePandasFavJ 14c2caf747a7de1ecc6ab0c43941f017äJ
+dalLikePenguinsFavBdalLikePenguinsFavJ 2b8acaacd86022645ca33fc6547459b3äB
+dalLikePigsFavBdalLikePigsFavJ c584c67a307547edaa69683c1eb8dfedäH
+dalLikeQuokkasFavBdalLikeQuokkasFavJ d05ed3daf6baf187608eb9c5059b55eeäH
+dalLikeRabbitsFavBdalLikeRabbitsFavJ 6ccfc8e515990ad9c2c0e7069fba8587äB
+dalLikeRatsFavBdalLikeRatsFavJ aa87247c1af09446294ff0ebb16dcc8cäL
+dalLikeReindeersFavBdalLikeReindeersFavJ 471f665d823f74aef0ae101d1326270cäF
+dalLikeSharksFavBdalLikeSharksFavJ 0f71987388529e82fb5d22f557dc2995äF
+dalLikeSlothsFavBdalLikeSlothsFavJ 93ecc59576e88d8b3b2c207253f9a83däF
+dalLikeSnakesFavBdalLikeSnakesFavJ 8a4328d55a14436b4f07d859f6a3ca70äL
+dalLikeSquirrelsFavBdalLikeSquirrelsFavJ 03b8d21bc5b694f489bed387d84e4f32äN
+dalLikeTarantulasFavBdalLikeTarantulasFavJ ff6f0d10d28578999b73006cd10fa765äF
+dalLikeTigersFavBdalLikeTigersFavJ d92ebd66d4fd6d9f562aa769f62a310eäH
+dalLikeTurtlesFavBdalLikeTurtlesFavJ a18d30b201a78bf26ca26ad7064bab2däJ
+dalLikeUnicornsFavBdalLikeUnicornsFavJ e6b19916f6f9974d5f1b53b1cc916304äF
+dalLikeWolvesFavBdalLikeWolvesFavJ 1d8b8a639355568d1f59bbcf6a7a9f4cäH
+dalLikeWombatsFavBdalLikeWombatsFavJ 51f5335f561a774884a8a8f571c5ecbfäF
+dalLikeZebrasFavBdalLikeZebrasFavJ e78085824ba275163e618d29eaa695bbäP
+dalLikeOtherAnimalFavBdalLikeOtherAnimalFavJ 35680acb5c678fb8bff69bb44104e834ä0
+guessBguessJ 33a8bbbb2836b3b94afb19c8a2348a9dä:
+
+guessAgainB
+guessAgainJ 16793e9813452fef3658fb3557676c07ä*
+noBnoJ 17178da84c1d23504ca6231995aaa7bcä0
+iLikeBiLikeJ d737195f87cb088760ea7602e37a7e5fä,
+yesByesJ 9472c2d2a1176c798c80ac646dcd066fä6
+dontKnowBdontKnowJ 6a10723af3c72098b788eb50097fd051ä,
+whyBwhyJ 31f0311012e290cd7abbad65e65d0ab4ä2
+reallyBreallyJ 69253f14dfa289fc8611d29c938f8f44ä.
+coolBcoolJ 4aeb94d84baf8289c4a72d167d760c64

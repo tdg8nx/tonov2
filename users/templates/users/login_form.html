@@ -1,4 +1,6 @@
 {% load django_bootstrap5 %}
+{% load socialaccount %}
+
 
 <form method="post" action="{% url 'login' %}" novalidate>
     {% csrf_token %}
@@ -31,5 +33,16 @@
         {% endif %}
     </div>
 
-    <button type="submit" class="btn btn-primary">Log In</button>
+    <button type="submit" class="btn btn-primary w-100">Log In</button>
+     <div class="text-center mt-3">
+                    <a href="{% provider_login_url 'google' %}" class="btn btn-google btn-block">
+                            <i class="fab fa-google me-2"></i> Log in with Google
+                    </a>
+                </div>
+                <div class="text-center mt-3">
+                    <a href="{% url 'account_reset_password' %}">Forgot password?</a>
+                    <br>
+                    <a href="#" data-bs-toggle="modal" data-bs-target="#signupModal" data-bs-dismiss="modal">New to Tono? Sign Up</a>
+                </div>
+
 </form>

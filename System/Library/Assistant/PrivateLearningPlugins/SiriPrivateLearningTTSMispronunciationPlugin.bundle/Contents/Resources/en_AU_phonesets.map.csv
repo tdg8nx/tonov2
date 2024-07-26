@@ -1,0 +1,98 @@
+phoneset_name,NvASR,L&H+,internalTTS,SAMPA,example,TTSsimplXSAMPA
+stress_method,case,on_syl,after_phone,before_phone,,before_phone
+primary_stress,uppercase,',:,",,"
+secondary_stress,,,,%,,%
+phone_boundary,.,, , ,,
+syllable_boundary,,.,.,.,,.
+word_boundary,,_,_,_,,_
+silence_phones,_sil,#,_ sil _,sil,,sil
+silence_phones,sil,#*,_ sil _*,sil*,,sil*
+,EE,'i,i:,"i,fleece,"i
+,ee*,i*,i*,%i,,i*
+,ee,i,i,i,,i
+,EH,'E,E:,"E,dress,"E
+,eh*,E*,E*,%E,,E*
+,eh,E,E,E,,E
+,IH,'I,I:,"I,kit,"I
+,ih*,I*,I*,%I,,I*
+,ih,I,I,I,,I
+,OH,'o&U,O:,"@u,goat,"@ u
+,oh*,o&U*,O*,%@u,,@ u*
+,oh,o&U,O,@u,,@ u
+,OW,'a&U,@:,"aU,mouth,"a U
+,OW*,a&U*,@*,%aU,,a U*
+,OW*,a&U,@,aU,,a U
+,OY,'O&I,y:,"OI,choice,"O I
+,OY*,O&I*,y*,OI,,O I
+,OY*,O&I,y,%OI,,O I*
+,EY,'e&I,J:,"eI,face,"e I
+,EY*,e&I*,J*,%eI,,e I*
+,EY*,e&I,J,eI,,e I
+,AE,'E&$,130:,"E@,square,"E @
+,AE*,E&$*,130*,%E@,,E @*
+,AE*,E&$,130,E@,,E @
+,AY,'a&I,Y:,"aI,price,"a I
+,AY*,a&I*,Y*,%aI,,a I*
+,AY*,a&I,Y,aI,,a I
+,OO.ur*,'U&$,163:,"U@,cure,"U @
+,OO.ur*,U&$*,163*,%U@,,U @*
+,OO.ur*,U&$,163,U@,,U @
+,EE.ur*,'I&$,161:,"I@,steer,"I @
+,EE.ur*,I&$*,161*,%I@,,I @*
+,EE.ur*,I&$,161,I@,,I @
+,AA,'@,145:,"{,trap,"{
+,AA*,@*,145*,%{,,{*
+,AA*,@,145,{,,{
+,AH,'A,a:,"A,palm,"A
+,AH*,A*,a*,%A,,A*
+,AH*,A,a,A,,A
+,AW,'A+,Q:,"Q,lot,"Q
+,AW*,A+*,Q*,%Q,,Q*
+,AW*,A+,Q,Q,,Q
+,AWH,'O,o:,"O,force,"O
+,AWH*,O*,o*,%O,,O*
+,AWH*,O,o,O,,O
+,OO,'U,U:,"U,foot,"U
+,OO*,U*,U*,%U,,U*
+,OO*,U,U,U,,U
+,OOH,'u,u:,"u,goose,"u
+,OOH*,u*,u*,%u,,u*
+,OOH*,u,u,u,,u
+,um,$m*,$m*,m=,,@ m
+,un,n%),164,n=,,@ n
+,ul,l%),L,l=,,@ l
+,r,R+,r,r\,,r\
+,UH,'^,^:,"V,,"V
+,UH*,^,^,V,,V
+,uh,$,$,@,,@
+,UR*,'E0,e:*,"3*,,"3*
+,UR*,E0,e*,3*,,3*
+,UR,'E0R+,e:,"3,,"3
+,UR*,E0R+,e,3,,3
+,ur,$R+,$ r,@r,,@ r\
+,d,d,d,d,,d
+,g,g,g,g,,g
+,k,k,k,k,,k
+,k*,k*,K,k*,,k*
+,t,t,t,t,,t
+,t*,t*,146,t*,,t*
+,p,p,p,p,,p
+,p*,p*,P,p*,,p*
+,b,b,b,b,,b
+,z,z,z,z,,z
+,s,s,s,s,,s
+,sh,S,S,S,SHow,S
+,zh,Z,Z,Z,viSion,Z
+,th,T,T,T,THank,T
+,dh,D,D,D,heaTHer,D
+,ch,t&S,C,tS,church,t_} S
+,j,d&Z,G,dZ,judge,d_} Z
+,l,l,l,l,,l
+,m,m,m,m,,m
+,n,n,n,n,,n
+,f,f,f,f,,f
+,v,v,v,v,,v
+,w,w,w,w,,w
+,ng,nK,N,N,,N
+,y,j,j,j,pew,j
+,h,h,h,h,,h

@@ -1,0 +1,44 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div class="container mt-5">
+    <div class="row">
+        <div class="col-md-8 offset-md-2">
+            <div class="card shadow-sm">
+                <div class="card-body">
+                    <h2 class="hero-title text-center mb-4">{% if form.instance.pk %}Edit{% else %}Add{% endif %} Conversation</h2>
+                    <div class="form-container">
+                        <form method="post">
+                            {% csrf_token %}
+                            <div class="mb-3">
+                                {{ form.title.label_tag }}
+                                {{ form.title }}
+                            </div>
+                            <div class="mb-3">
+                                {{ form.description.label_tag }}
+                                {{ form.description }}
+                            </div>
+                            <div class="mb-3">
+                                {{ form.date.label_tag }}
+                                {{ form.date }}
+                            </div>
+                            <div class="mb-3">
+                                {{ form.time.label_tag }}
+                                {{ form.time }}
+                            </div>
+                            <div class="mb-3">
+                                {{ form.location.label_tag }}
+                                {{ form.location }}
+                            </div>
+                            <div class="text-center">
+                                <button type="submit" class="btn btn-custom">{% if form.instance.pk %}Update{% else %}Create{% endif %}</button>
+                                <a href="{% url 'conversation_list' %}" class="btn btn-secondary">Back to Conversations</a>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}

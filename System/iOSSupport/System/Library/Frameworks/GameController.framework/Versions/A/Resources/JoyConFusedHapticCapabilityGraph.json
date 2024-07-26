@@ -1,0 +1,36 @@
+{
+    "nodes":[
+        {
+            "label":"All",
+            "exposed":1,
+            "children":["JoyCon (L)", "JoyCon (R)"]
+        },
+        {
+            "label":"Default",
+            "exposed":1,
+            "children":["JoyCon (L)", "JoyCon (R)"]
+        },
+        {
+            "label":"JoyCon (L)",
+            "exposed":1,
+            "actuators":["JoyCon (L)"]
+        },
+        {
+            "label":"JoyCon (R)",
+            "exposed":1,
+            "actuators":["JoyCon (R)"]
+        }
+    ],
+    "actuators":[
+        {
+            "label":"JoyCon (L)",
+            "type":1,
+            "index":0
+        },
+        {
+            "label":"JoyCon (R)",
+            "type":1,
+            "index":1
+        }
+    ]
+}

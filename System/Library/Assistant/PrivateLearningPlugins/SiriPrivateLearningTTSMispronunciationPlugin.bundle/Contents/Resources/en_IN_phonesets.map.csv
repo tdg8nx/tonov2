@@ -1,0 +1,113 @@
+phoneset_name,NvASR,SAMPA,TTS_XSAMPA,IPA,TTSsimplXSAMPA
+stress_method,case,before_phone,before_phone,on_syl,before_phone
+primary_stress,uppercase,",",ˈ,"
+phone_boundary,., , ,, 
+syllable_boundary,,.,.,.,.
+word_boundary,,_,#, ,#
+silence_phones,_sil,sil,# sil #,(.),# sil #
+silence_phones,sil,sil*,# sil #*,(.)*,# sil #*
+,AA,"{,"{,ˈæ,"{
+,AA*,{,{,æ,{
+,AW,"Q,"Q,ˈɒ,"Q
+,AW*,Q,Q,ɒ,Q
+,AH,"A,"A,ˈɑː,"A
+,AH*,A,A,ɑː,A
+,AH*,"a:,"a:,ˈɑː*,"a:
+,AH*,a:,a:,ɑː*,a:
+,AH*,a,a,a,a
+,AWH,"O,"O,ˈɔ,"O
+,AWH*,O,O,ɔ,O
+,EY,"eI,"eI,ˈe͡ɪ,"e I
+,EY*,eI,eI,e͡ɪ,e I
+,EY*,"e,"e,ˈe,"e
+,EY*,e,e,e,e
+,EH,"E,"E,ˈɛ,"E
+,eh,E,E,ɛ,E
+,EE,"i,"i,ˈi,"i
+,ee,i,i,i,i
+,IH,"I,"I,ˈɪ,"I
+,ih,I,I,ɪ,I
+,OH,"@U,"@U,ˈə͡ʊ,"@ U
+,oh,@U,@U,ə͡ʊ,@ U
+,OH*,"o,"o,ˈo,"o
+,oh*,o,o,o,o
+,OOH,"u,"u,ˈu,"u
+,OOH*,u,u,u,u
+,UH,"V,"V,ˈʌ,"V
+,UH*,V,V,ʌ,V
+,uh,@,@,ə,@
+,OO,"U,"U,ˈʊ,"U
+,OO*,U,U,ʊ,U
+,UR,"3,"3,ˈɜ,"3
+,ur,3,3,ɜ,3
+,OY,"OI,"OI,ˈɔ͡ɪ,"O I
+,OY*,OI,OI,ɔ͡ɪ,O I
+,AY,"aI,"aI,ˈa͡ɪ,"a I
+,AY*,aI,aI,a͡ɪ,a I
+,OW,"aU,"aU,ˈa͡ʊ,"a U
+,OW*,aU,aU,a͡ʊ,a U
+,AE,"E@,"E@,ˈɛ͡ə,"E @
+,AE*,E@,E@,ɛ͡ə,E @
+,EE.ur,"I@ 4,"I@ 4,ˈɪ͡əɾ,"I @ 4
+,EE.ur*,I@ 4,I@ 4,ɪ͡əɾ,I @ 4
+,EE.uh*,"I@,"I@,ˈɪ͡ə,"I @
+,EE.uh*,I@,I@,ɪ͡ə,I @
+,OO.ur,"U@ 4,"U@ 4,ˈʊ͡əɾ,"U @ 4
+,OO.ur*,U@ 4,U@ 4,ʊ͡əɾ,U @ 4
+,OO.uh,"U@,"U@,ˈʊ͡ə,"U @
+,OO.uh*,U@,U@,ʊ͡ə,U @
+,uh.ih,@I,@I,əɪ,@ I
+,EY.uh,eI@,eI@,eɪə,e I @
+,EY.uh*,"eI@,"eI@,ˈeɪə,"e I @
+,y,j,j,j,j
+,w,w,w,w,w
+,r,r,r,r,r
+,r*,4,4,ɾ,4
+,d*,r`,r`,ɽ,r`
+,d.h*,r`_h,r`_h,ɽʱ,r`_h
+,r*,r\`,r\`,ɻ,r\`
+,p,p,p,p,p
+,p.h,p_h,p_h,pʰ,p_h
+,b,b,b,b,b
+,b.h,b_h,b_h,bʱ,b_h
+,k,k,k,k,k
+,k.h,k_h,k_h,kʰ,k_h
+,k*,q,q,q,q
+,k.h*,q_h,q_h,qʰ,q_h
+,g,g,g,g,g
+,g.h,g_h,g_h,ɡʱ,g_h
+,g*,G,G,ɣ,G
+,t*,t`,t`,ʈ,t`
+,t.h,t`_h,t`_h,ʈʰ,t`_h
+,t,t,t,t,t
+,th,t_d,t_d,t̪,t_d
+,th.h,t_h,t_h,t̪ʰ,t_h
+,d*,d`,d`,ɖ,d`
+,d.h,d`_h,d`_h,ɖʱ,d`_h
+,d,d,d,d,d
+,dh,d_d,d_d,d̪,d_d
+,dh.h,d_h,d_h,d̪ʱ,d_h
+,f,f,f,f,f
+,s,s,s,s,s
+,z,z,z,z,z
+,sh,S,S,ʃ,S
+,sh*,s`,s`,ʂ,s`
+,zh,Z,Z,ʒ,Z
+,h,h,h,h,h
+,h*,h\,h\,ɦ,h\
+,m,m,m,m,m
+,n,n,n,n,n
+,n*,J,J,ɲ,J
+,n*,n`,n`,ɳ,n`
+,ng,N,N,ŋ,N
+,l,l,l,l,l
+,l*,l`,l`,ɭ,l`
+,v,v\,v\,ʋ,v\
+,ch,tS,tS,t͡ʃ,t_} S
+,ch*,tS_h,tS_h,tʃʰ,t_h_} S
+,j,dZ,dZ,d͡ʒ,d_} Z
+,j.h,dZ_h,dZ_h,dʒʱ,d_h_} Z
+,ul,l=,l=,/ḷ/,@ l
+,un,n=,n=,ṇ,@ n
+,um,m=,m=,/m̩/,@ m
+,r.IH*,r=,r=,r̩,@ r
