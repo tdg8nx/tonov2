@@ -13,7 +13,7 @@ https://docs.djangoproject.com/en/5.0/ref/settings/
 from pathlib import Path
 from dotenv import load_dotenv
 import os
-import pyrebase
+import dj_database_url
 
 # Load environment variables from .env file
 load_dotenv()
@@ -131,10 +131,7 @@ WSGI_APPLICATION = 'murtle.wsgi.application'
 # https://docs.djangoproject.com/en/5.0/ref/settings/#databases
 
 DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
-    }
+    'default': dj_database_url.config(default='postgres://ue08dd3n0tcmlu:pe506f1ac48dc2369008adfd4e4a5f60d4150fefa2175696705e39ae9c4ec6284@cd1goc44htrmfn.cluster-czrs8kj4isg7.us-east-1.rds.amazonaws.com:5432/d2soqt34c56687')
 }
 
 # Password validation
