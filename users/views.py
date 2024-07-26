@@ -8,6 +8,7 @@ from .forms import UserRegisterForm, UserProfileForm, UserLoginForm
 from django.contrib.auth import get_backends
 
 
+
 def register(request):
     if request.method == 'POST':
         form = UserRegisterForm(request.POST)
@@ -15,6 +16,7 @@ def register(request):
             user = form.save()
             backend = get_backends()[0]
             user.backend = f"{backend.__module__}.{backend.__class__.__name__}"
+
             login(request, user)
             if request.headers.get('x-requested-with') == 'XMLHttpRequest':
                 return JsonResponse({'success': True})
@@ -39,6 +41,7 @@ def login_view(request):
             # Set the backend for the authenticated user
             backend = get_backends()[0]
             user.backend = f"{backend.__module__}.{backend.__class__.__name__}"
+
             login(request, user)
             if request.headers.get('x-requested-with') == 'XMLHttpRequest':
                 return JsonResponse({'success': True})
@@ -49,6 +52,7 @@ def login_view(request):
                 return JsonResponse({'success': False, 'form_html': form_html})
     else:
         form = UserLoginForm()
+
         if request.headers.get('x-requested-with') == 'XMLHttpRequest':
             form_html = render_to_string('users/login_form.html', {'form': form}, request=request)
             return JsonResponse({'form_html': form_html})

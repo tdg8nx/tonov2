@@ -16,6 +16,7 @@ class UserRegisterForm(UserCreationForm):
     password2 = forms.CharField(label="Confirm Password", widget=forms.PasswordInput(
         attrs={'class': 'form-control'  }))
 
+
     class Meta:
         model = User
         fields = ['first_name', 'last_name', 'email', 'password1', 'password2']
@@ -36,6 +37,7 @@ class UserLoginForm(AuthenticationForm):
         label="Password",
         widget=forms.PasswordInput(attrs={'class': 'form-control'})
     )
+
 
 
 class UserProfileForm(forms.ModelForm):

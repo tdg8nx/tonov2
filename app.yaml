@@ -1,0 +1,17 @@
+runtime: python312
+entrypoint: gunicorn -b :$PORT murtle.wsgi:application
+
+# The GAE instance will need access to the Firebase credentials
+env_variables:
+  DJANGO_SETTINGS_MODULE: "murtle.settings"
+  SECRET_KEY: "*a)rwym-#6o6g#7+x2)-z=o^mw4raiyvu-o^f*918akadme5f^"
+  FIREBASE_DATABASE_URL: "https://murtle-49410-default-rtdb.firebaseio.com"
+
+
+
+handlers:
+- url: /static
+  static_dir: static/
+
+- url: /.*
+  script: auto

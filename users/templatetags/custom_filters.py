@@ -19,3 +19,4 @@ def user_display(user):
     elif user.email:
         return user.email
     return "Anonymous"
+
