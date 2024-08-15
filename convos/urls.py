@@ -10,4 +10,5 @@ urlpatterns = [
     path('conversations/<int:pk>/edit/', views.conversation_edit, name='conversation_edit'),
     path('conversations/<int:pk>/registrations/', views.conversation_registrations, name='conversation_registrations'),
     path('registrations/<int:pk>/delete/', views.registration_delete, name='registration_delete'),
+    path('conversation/<int:pk>/unregister/', views.conversation_unregister, name='conversation_unregister'),
 ]

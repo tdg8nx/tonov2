@@ -77,3 +77,12 @@ def conversation_delete(request, pk):
     conversation = get_object_or_404(Conversation, pk=pk)
     conversation.delete()
     return redirect('conversation_list')
+
+
+@login_required
+def conversation_unregister(request, pk):
+    conversation = get_object_or_404(Conversation, pk=pk)
+    registration = Registration.objects.filter(user=request.user, conversation=conversation).first()
+    if registration:
+        registration.delete()
+    return redirect('conversation_detail', pk=pk)

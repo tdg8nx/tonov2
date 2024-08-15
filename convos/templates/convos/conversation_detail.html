@@ -2,30 +2,37 @@
 
 {% block content %}
 <div class="container mt-5">
-    <div class="row">
-        <div class="col-md-12">
-            <h2 class="hero-title">{{ conversation.title }}</h2>
-            <div class="feature-box">
-                <p>{{ conversation.description }}</p>
-                <p><strong>Date:</strong> {{ conversation.date }}</p>
-                <p><strong>Time:</strong> {{ conversation.time }}</p>
-                <p><strong>Location:</strong> {{ conversation.location }}</p>
+    <div class="row justify-content-center">
+        <div class="col-md-8">
+            <h2 class="hero-title text-center mb-4">{{ conversation.title }}</h2>
+            <div class="card shadow-sm p-4">
+                <div class="card-body">
+                    <p><strong>Date:</strong> {{ conversation.date }}</p>
+                    <p><strong>Time:</strong> {{ conversation.time }}</p>
+                    <p><strong>Link:</strong> {{ conversation.location }}</p>
+                    <p>{{ conversation.description }}</p>
+                </div>
+                
                 {% if request.user.is_authenticated %}
-                    {% if is_registered %}
-                        <p>You are already registered for this conversation.</p>
-                        {% if request.user.is_staff %}
-                            <a href="{% url 'conversation_registrations' conversation.pk %}" class="btn btn-custom">View Users</a>
-                        {% endif %}
-                    {% else %}
-                        <div class="d-flex">
-                            <button type="button" class="btn btn-custom me-2" data-bs-toggle="modal" data-bs-target="#confirmModal">
-                                Register
-                            </button>
-                            {% if request.user.is_staff %}
-                                <a href="{% url 'conversation_registrations' conversation.pk %}" class="btn btn-custom">View Users</a>
+                    <div class="card-footer bg-white">
+                        <div class="d-flex justify-content-between">
+                            {% if is_registered %}
+                                <button type="button" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#unregisterConfirmModal">
+                                    Unregister
+                                </button>
+                                {% if request.user.is_staff %}
+                                    <a href="{% url 'conversation_registrations' conversation.pk %}" class="btn btn-outline-primary">View Users</a>
+                                {% endif %}
+                            {% else %}
+                                <button type="button" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#confirmModal">
+                                    Register
+                                </button>
+                                {% if request.user.is_staff %}
+                                    <a href="{% url 'conversation_registrations' conversation.pk %}" class="btn btn-outline-primary">View Users</a>
+                                {% endif %}
                             {% endif %}
                         </div>
-                    {% endif %}
+                    </div>
                 {% endif %}
             </div>
             <div class="text-center mt-4">
@@ -35,20 +42,42 @@
     </div>
 </div>
 
-<!-- Confirmation Modal -->
+<!-- Registration Confirmation Modal -->
 <div class="modal fade" id="confirmModal" tabindex="-1" aria-labelledby="confirmModalLabel" aria-hidden="true">
-    <div class="modal-dialog">
+    <div class="modal-dialog modal-dialog-centered">
         <div class="modal-content">
             <div class="modal-header">
                 <h5 class="modal-title" id="confirmModalLabel">Confirm Registration</h5>
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
-                Are you sure you want to register for this conversation?
+                Are you sure you want to register for this conversation titled <strong>{{ conversation.title }}</strong>?
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
-                <a href="{% url 'conversation_register' conversation.pk %}" class="btn btn-custom">Confirm</a>
+                <a href="{% url 'conversation_register' conversation.pk %}" class="btn btn-success">Confirm</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Unregistration Confirmation Modal -->
+<div class="modal fade" id="unregisterConfirmModal" tabindex="-1" aria-labelledby="unregisterConfirmModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="unregisterConfirmModalLabel">Confirm Unregistration</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                Are you sure you want to unregister from this conversation titled <strong>{{ conversation.title }}</strong>?
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+                <form method="post" action="{% url 'conversation_unregister' conversation.pk %}">
+                    {% csrf_token %}
+                    <button type="submit" class="btn btn-danger">Confirm</button>
+                </form>
             </div>
         </div>
     </div>
